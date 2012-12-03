@@ -1,0 +1,108 @@
+@media screen and (min-device-width:  768px) and (max-device-width: 1024px) {
+body { 
+max-width: 768px;
+}
+
+.container {
+margin-left: 10px;
+margin-right: 10px;
+max-width: 748px;
+padding: 0px 0px;
+}
+
+
+.tagline, .logo, .nav, .featured, .featuredimage, .subarticle, .footer, .copyright, .email, .work, .workimage, .work.alt, .workimage.alt {max-width: 748px;}
+}
+
+.logo {
+max-width: 80px;
+}
+
+.nav {
+font-size: 20px;
+max-width: 500px;
+}
+
+.nav {
+
+	font-family: 'ClarendonRegular';
+	font-style: normal;
+	font-weight: normal;
+    font-size: 22px;
+	}
+
+.nav ul {
+	display: inline;
+	list-style: none;
+	margin-left: 100px;
+	font-style: normal;
+	font-weight: normal;
+	}
+
+.nav li {
+	display: inline;
+	margin-left:15px;
+	font-style: normal;
+	font-weight: normal;
+	}
+
+.tagline h1{
+	font-size: 42px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.tagline p {
+	font-size: 16px;
+	line-height: 18px;
+}
+
+.workimage img {
+width: 728px;
+height: auto;
+}
+.workimage {
+width: 728px;
+margin-left: 10px;
+margin-bottom: 40px;
+}
+
+.workimage.alt {
+margin-left: 10px;
+}
+
+.work.alt {
+margin-left: 10px;
+}
+
+.work, .work.alt {
+width: 708px;
+}
+
+.subarticle.blog, .subarticle.social, .subarticle.employers, .subarticle.design, .subarticle.dev, .subarticle.c2a, .workthumb.middle {
+margin-left: 40px;
+}
+
+.footer {
+	max-width: 728px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	border-top:2px solid #E5E5E5;
+}
+
+.copyright p, .email p {
+	font-family: Georgia;
+	font-style: italic;
+	font-size: 12px;
+	line-height: 22px;
+	color: #676767;
+	margin-top: 0px;
+	padding-bottom: 0px;
+}
+
+.email p {
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+
