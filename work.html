@@ -1,132 +1,262 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>Web Design | Olospo</title>
-<!-- Main css -->
-<link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
-<link rel="stylesheet" type="text/css" media="all" href="css/1080_18_10_10.css" />
-<link rel="stylesheet" type="text/css" media="all" href="font.css" />
-<!-- iPhone css -->
-<link rel="stylesheet" href="css/iphone.css" media="only screen and (max-device-width:480px)"/>
-<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=2.0; user-scalable=no;" />
-<!--iPad portrait -->
-<link href="css/ipad-portrait.css" rel="stylesheet" media="only screen and (min-device-width:  768px) and (max-device-width: 1024px) and (orientation: portrait)">
-<!-- Apple icons -->
-<link rel="apple-touch-icon" href="apple-touch-icon-iphone.png" />
-<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-ipad.png" />
-<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-iphone4.png" />
-<link rel="icon" href="images/favicon.ico">
-<!-- Google Analytics -->
-<script type="text/javascript">
+<title>Branding, Design, Development, WordPress | Olospo</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=2.0; user-scalable=yes;" />
+<meta name="description" content="Designing and building websites that stand out from the crowd.">
+<meta name="author" content="Tom Brooks">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-6369409-1']);
-  _gaq.push(['_trackPageview']);
+<!-- ================ CSS ================ -->
+<link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" href="css/layout.css">
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+<!-- ================ Google Fonts ================ -->
+<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:400,700,400italic|Oxygen:400,700,300|Raleway:400,900,800,700,600,500,300,200,100|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
-</script></head>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- ================ JS ================ -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="js/modernizr.js"></script>
+
+<!-- ================ Favicons ================ -->
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+<!-- ================ Google Analytics ================ -->
+
+</head>
 <body>
-<div id="header">
+<header>
 	<div class="container">
-		<div class="logo"/>
-		<a href="http://www.olospo.co.uk">
-		<img src="images/olospo.png" alt="olospo"/></a>
+		<div class="logo one-third column">
+			<a href="index.html"><img src="images/olospo.png" alt="olospo logo" /></a>
 		</div>
-		<div class="nav">
-		<ul>
-			<li><a href="http://www.olospo.co.uk">Home</a></li>
-			<li><a href="services.html">Services</a></li>
-			<li><a href="work.html" class="active">Work</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
+		<div class="navigation two-thirds column">
+			<ul class="nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="work.html" class="active">Work</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+</header>
+
+<section class="tagline">
+	<div class="container">	
+		<div class="sixteen columns">
+		<h1>Showcase of the websites i've been working on recently.</h1>
+		<p>Like what you see? <a href="contact.html" class="button">Get in touch</a></p>
 		</div>
 	</div>
-</div>
-<div class="container">
-  <div class="tagline">
-    <h1>Work</h1>
-  </div>
-  
-  
-  <div class="work">
-  <h2>Furniture Scheme</h2>
-  <p>
-  Working with the <a href="http://www.deckchair.co.uk">DeckChair</a> team to update Furniture Scheme's online presence. Front-End and <a href="http://wordpress.org">WordPress</a> build. The website is fully responsive, so it works across all desktop, tablet and mobile devices. </p>
-  <p><a href="http://www.furniturescheme.co.uk" class="button">View the Website</a></p>
-  </div>
-  <div class="workimage">
- 	<a href="http://www.furniturescheme.co.uk"><img src="images/furniture_scheme.png" alt="Furniture Scheme Logo"/></a>
-  </div>
-  <div class="clear">&nbsp;</div>
-  
+</section>
 
-  <div class="clear">&nbsp;</div>
-    <div class="workimage alt">
- 	<a href="http://www.auctionguitars.co.uk"><img src="images/auctionguitars.png" alt="Auction Guitars Logo"/></a>
-  </div>
-  <div class="work alt">
-  <h2>Auction Guitars</h2>
-  <p>
-  Re-working the Auction Guitars logo to bring it up to date with a sleek and modern design to reflect the high quality items on sale.</p>
-  <p><a href="http://www.auctionguitars.co.uk" class="button">View the Website</a></p>
-  </div>
-  <div class="clear">&nbsp;</div>
+<section class="header" id="services">
+	<div class="arrow-down blue"></div>
+	<div class="container">	
+		<div class="sixteen columns">
+			<h3>Work showcase</h3>
+		</div>
+	</div>
+</section>
 
-<div class="work">
-  <h2>Jaye Adams</h2>
-  <p>
-  The complete works from Branding and Design through to Development. The website runs on <a href="http://grabaperch.com" rel="nofollow">Perch CMS</a> making it easy to update and maintain. The website has risen up the rankings on search engines and since launching the website has been featured on <a href="http://cssmania.com" rel="nofollow">cssmania.com</a> and <a href="http://www.mostinspired.com" rel="nofollow">mostinspired.com</a></p>
-    <p><a href="http://www.jayeadams.co.uk" class="button">View the Website</a></p>
-  </div>
-  <div class="workimage">
- 	<a href="http://www.jayeadams.co.uk"><img src="images/jaye.png" alt="Jaye Adams Website"/></a>
-  </div>
-  <div class="clear">&nbsp;</div>
-  
-   <div class="workimage alt">
- 	<a href="http://www.bottomoftheruck.com"><img src="images/botr.png" alt="Bottom of the Ruck Logo"/></a>
-  </div>  
-  <div class="work alt">
-  <h2>Bottom of the Ruck</h2>
-  <p>Following up on the success from the 2010 event, Bottom of the Ruck wanted to increase their profile and brand. I worked closely with the Bottom of the Ruck team to provide them with a brand identity with a sleek and modern feel, which works brilliantly in print and on the web. As a result the logo has already increased corporate interest in Bottom of the Ruck.</p>
-    <p><a href="http://www.bottomoftheruck.com" class="button">View the Website</a></p>
-  </div>
-  <div class="clear">&nbsp;</div>
-  
-  <div class="work">
-  <h2>Scatter Music</h2>
-  <p>
-  Scatter Music is a side-project currently under development with the aim to create a free service for music lovers to share and discover music through the help of Spotify and Last.Fm. </p>
-    <p><a href="http://www.scattermusic.co.uk" class="button more">Under Development</a></p>
-  </div>
-  <div class="workimage">
- 	<img src="images/scatter.png" alt="Scatter Music Logo"/>
-  </div>
-  <div class="clear">&nbsp;</div>
-  
-  <div class="clients">
-  <h2>As well as working on projects for</h2>
-  	<img src="images/bristolcitycouncil.jpg" class="clientlogo" alt="Bristol City Council">
-  	<img src="images/diageo.jpg" class="clientlogo" alt="Diageo">
-  	<img src="images/wwf.jpg" class="clientlogo" alt="WWF">
-  	<img src="images/shire.jpg" class="clientlogo" alt="Shire">
-  	<img src="images/serco.jpg" class="clientlogo" alt="Serco">
-  	<img src="images/yahoo.jpg" class="clientlogo last" alt="Yahoo">
-  </div>
-  <div class="clear">&nbsp;</div>
-  
-  <div class="footer">&nbsp;</div>
-  <div class="clear">&nbsp;</div>
-  
-    <div class="copyright"><p>Copyright &copy; All Rights Reserved</p></div>
-  	<div class="email"><p>twitter: <a href="http://www.twitter.com/olospo">@olospo</a> &nbsp;&nbsp;&nbsp; email: <a href="mailto:tom@olospo.co.uk">tom@olospo.co.uk</a></p></div>
-</div>
+<section class="content">
+	<div class="container">		
+		<div class="work eight columns">
+			<div class="showcase">
+				<a href="http://partnership.ox.ac.uk">
+				<div class="info">
+					<h3>Front End</h3>
+					<h3>WordPress</h3>
+					<h3>Responsive</h3>
+					<br />
+					<span class="view-website">View Website</span>
+				</div>
+				<div class="tint">
+					<img src="../images/oxford-uni.png" class="scale-with-grid" alt="reflection of Oxford skyline in windows" />
+				</div>	
+				</a>
+			</div>
+			<div class="arrow-up work"></div>
+			<div class="white no-border">
+			<h4>Oxford University - Innovation & Partnership</h4>
+			<!-- <p><strong>Front End | WordPress</strong></p> -->
+			<p>Working with <a href="http://www.minervation.com">Minervation</a> to provide Oxford University with a website to attract businesses to work with the University. The website uses a bespoke WordPress theme along with custom fields. Including sidebar options to allow the client to select exactly which post should display in the sidebar on any given page.</p>
+			</div>
+		</div>
+		
+		<div class="work eight columns">
+			<div class="showcase">
+				<a href="http://www.alec-jarrett.co.uk">
+				<div class="info">
+					<h3>Front End</h3>
+					<h3>WordPress</h3>
+					<h3>Responsive</h3>
+					<br />
+					<span class="view-website">View Website</span>
+				</div>
+				<div class="tint">
+					<img src="../images/alec-jarrett.png" class="scale-with-grid" alt="Joint of beef" />
+				</div>
+				</a>
+			</div>
+			<div class="arrow-up work"></div>
+			<div class="white no-border">
+			<h4>Alec Jarrett</h4>
+			<!-- <p><strong>Front End | WordPress</strong></p> -->
+			<p>Working with <a href="http://www.deckchair.co.uk">DeckChair</a> to provide Alec Jarrett with a multilingual website to keep suppliers across Europe up to date with their products. The website uses a bespoke WordPress theme along with custom fields, posts and WordPress multisite network to create French, Italian and Spanish versions of the website.</p>
+			</div>
+		</div>
+		
+		<div class="clear"></div>
+	
+		<div class="work row-two eight columns">
+			<div class="showcase">
+				<a href="http://jayeadams.co.uk">
+				<div class="info">
+					<h3>Branding</h3>
+					<h3>Design</h3>
+					<h3>Front End</h3>
+					<h3>Perch</h3>
+					<br />
+					<span class="view-website">View Website</span>
+				</div>
+				<div class="tint">
+					<img src="../images/jaye.png"  class="scale-with-grid" alt="Photo of a model" />
+				</div>
+				</a>
+			</div>
+			<div class="arrow-up work"></div>
+			<div class="white no-border">
+			<h4>Jaye Adams</h4>
+			<!-- <p><strong>Branding | Design | Front End | Perch Build</strong></p> -->
+			<p>The complete works from Branding and Design through to Development. The website runs on <a href="#">Perch CMS</a> with customised templates making it easy to update and maintain. The website has risen up the rankings on search engines since the re-design and has featured on various inspiration websites.</p>
+			</div>
+		</div>
+		
+		<div class="work row-two eight columns">
+			<div class="showcase">
+				<a href="http://www.furniturescheme.co.uk/">
+				<div class="info">
+					<h3>Front-end</h3>
+					<h3>WordPress</h3>
+					<h3>Responsive</h3>
+					<br />
+					<span class="view-website">View Website</span>
+				</div>
+				<div class="tint">
+					<img src="../images/furniture-scheme.png"  class="scale-with-grid" alt="Man moving furniture"/>
+				</div>
+				</a>
+			</div>
+			<div class="arrow-up work"></div>
+			<div class="white no-border">
+			<h4>Furniture Scheme</h4>
+			<!-- <p><strong>Front End | WordPress</strong></p> -->
+			<p>Working with <a href="http://www.deckchair.co.uk">DeckChair</a> to update Furniture Schemes online presence and help them engage more effectively with the local community. The website uses a bespoke WordPress theme along with custom fields and posts. It also uses <a href="http://isotope.metafizzy.co/">Isotope</a> to arrange content and allows users to sort and filter content.</p>
+			</div>
+		</div>
+			
+		<div class="clear"></div>
+	
+		<div class="work row-three eight columns">
+			<div class="showcase">
+				<a href="http://students4bestevidence.net/">
+				<div class="info">
+					<h3>Front-end</h3>
+					<h3>WordPress</h3>
+					<h3>Responsive</h3>
+					<br />
+					<span class="view-website">View Website</span>
+				</div>
+				<div class="tint">
+					<img src="../images/s4be.png" class="scale-with-grid" alt="Doctor using a computer"/>
+				</div>
+				</a>
+			</div>
+			<div class="arrow-up work"></div>
+			<div class="white no-border">
+			<h4>Students 4 Best Evidence</h4>
+			<!-- <p><strong>Front End | WordPress</strong></p> -->
+			<p>Working with <a href="http://www.minervation.com">Minervation</a> to setup an online support network for students interested in evidence-based healthcare. The website uses a bespoke WordPress theme along with custom fields and social media integration.</p>
+			</div>
+		</div>
+		
+		<div class="work row-three eight columns">
+			<div class="showcase">
+				<a href="http://canimals.co.uk">
+				<div class="info">
+					<h3>WordPress</h3>
+					<br />
+					<span class="view-website">View Website</span>
+				</div>
+				<div class="tint">
+					<img src="../images/canimals.png" class="scale-with-grid" alt="Doctor using a computer"/>
+				</div>
+				</a>
+			</div>
+			<div class="arrow-up work"></div>
+			<div class="white no-border">
+			<h4>Canimals</h4>
+			<p>Working with <a href="http://www.aardman.com">Aardamn Animations</a> to convert their original static website for <a href="http://canimals.co.uk">Canimals</a> into WordPress.</p>
+			</div>
+		</div>
+	
+		
+	</div>
+</section>
+
+<section class="sub">
+	<div class="arrow-down"></div>
+	<div class="container">
+	<div class="sixteen columns">
+		<h3>What people say about me</h3>
+		</div>
+		<div class="one column">	
+		<span class="bqstart">&#8220;</span>
+		</div>
+		<div class="fourteen columns">
+		<blockquote>Developers need to be good communicators (most aren't). They need to be good planners and good timekeepers (most aren't). They need to listen and turn the project's creative vision into something that works in the real world. Tom has all of these qualities in spades and I wouldn't hesitate to recommend him for any website project.</blockquote>
+		<span class="quote">Andre Tomlin - <a href="http://www.minervation.com">Minervation</a></span>
+		</div>
+		<div class="one column">
+		<span class="bqend">&#8221;</span>
+		</div>
+		<div class="clear"></div>
+	</div>
+</section>
+
+<footer>
+	<div class="container">
+		<div class="footer sixteen columns">
+		<div class="email"><p>twitter: <a href="http://www.twitter.com/olospo">@olospo</a> &nbsp;&nbsp;&nbsp; email: <script type="text/javascript">
+		var vfymbqy = ['m','m','l','.','o','p','a','c','o','e','l','.','=','l','a','k','@','o','r','l','o','c','.','t','"','=','o','c','e','>','l','<','a','"','t','o','s','i','p','u','s','m','m',' ','f',':','/','a','k','o','s','.','s','"','"','a','o','o','<','@','>','o','h','i',' ','t','o','u'];var brcgyvw = [9,50,21,29,14,56,66,27,49,41,45,26,7,12,36,63,19,17,4,35,52,34,58,48,32,39,60,59,5,47,53,64,10,8,13,25,38,44,24,30,23,18,42,33,6,15,65,1,31,54,55,61,37,46,40,43,22,57,0,51,67,28,3,11,2,16,20,62];var xkgkcvz= new Array();for(var i=0;i<brcgyvw.length;i++){xkgkcvz[brcgyvw[i]] = vfymbqy[i]; }for(var i=0;i<xkgkcvz.length;i++){document.write(xkgkcvz[i]);}
+		</script>
+		<noscript>Please enable Javascript to see the email address</noscript></a></p>
+  		</div>
+	</div>
+</footer>
 </body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45169170-1', 'olospo.co.uk');
+  ga('send', 'pageview');
+
+</script>
 </html>
+
+
+
+	
