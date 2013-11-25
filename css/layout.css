@@ -219,8 +219,7 @@ section {
 }
 
 section.tagline {
-	background-color: #F0F0F0;
-	background: url('../images/bg-colour.png');
+	background: url('../images/bg-colour.png') #0484AC;
 	background-position: center center;
 }
 
