@@ -4,16 +4,31 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-<title>Olospo | Designing and building websites that stand out from the crowd.</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0" />
-<meta name="description" content="Designing and building websites that stand out from the crowd.">
+<title>Web Design and WordPress Development | Olospo </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimal-ui" />
+<meta name="description" content="Bristol based freelance Web Designer & WordPress Developer. Designing and building websites that stand out from the crowd.">
 <meta name="author" content="Tom Brooks">
+<meta charset="UTF-8">
+<link rel="canonical" href="http://www.olospo.co.uk" />
+<!-- ================ Open Graph Data ================ -->
+<meta property="og:title" content="Olospo" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="Bristol based freelance Web Designer & WordPress Developer. Designing and building websites that stand out from the crowd." />
+<meta property="og:url" content="http://www.olospo.co.uk" />
+<meta property="og:site_name" content="Olospo" />
+<meta property="og:image" content="http://www.olospo.co.uk/images/icon.jpg" />
 <!-- ================ CSS ================ -->
 <link rel="stylesheet" href="css/skeleton.min.css">
 <link rel="stylesheet" href="css/layout.min.css">
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
+<!-- ================ JS ================ -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/retina.js"></script>
+<script src="js/more-less.js"></script>
+
 <!-- ================ Favicons ================ -->
 <link rel="shortcut icon" href="images/favicon.ico">
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
@@ -22,153 +37,111 @@
 </head>
 <body>
 <header id="home">
-    <div class="container">
-        <div class="logo one-third column">
-            <a href="index.html"><img src="images/olospo.png" alt="olospo logo" width="193" height="40" /></a>
-        </div>
-        <div class="navigation two-thirds column">
-            <ul class="nav">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="work.html">Work</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <div class="clear"></div>
+  <div class="container">
+    <div itemscope itemtype="http://schema.org/Organization" class="logo one-third column">
+      <a itemprop="url" href="http://www.olospo.co.uk" ><img itemprop="logo" src="images/olospo.png" alt="Olospo - Tom Brooks, Web Design" width="192" height="39" /></a>
     </div>
+    <div class="navigation two-thirds column">
+      <ul class="nav">
+        <li><a href="/" class="active">Home</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
 </header>
 
 <section class="tagline">
-    <div class="container">	
-        <div class="sixteen columns" id="welcome">
-            <h1>Designing and building websites that stand out from the crowd.</h1>
-            <p>Oxford based freelance Designer & Developer <a href="#" class="button show findout">Find out more</a></p>
-        </div>
-        <div class="sixteen columns" id="intro">
-            <p>Olospo (ol-os-po) was established in 2011 and is home to Oxford based Designer & Developer Tom Brooks.  I work with small/medium sized businesses helping to enhance their online presence. Since setting up Olospo I have had the pleasure of working with numerous businesses and individuals, as well as various agency projects with the likes of Oxford University, the NHS and Aardman Animations. <br /><a href="work.html" class="button shown viewwork">View my work</a></p>
-        </div>
+  <div class="container">	
+    <div class="sixteen columns" id="welcome">
+      <h1>Designing and building websites that stand out from the crowd.</h1>
+      <p>Bristol based freelance Designer & Developer <a href="#" class="button show findout">Find out more</a></p>
     </div>
+    <div class="sixteen columns" id="intro">
+      <p>Olospo (ol-os-po) was established in 2011 and is home to Bristol based Designer & Developer Tom Brooks.  I work with small/medium sized businesses helping to enhance their online presence. Since setting up Olospo I have had the pleasure of working with numerous businesses and individuals, as well as various agency projects with the likes of Oxford University, the NHS and Aardman Animations. <br /><a href="work.html" class="button shown viewwork">View my work</a></p>
+    </div>
+  </div>
 </section>
 
 <section class="header" id="services">
-    <div class="arrow-down blue"></div>
-    <div class="container">	
-        <div class="sixteen columns">
-            <h3>What services do I offer?</h3>
-        </div>
+  <div class="arrow-down blue"></div>
+  <div class="container">	
+    <div class="sixteen columns">
+      <h3>What services do I offer?</h3>
     </div>
+  </div>
 </section>
 
 <section class="content">
-    <div class="container">
-        <div class="four columns">
-            <img src="images/branding-icon.png" class="icon brand" alt="illustration of a book" width="79" height="90" />
-            <div class="arrow-up"></div>
-            <div class="white no-border">
-                <h4 class="subheader">Branding</h4>
-                <p>Creating a memorable identity for your business that will help you stand out from your competitors even in a crowded marketplace. </p>
-                <div class="services" id="brand">
-                    <ul>
-                        <li>Branding / Identity</li>
-                        <li>Print</li>
-                    </ul>
-                </div>
-                <p><span href="#" class="more brand-show">Learn more</span></p>
-            </div>
-        </div>
-        <div class="four columns">
-            <img src="images/design-icon.png" class="icon design" alt="illustration of a tablet" width="66" height="90" />
-            <div class="arrow-up"></div>
-            <div class="white no-border">
-                <h4 class="subheader">Design</h4>
-                <p>Designing beautiful and clean websites that stand out from the crowd. Giving you an effective and accurate online representation of your business.</p>
-                <div class="services" id="design">
-                    <ul>
-                        <li>Web Design</li>
-                        <li>User Interface Design</li>
-                        <li>Responsive Design</li>
-                    </ul>
-                </div>
-                <p><span href="#" class="more design-show">Learn more</span></p>
-            </div>
-        </div>
-        <div class="four columns">
-            <img src="images/dev-icon.png" class="icon dev" alt="illustration of a computer and phone" width="94" height="90" />
-            <div class="arrow-up"></div>
-            <div class="white no-border">
-                <h4 class="subheader">Development</h4>
-                <p>From static websites to fully customised WordPress builds. I pride myself on being able to turn a beautiful design into a fully functioning website.</p>
-                <div class="services" id="dev">
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>jQuery</li>
-                        <li>Responsive Development</li>
-                    </ul>
-                </div>
-                <p><span class="more dev-show">Learn more</span></p>
-            </div>
-        </div>
-        <div class="four columns">
-            <img src="images/cms-icon.png" class="icon cms" alt="illustration of a newspaper content" width="99" height="90"/>
-            <div class="arrow-up"></div>
-            <div class="white no-border">
-                <h4 class="subheader">Content Management</h4>
-                <p>Every website I build is tailored to your specific requirements. I use <a href="http://en-gb.wordpress.org/">WordPress</a> for medium - large websites and <a href="http://grabaperch.com/">Perch</a> for smaller builds.</p>
-                <div class="services" id="cms">
-                    <ul>
-                        <li>WordPress Theming</li>
-                        <li>WordPress Development</li>
-                        <li>Custom Fields and Posts</li>
-                        <li>Perch Development</li>
-                    </ul>
-                </div>
-                <p><span href="#" class="more cms-show">Learn more</span></p>
-            </div>
-        </div>
-        <div class="clear"></div>
+  <div class="container">
+    <div class="four columns">
+      <img src="images/branding-icon.png" class="icon brand" alt="Branding - illustration of a book" width="79" height="90" />
+      <div class="arrow-up"></div>
+      <div class="white no-border">
+        <h4 class="subheader">Branding</h4>
+        <p>Creating a memorable identity for your business that will help you stand out from your competitors even in a crowded marketplace. </p>
+      </div>
     </div>
+    <div class="four columns">
+      <img src="images/design-icon.png" class="icon design" alt="Design - Web Design - illustration of a tablet" width="66" height="90" />
+      <div class="arrow-up"></div>
+      <div class="white no-border">
+        <h4 class="subheader">Design</h4>
+        <p>Designing beautiful and clean websites that stand out from the crowd. Giving you an effective and accurate online representation of your business.</p>
+      </div>
+    </div>
+    <div class="four columns">
+      <img src="images/dev-icon.png" class="icon dev" alt="Web Development - illustration of a computer and phone" width="94" height="90" />
+      <div class="arrow-up"></div>
+      <div class="white no-border">
+        <h4 class="subheader">Development</h4>
+        <p>From static websites to fully customised WordPress builds. I pride myself on being able to turn a beautiful design into a fully functioning website.</p>
+      </div>
+    </div>
+    <div class="four columns">
+      <img src="images/cms-icon.png" class="icon cms" alt="WordPress Development - illustration of a newspaper content" width="99" height="90"/>
+      <div class="arrow-up"></div>
+      <div class="white no-border">
+        <h4 class="subheader">Content Management</h4>
+        <p>Every website I build is tailored to your specific requirements. I use <a href="http://en-gb.wordpress.org/">WordPress</a> for medium - large websites and <a href="http://grabaperch.com/">Perch</a> for smaller builds.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="sub">
-    <div class="arrow-down"></div>
+  <div class="arrow-down"></div>
     <div class="container">
-        <div class="sixteen columns">
-            <h3>What makes me different?</h3>
-        </div>
-        <div class="clear"></div>
-        <div class="one-third column">
-            <h4>Design and Development</h4>
-            <p>I do everything from Design, Front-End to WordPress Development. I even have experience working in print design.</p>		
-        </div>
-        <div class="one-third column">
-            <h4>Communication</h4>
-            <p>I pride myself on good communication. I provide regular updates on projects and make sure you are involved in the process as much as possible.</p>
-        </div>
-        <div class="one-third column">
-            <h4>Honesty</h4>
-            <p>I will be completely up front with you. I won't sell you services you don't need. I will listen to your vision and deliver a website that gets results.</p>
-        </div>
+      <div class="sixteen columns">
+        <h3>What makes me different?</h3>
+      </div>
+      <div class="clear"></div>
+    <div class="one-third column">
+      <h4>Design and Development</h4>
+      <p>I do everything from Design, Front-End to WordPress Development. I even have experience working in print design.</p>		
     </div>
+    <div class="one-third column">
+      <h4>Communication</h4>
+      <p>I pride myself on good communication. I provide regular updates on projects and make sure you are involved in the process as much as possible.</p>
+    </div>
+    <div class="one-third column">
+      <h4>Honesty</h4>
+      <p>I will be completely up front with you. I won't sell you services you don't need. I will listen to your vision and deliver a website that will get results.</p>
+    </div>
+  </div>
 </section>
 
 <footer>
-    <div class="container">
-        <div class="footer sixteen columns">
-        <div class="email"><p>twitter: <a href="http://www.twitter.com/olospo">@olospo</a> &nbsp;&nbsp;&nbsp; email: <script type="text/javascript">var vfymbqy = ['m','m','l','.','o','p','a','c','o','e','l','.','=','l','a','k','@','o','r','l','o','c','.','t','"','=','o','c','e','>','l','<','a','"','t','o','s','i','p','u','s','m','m',' ','f',':','/','a','k','o','s','.','s','"','"','a','o','o','<','@','>','o','h','i',' ','t','o','u'];var brcgyvw = [9,50,21,29,14,56,66,27,49,41,45,26,7,12,36,63,19,17,4,35,52,34,58,48,32,39,60,59,5,47,53,64,10,8,13,25,38,44,24,30,23,18,42,33,6,15,65,1,31,54,55,61,37,46,40,43,22,57,0,51,67,28,3,11,2,16,20,62];var xkgkcvz= new Array();for(var i=0;i<brcgyvw.length;i++){xkgkcvz[brcgyvw[i]] = vfymbqy[i]; }for(var i=0;i<xkgkcvz.length;i++){document.write(xkgkcvz[i]);}</script><noscript>Please enable Javascript to see the email address</noscript></a></p>
-        </div>
+  <div class="container">
+    <div class="footer sixteen columns">
+      <div class="twitter"><p>twitter: <a href="http://www.twitter.com/olospo" class="twitter-link">@olospo</a></p></div>
+      <div class="email">email: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#111;&#109;&#64;&#111;&#108;&#111;&#115;&#112;&#111;&#46;&#99;&#111;&#46;&#117;&#107;" class="email-link">&#116;&#111;&#109;&#64;&#111;&#108;&#111;&#115;&#112;&#111;&#46;&#99;&#111;&#46;&#117;&#107;</a></p></div>
     </div>
+  </div>
 </footer>
+
+<script src="//static.getclicky.com/js" type="text/javascript"></script>
+<script type="text/javascript">try{ clicky.init(100855413); }catch(e){}</script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100855413ns.gif" /></p></noscript>
 </body>
-<!-- ================ JS ================ -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="js/modernizr.js"></script>
-<script src="js/more-less.js"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-45169170-1', 'olospo.co.uk');
-  ga('send', 'pageview');
-</script>
 </html>

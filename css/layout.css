@@ -116,11 +116,6 @@
 	img {
 		display: block;
 	}
-
-/* Misc */
-	.remove-bottom { margin-bottom: 0 !important; }
-	.half-bottom { margin-bottom: 10px !important; }
-	.add-bottom { margin-bottom: 20px !important; }
 	
 /* Header */
 
@@ -188,7 +183,6 @@ ul.nav li a:hover, ul.nav li a.active {
 
 a.button {
 	background: #404F59;
-	
 	color: #fff;
 	padding: 3px 10px;
 	text-decoration: none;
@@ -219,7 +213,7 @@ section {
 }
 
 section.tagline {
-	background: url('../images/bg-colour.png') #0484AC;
+	background: url('../images/bg-colour.jpg') #0484AC;
 	background-position: center center;
 }
 
@@ -227,7 +221,8 @@ section.tagline h1 {
 	font-size: 68px;
 	line-height: 78px;
 	color: #fff;
-	margin-bottom: 15px;
+	margin-bottom: 35px;
+/* 	text-align: center; */
 }
 
 section.tagline p {
@@ -235,6 +230,7 @@ section.tagline p {
 	font-size: 24px;
 	color: #fff;
 	margin-bottom: 10px;
+/* 	text-align: center; */
 }
 
 section.tagline a {
@@ -447,9 +443,7 @@ a .view:hover {
 }
 
 section.block {
-	/* border-bottom: 1px solid #E4E4E4; */
 	background-color: #F0F0F0;
-	/* border-top: 1px solid #FFFFFF; */
 }
 
 section.block.intro h3 {
@@ -545,7 +539,6 @@ span.more {
 /* Footer */
 
 footer {
-	/* background-color: #F0F0F0; */
 	background-color: #2d353b;
 	margin: 0px 0px 0px 0px;
 }
@@ -570,15 +563,15 @@ footer {
 	color: #1F99AE;
 }
 
-.footer .twitter {
-	margin-right: 20px;
+.footer .twitter, .footer .email {
+	display: inline-block;
+	padding: 0px 10px;
 } 
 
 /* ================ Media Queries ================ */
 
 	/* #Desktop (1200) */
-	@media only screen and (min-width: 1200px)  {
-		
+	@media only screen and (min-width: 1200px)  {		
 		.overlay {	
 		top: 120px;
 		left: 225px;
@@ -780,6 +773,16 @@ footer {
 			font-size: 16px;
 			line-height: 22px;
 		}
+		.footer .twitter, .footer .email {
+      display: inline-block;
+      padding: 10px 10px;
+    }
+    ul.nav li {
+      padding: 0px 15px;
+    }
+    ul.nav li:nth-child(3) {
+      padding: 0px 15px !important;
+    }
 	}
 	
 /* Font Face */
@@ -788,71 +791,23 @@ footer {
   font-family: 'Noto Serif';
   font-style: normal;
   font-weight: 400;
-  src: local('Noto Serif'), local('NotoSerif'), url(http://themes.googleusercontent.com/static/fonts/notoserif/v2/eCpfeMZI7q4jLksXVRWPQ73hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+  src: local('Noto Serif'), local('NotoSerif'), url('../font/noto.woff') format('woff');
 }
 @font-face {
   font-family: 'Noto Serif';
   font-style: normal;
   font-weight: 700;
-  src: local('Noto Serif Bold'), local('NotoSerif-Bold'), url(http://themes.googleusercontent.com/static/fonts/notoserif/v2/lJAvZoKA5NttpPc9yc6lPXbFhgvWbfSbdVg11QabG8w.woff) format('woff');
-}
-@font-face {
-  font-family: 'Noto Serif';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Noto Serif Italic'), local('NotoSerif-Italic'), url(http://themes.googleusercontent.com/static/fonts/notoserif/v2/HQXBIwLHsOJCNEQeX9kNz6RDOzjiPcYnFooOUGCOsRk.woff) format('woff');
-}
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 100;
-  src: local('Raleway Thin'), local('Raleway-Thin'), url(http://themes.googleusercontent.com/static/fonts/raleway/v7/RJMlAoFXXQEzZoMSUteGWLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
-}
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 200;
-  src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url(http://themes.googleusercontent.com/static/fonts/raleway/v7/8KhZd3VQBtXTAznvKjw-k73hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
-}
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Raleway Light'), local('Raleway-Light'), url(http://themes.googleusercontent.com/static/fonts/raleway/v7/-_Ctzj9b56b8RgXW8FArib3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
-}
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Raleway'), url(http://themes.googleusercontent.com/static/fonts/raleway/v7/cIFypx4yrWPDz3zOxk7hIQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+  src: local('Noto Serif Bold'), local('NotoSerif-Bold'), url('../font/noto-bold.woff') format('woff');
 }
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 500;
-  src: local('Raleway Medium'), local('Raleway-Medium'), url(http://themes.googleusercontent.com/static/fonts/raleway/v7/CcKI4k9un7TZVWzRVT-T873hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
-}
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(http://themes.googleusercontent.com/static/fonts/raleway/v7/xkvoNo9fC8O2RDydKj12b73hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+  src: local('Raleway Medium'), local('Raleway-Medium'), url('../font/raleway-medium.woff') format('woff');
 }
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
-  src: local('Raleway Bold'), local('Raleway-Bold'), url(http://themes.googleusercontent.com/static/fonts/raleway/v7/JbtMzqLaYbbbCL9X6EvaI73hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
-}
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 800;
-  src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'), url(http://themes.googleusercontent.com/static/fonts/raleway/v7/1ImRNPx4870-D9a1EBUdPL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
-}
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 900;
-  src: local('Raleway Heavy'), local('Raleway-Heavy'), url(http://themes.googleusercontent.com/static/fonts/raleway/v7/PKCRbVvRfd5n7BTjtGiFZL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+  src: local('Raleway Bold'), local('Raleway-Bold'), url('../font/raleway-bold.woff') format('woff');
 }
