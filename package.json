@@ -1,0 +1,26 @@
+{
+  "name": "WordPress",
+  "version": "1.0.0",
+  "description": "Starter WordPress Theme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olospo/biocentaur.git"
+  },
+  "author": "Tom Brooks",
+  "license": "ISC",
+  "homepage": "https://github.com/olospo/biocentaur#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "*",
+    "gulp-load-plugins": "^1.6.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^2.1.0",
+    "merge-stream": "^1.0.1",
+    "node-sass": "^4.13.1",
+    "npm": ">=6.13.4"
+  }
+}
