@@ -4,6 +4,7 @@
 <head>
 <title><?php wp_title( '|', true, 'right' ); ?><?php bloginfo('name'); ?></title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="ahrefs-site-verification" content="e5f3fe043d390d69c7e3822ea4aee50f41ff6e6b2af37f3b850620c744ff0aba">
 <?php $post_id = get_the_ID(); if (has_post_thumbnail( $post_id ) ): 
 $image = get_the_post_thumbnail_url( $post_id, 'full' ); ?>
 <meta name="twitter:image" content="<?php echo $image; ?>" />
@@ -28,7 +29,7 @@ $image = get_the_post_thumbnail_url( $post_id, 'full' ); ?>
     <div class="logo two columns">  
       <p class="site-title">
       <a href="<?php echo get_site_url(); ?>" aria-label="logo">
-        <img src="<?php bloginfo('template_directory'); ?>/img/logo.svg" alt="Olospo">
+        <img src="<?php bloginfo('template_directory'); ?>/img/olospo.png" alt="Olospo">
       </a>
       </p>
     </div>
