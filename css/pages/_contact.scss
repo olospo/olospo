@@ -1,0 +1,47 @@
+// Contact
+
+// Page
+.page.contact {
+  background: $white;
+  padding: $padding-half 0 $padding 0;
+  
+  .heading {
+    margin-bottom: 40px;
+    h2 {
+      font: $bold 3.8rem/3.2rem $regular;
+      color: #2A3341;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    p {
+      font: $light 2.4rem/3.2rem $regular;
+      text-align: center;
+    }
+  }
+
+  aside {
+    .content {
+      height: 100%;
+      background: $white-bg;
+      padding: 20px;
+      box-sizing: border-box;
+      @include border-radius(20px);
+      @media (max-width: $breakpoint-tablet) {
+        @include border-radius(0px);
+        margin-bottom: 20px;
+      }
+    }
+  }
+  h2 {
+    font: $bold 2.0rem/3.2rem $regular;
+    color: #2A3341;
+    margin-bottom: 5px;
+  }
+  p {
+    color: #697991;
+    font: $light 1.6rem/2.8rem $regular;
+    &:last-child {
+      margin: 0;
+    }
+  }
+}

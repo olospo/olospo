@@ -9,8 +9,8 @@
 
 @mixin drop() {
   opacity: 0;
-  transform: translate3d(0,-312px,0);
-  transition: opacity linear 1s, transform cubic-bezier(0.25,0.1,0.25,1) 1s;
+  transform: translate3d(0,-40px,0);
+  transition: opacity linear 0.1s, transform ease-in 0.8s;
 }
 
 @mixin rise() {
@@ -54,9 +54,7 @@ header {
 }
 
 section.home.hero {
-  video {
-    // @include fade();
-  }
+  
   .logo {
     opacity: 0;
     transition: opacity ease 2s;
@@ -120,202 +118,56 @@ section.hero {
   }
 }
 
-// Home
 
-section.home_featured {
-  h2, article {
+section.intro {
+  h1, h2 {
+    @include fade();
+    span.stand_out {
+      background: none;
+    }
+  }
+  p {
+    @include fade();
+  }  
+  &.visible {
+    h1,h2 {
+      @include reset();
+      transition-delay: 0s;
+      span.stand_out {
+        background: #FF936D;
+        transition: background linear 0.2s;
+        transition-delay: 0.5s;
+      }
+    }
+    p {
+      @include reset();
+      transition-delay: 0s;
+    }
+  }
+}
+
+section {
+  .arrow-down {
+    @include drop();
+  }
+  &.visible {
+    .arrow-down {
+      @include reset();
+    }
+  }
+}
+
+section.services {
+  .heading, .service {
     @include fade();
   }
   &.visible {
-    h2 {
+    .heading {
       @include reset();
     }
-    article {
+    .service {
       @include reset();
       @include delay-children();
-    }
-  }
-}
-section.home_latest {
-  h2, article {
-    @include fade();
-  }
-  &.visible {
-    h2 {
-      @include reset();
-    }
-    article {
-      @include reset();
-    }
-  }
-}
-
-// About 
-section.hero.about {
-  .logo {
-    @include fade();
-  }
-  &.visible {
-    .logo {
-      opacity: 0.8;
-      transition-delay: 1s;
-    }
-    .overlay {
-      opacity: 0;
-      transition: opacity linear 2s;
-    }
-  }
-}
-
-section.intro.about {
-  .content {
-    @include fade();
-  }
-  &.visible {
-    .content {
-      @include reset();
-      transition-delay: 0.5s;
-    }
-  }
-}
-
-section.studio.about {
-  .content {
-    @include fade();
-  }
-  &.visible {
-    .content {
-      @include reset();
-    }
-  }
-}
-
-section.clients.about {
-  .h2 {
-    @include fade();
-  }
-  .logo {
-    @include fade();
-  }
-  &.visible {
-    .h2 {
-      @include reset();
-    }
-    .logo {
-      @include reset();
-      @include delay-children();
-    }
-  }
-}
-
-section.process.about {
-  .step {
-    .shapes {
-      @include fade();
-    }
-    .content {
-      @include fade();
-    }
-    &.visible {
-      .shapes {
-        @include reset();
-      }
-      .content {
-        @include reset();
-      }
-    }
-  }
-}
-
-section.team.about {
-  h2, h3 {
-    @include fade();
-  }
-  .team_member {
-    @include fade();
-  }
-  &.visible {
-    h2, h3 {
-      @include reset();
-    }
-    .team_member {
-      @include reset();
-      @include delay-children();
-    }
-  }
-}
-
-section.cta {
-  h4 {
-    @include fade();
-  }
-  &.visible {
-    h4 {
-      @include reset();
-    }
-  }
-}
-
-// News 
-section.news_archive {
-  article.standard {
-    .item_image, .item_content {
-      @include fade();
-    }
-    &.visible {
-      .item_image, .item_content {
-        @include reset();
-      }
-    }
-  }
-}
-
-// Work
-section.work_archive, section.careers_archive {
-  article {
-    @include fade();
-  }
-  &.visible {
-    article {
-      @include reset();
-      @include delay-children();
-    }
-  }
-}
-
-// Contact
-section.hero.contact {
-  .office {
-    .content {
-      h5, address, a {
-        @include fade();
-      }
-      
-    }
-  }
-  &.visible {
-    .office {
-      .content {
-        h5 {
-          @include reset-fade();
-        }
-        address {
-          @include reset-fade();
-          transition-delay: 0.2s;
-        }
-        a.phone {
-          @include reset-fade();
-          transition-delay: 0.4s;
-        }
-        a.email {
-          @include reset-fade();
-          transition-delay: 0.6s;
-        }
-        a.button {
-          @include reset-fade();
-          transition-delay: 0.8s;
-        }
-      }
     }
   }
 }
@@ -337,40 +189,6 @@ section.page.contact {
       transition-delay: 0.4s;
     }
     
-  }
-}
-
-// Flexible Content 
-.flexible_content {
-  .full_image {
-    @include rise();
-    &.visible {
-      @include reset();
-    }
-  } 
-  .content_block {
-    @include rise();
-    &.visible {
-      @include reset();
-    }
-  }
-  .square_image {
-    @include rise();
-    &.visible {
-      @include reset();
-    }
-  } 
-  .full_video {
-    @include rise();
-    &.visible {
-      @include reset();
-    }
-  }
-  .stat_block {
-    @include rise();
-    &.visible {
-      @include reset();
-    }
   }
 }
 

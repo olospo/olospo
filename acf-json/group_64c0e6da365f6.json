@@ -1,12 +1,12 @@
 {
-    "key": "group_62ed18fb0e721",
-    "title": "Author",
+    "key": "group_64c0e6da365f6",
+    "title": "Page",
     "fields": [
         {
-            "key": "field_62ed18fd18b48",
-            "label": "Author",
-            "name": "author",
-            "type": "post_object",
+            "key": "field_64c0e6de61c11",
+            "label": "Sub-Title",
+            "name": "sub-title",
+            "type": "text",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -15,14 +15,11 @@
                 "class": "",
                 "id": ""
             },
-            "post_type": [
-                "profile"
-            ],
-            "taxonomy": "",
-            "allow_null": 1,
-            "multiple": 0,
-            "return_format": "object",
-            "ui": 1
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         }
     ],
     "location": [
@@ -30,12 +27,12 @@
             {
                 "param": "post_type",
                 "operator": "==",
-                "value": "post"
+                "value": "page"
             }
         ]
     ],
     "menu_order": 0,
-    "position": "side",
+    "position": "normal",
     "style": "default",
     "label_placement": "top",
     "instruction_placement": "label",
@@ -43,5 +40,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1660214698
+    "modified": 1690363633
 }

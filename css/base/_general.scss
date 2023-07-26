@@ -1,12 +1,16 @@
-// Avenir
-$light: 'GothamRounded-Light', Helvetica, Arial, sans-serif;
-$regular: 'GothamRounded-Book', Helvetica, Arial, sans-serif;
-$medium: 'GothamRounded-Medium', Helvetica, Arial, sans-serif;
-$bold: 'GothamRounded-Bold', Helvetica, Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+// Poppins
+$regular: 'Poppins', Helvetica, Arial, serif;
 
 // Weights
-$thin: 200;
+$thin: 100;
+$light: 300;
 $normal: 400;
+$medium: 500;
+$bold: 700;
+$xbold: 800;
+$xxbold: 900;
 
 // Colours
 $white: #fff;
@@ -74,7 +78,10 @@ body {
   font-family: $regular;
   color: $black;
   -webkit-font-smoothing: antialiased; // Fix fonts looking rubbish in Chrome
-  background: #FBFAF7;
+  background: $white;
+  &.fixed-position {
+    overflow: hidden;  
+  }
 }
 
 h1, h2, h3, h4 {
@@ -93,7 +100,7 @@ section {
     font-size: 2rem;
     line-height: 3.6rem;
     @media (min-width: $breakpoint-tablet) {
-      padding: $padding 0px;
+      padding: $padding-half 0px;
       font: $normal 2.6rem/4rem $regular;
       font-size: 2.6rem;
       line-height: 4rem;
@@ -105,28 +112,28 @@ section {
     color: $orange;
   }
   h1 {
-    font: $normal 3.2rem/5rem $bold;
+    font: $bold 3.2rem/5rem $regular;
     margin-bottom: 0.5em;
     font-size: 3.6rem;
   }
   h2 {
-    font: $normal 2.6rem/3.6rem $bold;
+    font: $bold 2.6rem/3.6rem $regular;
     margin-bottom: 0.5em;
     font-size: 2.8rem;
     line-height: 3.8rem;
   }
   h3 {
-    font: $normal 2.0rem/3.2rem $bold;
+    font: $bold 2.0rem/3.2rem $regular;
     margin-bottom: 10px;
     font-size: 2.4rem;
   }
   h4 {
-    font: $normal 1.8rem/2.8rem $bold;
+    font: $bold 1.8rem/2.8rem $regular;
     margin-bottom: 10px;
     font-size: 2rem;
   }
   h5 {
-    font: $normal 1.6rem/2.6rem $bold;
+    font: $bold 1.6rem/2.6rem $regular;
     margin-bottom: 10px;
     font-size: 1.8rem;
   }
@@ -186,7 +193,7 @@ section {
 
     th {
       color: $orange;
-      font: $bold 2.0rem/2.6rem $regular;
+      font: $normal 2.0rem/2.6rem $regular;
       padding: 20px;
       background: $white-bg;
       text-transform: uppercase;
@@ -195,7 +202,7 @@ section {
       background: $white-bg;
       th {
         color: $orange;
-        font: $bold 2.0rem/2.6rem $regular;
+        font: $normal 2.0rem/2.6rem $regular;
         padding: 20px;
         border: none;
       }
@@ -271,7 +278,7 @@ section {
         vertical-align: middle;
         margin: 5px 10px 5px 10px;
         padding: 10px 20px;
-        font: $normal 1.6rem/2.6rem $bold;
+        font: $normal 1.6rem/2.6rem $regular;
         text-decoration: none;
         text-transform: uppercase;
         -webkit-transition: all ease .5s;
@@ -302,61 +309,6 @@ section {
 
 // Pagination 
 
-.pagination {
-  clear: both;
-  position: relative;
-  text-transform: uppercase;
-  ul {
-    text-align: center;
-    li {
-      display: inline-block;
-      list-style: none;
-      margin: 0;
-      a {
-        
-        display: inline-block;
-        margin: 5px 1px;
-        padding: 10px 5px;
-        width: 25px;
-        font: $normal 1.4rem/1.4rem $bold;
-        @media (min-width: $breakpoint-tablet) {
-          font: $normal 1.6rem/1.6rem $bold;
-          padding: 19px 10px 15px 10px;
-          width: 30px;
-          margin: 5px;
-        }
-        background: $white;
-        @include border-radius(10px);
-        border: 2px solid $blue;
-        color: $blue;
-        text-decoration: none;
-        &:hover {
-          background: $blue;
-          color: $white;
-        }
-      }
-      &.next, &.prev {
-        a {
-          padding: 10px;
-          @media (min-width: $breakpoint-tablet) {
-          padding: 19px 20px 15px 20px;
-          }
-          width: auto;
-        }
-        
-      }
-      &.active {
-        a {
-          background: $blue;
-          @include border-radius(10px);
-          border: 1px solid $blue;
-          color: $white;
-          text-decoration: none;
-        }
-      }
-    }
-  }
-}
 
 // Hero
 .overlay {
@@ -371,30 +323,30 @@ section.hero{
   padding: 100px 0px;
   .content {
     h1 {
-      font: $bold 2.8rem/3.6rem $regular;
+      font: $normal 2.8rem/3.6rem $regular;
       font-size: 2.8rem;
       line-height: 3.6rem;
       color: $white;
       margin-bottom: 0px;
       @media (min-width: $breakpoint-tablet) {
-        font: $bold 5.0rem/5.5rem $regular;
+        font: $normal 5.0rem/5.5rem $regular;
         font-size: 5rem;
         line-height: 5.5rem;
         margin-bottom: 20px;
       }
       @media (min-width: $breakpoint-desktop) {
-        font: $bold 6.2rem/6.0rem $regular;
+        font: $normal 6.2rem/6.0rem $regular;
         font-size: 6.2rem;
         line-height: 6.0rem;
       }
     }
     p {
       color: $white;
-      font: $light 1.8rem/2.8rem $regular;
+      font: $normal 1.8rem/2.8rem $regular;
       font-size: 1.8rem;
       line-height: 2.8rem;
       @media (min-width: $breakpoint-tablet) {
-        font: $light 2.6rem/3.4rem $regular;
+        font: $normal 2.6rem/3.4rem $regular;
         font-size: 2.6rem;
         line-height: 3.4rem;
       }

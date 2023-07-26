@@ -26,22 +26,22 @@ $image = get_the_post_thumbnail_url( $post_id, 'full' ); ?>
 <body <?php body_class(); ?>>
 <header>
   <div class="container">
-    <div class="logo two columns">  
+    <div class="logo four columns">  
       <p class="site-title">
       <a href="<?php echo get_site_url(); ?>" aria-label="logo">
         <img src="<?php bloginfo('template_directory'); ?>/img/olospo.png" alt="Olospo">
       </a>
       </p>
     </div>
-    <nav class="primary ten columns">
+    <nav class="primary eight columns">
       <?php wp_nav_menu( array( 'theme_location' => 'main', 'container'=> false, 'menu_class'=> false ) ); ?>
     </nav>
-    <a class="menu-toggle mobile_menu">
+    <button class="menu-toggle mobile_menu" aria-label="Mobile Menu Toggle">
       <span></span>
       <span></span>
       <span></span>
       <span></span>
-    </a>
+    </button>
   </div>
 </header>
 <nav class="mobile">

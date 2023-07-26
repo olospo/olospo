@@ -1,6 +1,9 @@
-<?php /* Page */
-get_header(); ?>
-<?php while ( have_posts() ) : the_post(); ?>
+<?php /* Template Name: Contact */
+get_header();
+
+while ( have_posts() ) : the_post(); ?>
+
+<?php get_template_part( 'inc/hero' ); ?>
 
 <section class="intro single">
   <div class="container">
@@ -13,15 +16,20 @@ get_header(); ?>
   </div>
 </section>
 
-<section class="page">
+<section class="page contact">
   <div class="arrow-down blue"></div>
-  <div class="container flex">
-    <div class="content twelve columns">
+  <div class="container">
+    <div class="two-thirds column">
       <?php the_content(); ?>
     </div>
+    <aside class="one-third column">
+      <div class="content">
+        <h2>Availability</h2>
+        <p>I'm currently booked up until September, but i'm taking on new work.</p>
+      </div>
+    </aside>
   </div>
 </section>
 
 <?php endwhile; // end of the loop. ?>
-
 <?php get_footer(); ?>
