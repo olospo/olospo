@@ -1,2 +1,2 @@
-# A Productions
-A Productions WordPress theme
+# Olospo
+Olospo WordPress theme
