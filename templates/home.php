@@ -78,21 +78,16 @@ while ( have_posts() ) : the_post(); ?>
       <ul>
         <li>Vodafone</li>
         <li>Aardman Animations</li>
-        
         <li>Simpleweb</li>
-        
         <li>Konica Minolta</li>
-        <li>Punter Southall Group</li>
+        <li>Diageo</li>
         <li>Adaptive Lab</li>
-        
         <li>Oxford University</li>
         <li>A Productions</li>
         <li>The Group of Seven</li>
-        
         <li>NHS</li>
         <li>SUEZ</li>
         <li>Minervation</li>
-        
       </ul>
     </div>
   </div>
