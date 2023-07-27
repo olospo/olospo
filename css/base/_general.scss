@@ -255,46 +255,41 @@ section {
       }
       label {
         font: $normal 1.8rem/2.6rem $regular;
-        @media (min-width: $breakpoint-tablet) {
-          font: $normal 2.0rem/3.4rem $regular;
-        }
-        font-weight: 300 !important;
-        color: $orange;
+        color: #2A3341;
       }
       
       select, input, textarea {
         font: $normal 1.8rem/2.6rem $regular;
         @include border-radius(10px);
         background: transparent;
-        border: 1px solid #adbac8;
-        padding: 10px;
+        border: 1px solid #bac1ce;
+        padding: 10px 15px;
         &:focus {
           border: 1px solid $orange;
         }
       }
-      input.search-submit {
+      input.search-submit, input[type="submit"] {
         overflow: hidden;
         display: inline-block;
         vertical-align: middle;
-        margin: 5px 10px 5px 10px;
+        margin: 10px 0;
         padding: 10px 20px;
         font: $normal 1.6rem/2.6rem $regular;
         text-decoration: none;
-        text-transform: uppercase;
         -webkit-transition: all ease .5s;
         -moz-transition: all ease .5s;
         -o-transition: all ease .5s;
         transition: all ease .5s;
         @include border-radius(10px);
-        color: $orange;
-        background: transparent;
-        border: 2px solid $orange;
+        color: $white;
+        background:#109AB1;
+        border: 2px solid #109AB1;
         text-decoration: none;
         cursor: pointer;
         &:hover {
           color: $white;
-          border: 2px solid $orange;
-          background: $orange;
+          border: 2px solid #2A3341;
+          background: #2A3341;
         }
       }
       .submit-wrap {
@@ -302,6 +297,24 @@ section {
       }
       .nf-after-field .nf-error-msg {
         font: $normal 1.6rem/2.2rem $regular;
+      }
+      .nf-error .ninja-forms-field {
+        border: 2px solid #d76e6e;
+      }
+      .nf-error-msg, .ninja-forms-req-symbol {
+        color: #d76e6e;
+        font: $normal 1.8rem/2.6rem $regular;
+      }
+      .nf-response-msg {
+        background: $white-bg;
+        padding: 30px;
+        box-sizing: border-box;
+        @include border-radius(20px);
+        margin-bottom: 40px;
+        @media (max-width: $breakpoint-tablet) {
+          @include border-radius(0px);
+          
+        }
       }
     }
   }

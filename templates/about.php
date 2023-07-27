@@ -17,9 +17,9 @@ while ( have_posts() ) : the_post(); ?>
 <section class="testimonials">
   <div class="arrow-down blue"></div>
   <div class="container">
-    <div class="heading six columns offset-by-three">
+    <div class="heading twelve columns">
       <h2>Testimonials</h2>
-      <p>Some nice things they have said about working with me. </p>
+      <p>Some nice things clients have said about working with me. </p>
     </div>
   </div>
   <div class="container">

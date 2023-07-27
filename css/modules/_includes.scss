@@ -1,0 +1,18 @@
+// Modules
+
+.cta {
+  &.contact {
+    background: rgb(0,96,126);
+    background: linear-gradient(90deg, rgba(0,96,126,1) 0%, rgba(16,156,179,1) 44%, rgba(10,108,137,1) 100%);
+    padding: $padding 0 $padding 0;
+    text-align: center;
+    h4 {
+      color: $white;
+      font: $bold 4.8rem/7.0rem $regular;
+    }
+    a {
+      color: $white;
+      text-decoration-color: $white;
+    }
+  }
+}

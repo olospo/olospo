@@ -127,13 +127,13 @@
     
     &:hover {
       .content {
-        background: #0F97AE;
+        background: $white;
         h3, p {
-          color: $white;
+          // color: $white;
         }
         svg {
           path, path#Shape, polygon {
-            fill: $white;
+            fill: #04879D;
           }
         }
       }

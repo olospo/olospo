@@ -3,7 +3,7 @@
 // Page
 .page.contact {
   background: $white;
-  padding: $padding-half 0 $padding 0;
+  padding: $padding-half 0 $padding-half 0;
   
   .heading {
     margin-bottom: 40px;
@@ -23,12 +23,47 @@
     .content {
       height: 100%;
       background: $white-bg;
-      padding: 20px;
+      padding: 30px;
       box-sizing: border-box;
       @include border-radius(20px);
+      margin-bottom: 40px;
       @media (max-width: $breakpoint-tablet) {
         @include border-radius(0px);
-        margin-bottom: 20px;
+        
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+      ul.availability {
+        color: #2A3341;
+        margin: 20px 0;
+        li {
+          font: $light 1.6rem/2.4rem $regular;
+          margin: 10px 0;
+          list-style: none;
+          padding: 2px 0px 2px 10px;
+          &.booked {
+            border-left: 30px solid #d76e6e;
+          }
+          &.limited {
+            border-left: 30px solid #e5a464;
+          }
+          &.available {
+            border-left: 30px solid #9ec779;
+          }
+        }
+      }
+      p.note {
+        font: $normal 1.6rem/2.4rem $regular;
+      }
+      ul.contact {
+        color: #2A3341;
+        li.email {
+          background: url('../img/email-icon.svg') left center no-repeat;
+          padding-left: 45px;
+          margin: 5px 0;
+          list-style: none;
+        }
       }
     }
   }
