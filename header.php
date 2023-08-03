@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-<title><?php wp_title( '|', true, 'right' ); ?><?php bloginfo('name'); ?></title>
+<title><?php wp_title( '|', true, 'right' ); ?></title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="ahrefs-site-verification" content="e5f3fe043d390d69c7e3822ea4aee50f41ff6e6b2af37f3b850620c744ff0aba">
 <?php wp_head(); ?>
