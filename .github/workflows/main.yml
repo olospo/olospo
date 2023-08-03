@@ -1,0 +1,21 @@
+name: Deploying to Live
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Deploy Site
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+      - name: FTP-Deploy-Action
+        uses: SamKirkland/FTP-Deploy-Action@4.3.2
+        with:
+          server: ${{ secrets.SERVER_IP }}
+          port: 21
+          server-dir: wp-content/themes/olospo/
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
