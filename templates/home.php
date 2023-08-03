@@ -23,43 +23,43 @@ while ( have_posts() ) : the_post(); ?>
   </div>
   <div class="container">
     <div class="service three columns">
-      <a href="<?php echo get_site_url(); ?>/web-design">
+      <!-- <a href="<?php echo get_site_url(); ?>/web-design"> -->
         <div class="content">
           <img src="<?php bloginfo('template_directory'); ?>/img/design.svg" alt="Design Icon"">
           <h3>Web design</h3>
           <p>Crafting beautiful, user-friendly websites designed to seamlessly fit your brand, improve user engagement, and convert visitors into loyal customers.</p>
         </div>
-      </a>
+      <!-- </a> -->
     </div>
     
     <div class="service three columns">
-      <a href="<?php echo get_site_url(); ?>/wordpress-development">
+      <!-- <a href="<?php echo get_site_url(); ?>/wordpress-development"> -->
         <div class="content">
           <img src="<?php bloginfo('template_directory'); ?>/img/development.svg" alt="Development Icon">
           <h3>WordPress development</h3>
           <p>Custom built, robust and reliable WordPress sites tailored precisely to your business needs and vision.</p>
         </div>
-      </a>
+      <!-- </a> -->
     </div>
     
     <div class="service three columns"> 
-      <a href="<?php echo get_site_url(); ?>/wordpress-audit">
+      <!-- <a href="<?php echo get_site_url(); ?>/wordpress-audit"> -->
         <div class="content">
           <img src="<?php bloginfo('template_directory'); ?>/img/audit.svg" alt="Audit Icon">
           <h3>WordPress audit</h3>
           <p>Providing in-depth audits to uncover potential issues, and enhance your WordPress site's user experience, accessibility and performance.</p>
         </div>
-      </a>
+      <!-- </a> -->
     </div>
     
     <div class="service three columns"> 
-      <a href="<?php echo get_site_url(); ?>/wordpress-optimisation">
+      <!-- <a href="<?php echo get_site_url(); ?>/wordpress-optimisation"> -->
         <div class="content">
           <img src="<?php bloginfo('template_directory'); ?>/img/optimisation.svg" alt="Optimisation Icon">
           <h3>WordPress optimisation</h3>
           <p>Speeding up your WordPress site to boost user experience, improve load times, and boosting your SEO ranking for more visibility.</p>
         </div>
-      </a>
+      <!-- </a> -->
     </div>
   </div>
 </section>
