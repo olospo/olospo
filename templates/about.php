@@ -3,7 +3,7 @@ get_header();
 
 while ( have_posts() ) : the_post(); ?>
 
-<section class="intro page">
+<section class="intro single">
   <div class="container">
     <div class="twelve columns">
       <h1><?php the_title(); ?></h1>
@@ -50,6 +50,7 @@ while ( have_posts() ) : the_post(); ?>
   </div>
 </section>
 
+<?php get_template_part( 'inc/cta_contact' ); ?>
 
 <?php endwhile; // end of the loop. ?>
 <?php get_footer(); ?>

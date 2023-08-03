@@ -22,6 +22,8 @@ get_header(); ?>
   </div>
 </section>
 
+<?php get_template_part( 'inc/cta_contact' ); ?>
+
 <?php endwhile; // end of the loop. ?>
 
 <?php get_footer(); ?>

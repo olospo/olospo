@@ -26,21 +26,14 @@ while ( have_posts() ) : the_post(); ?>
       <div class="content">
         <h2>Availability</h2>
         <ul class="availability">
-          <li class="booked">July - Fully Booked</li>
           <li class="booked">August - Fully Booked</li>
           <li class="available">September - Available</li>
           <li class="available">October - Available</li>
           <li class="available">November - Available</li>
           <li class="limited">December - Limited</li>
+          <li class="available">January - Available</li>
         </ul>
-        <p class="note">Note: My working week is currently Monday - Thursday.</p>
-      </div>
-      <div class="content">
-        <h2>Contact</h2>
-        <ul class="contact">
-          <li class="email">tom@olospo.co.uk</li>
-        </ul>
-        
+        <p class="note">Note: My working week is Monday - Thursday.</p>
       </div>
     </aside>
   </div>

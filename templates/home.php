@@ -27,7 +27,7 @@ while ( have_posts() ) : the_post(); ?>
         <div class="content">
           <img src="<?php bloginfo('template_directory'); ?>/img/design.svg" alt="Design Icon"">
           <h3>Web design</h3>
-          <p>Crafting beautiful, user-friendly websites designed to seamlessly fit your brand, improve user engagement, and transition visitors into loyal customers.</p>
+          <p>Crafting beautiful, user-friendly websites designed to seamlessly fit your brand, improve user engagement, and convert visitors into loyal customers.</p>
         </div>
       </a>
     </div>

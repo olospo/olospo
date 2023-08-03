@@ -1,10 +1,23 @@
 <?php /* Footer */ ?>
 
-<footer class="copyright">
+<footer class="main">
   <div class="container">
-    <div class="end_links twelve columns">
-      <strong>Copyright &copy; Olospo <?php echo date("Y"); ?></strong>
+    <div class="eight columns">
+      <div class="logo">
+        <img src="<?php bloginfo('template_directory'); ?>/img/logomark.svg" alt="Olospo Logo" loading="lazy"/>
+      </div>
+      <div class="logo_wrap">
+      <h5>Olospo</h5>
+      <p>Freelance WordPress developer based in Bristol</p>
+      <?php // wp_nav_menu( array( 'theme_location' => 'footer', 'container'=> false, 'menu_class'=> false ) ); ?>
+      </div>
     </div>
+    <aside class="four columns">
+      <div class="copyright">
+      <strong>Copyright &copy; Olospo <?php echo date("Y"); ?></strong>
+      
+      </div>
+    </aside>
   </div>
 </footer>
 
