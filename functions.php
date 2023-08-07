@@ -15,6 +15,15 @@ function theme_setup() {
 }
 add_action( 'after_setup_theme', 'theme_setup' );
 
+// Unload Gutenberg-related stylesheets.
+add_action( 'wp_enqueue_scripts', 'remove_block_css', 100 );
+function remove_block_css() {
+		wp_dequeue_style( 'wp-block-library' ); // Wordpress core
+		wp_dequeue_style( 'wp-block-library-theme' ); // Wordpress core
+		wp_dequeue_style( 'wc-block-style' ); // WooCommerce
+		wp_dequeue_style( 'storefront-gutenberg-blocks' ); // Storefront theme
+}
+
 // Enqueue styles
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 function theme_enqueue_styles() {
