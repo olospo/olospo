@@ -237,7 +237,7 @@
 }
 
 .testimonials {
-  background: $white;
+  background: $white-bg;
   padding: $padding-half 0;
   .heading {
     margin-bottom: 40px;
@@ -259,8 +259,10 @@
     }
   }
   article {
-    background: $white-bg;
+    border: 1px solid #EAECF0;
+    background: #fefeff;
     padding: 30px;
+    box-sizing: border-box;
     @include border-radius(20px);
     margin-bottom: 40px;
     p {
