@@ -6,7 +6,7 @@ while ( have_posts() ) : the_post(); ?>
 <section class="intro">
   <div class="container">
     <div class="twelve columns">
-      <h2>Designing and building websites that <span class="stand_out">stand out</span> from the crowd.</h2>
+      <h1>Designing and building websites that <span class="stand_out">stand out</span> from the crowd.</h1>
       <p>WordPress design, development and optimisation.</p>
     </div>
   </div>

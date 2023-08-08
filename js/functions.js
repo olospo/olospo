@@ -38,6 +38,27 @@
       });
     }
   });
+  
+  document.addEventListener('DOMContentLoaded', function() {
+      const tableCells = document.querySelectorAll('td');
+  
+      tableCells.forEach(td => {
+          const content = td.textContent.trim();
+          const value = parseInt(content, 10);
+  
+          // Check if the content was a number by comparing it with its parsed value
+          if (content == value) {
+              if (value >= 0 && value <= 39) {
+                  td.classList.add('poor');
+              } else if (value >= 40 && value <= 86) {
+                  td.classList.add('average');
+              } else if (value >= 87 && value <= 100) {
+                  td.classList.add('good');
+              }
+          }
+          // If it's not a number, do nothing and leave the td as is
+      });
+  });
 
   // Animation Javascript
   $components.waypoint({

@@ -184,50 +184,62 @@ section {
   }
   table {
     border: 1px solid $border;
-    @include border-radius(10px);
     overflow-x: scroll;
     font: $normal 1.8rem/2.6rem $regular;
     width:100%;
     table-layout: auto;
     border-collapse: separate !important;
+    margin: 20px 0;
+    text-align: center;
 
-    th {
-      color: $orange;
-      font: $normal 2.0rem/2.6rem $regular;
-      padding: 20px;
-      background: $white-bg;
-      text-transform: uppercase;
-    }
     thead {
-      background: $white-bg;
+      background: $black;
       th {
-        color: $orange;
-        font: $normal 2.0rem/2.6rem $regular;
-        padding: 20px;
-        border: none;
+        font: $bold 1.4rem/2.4rem $regular;
+        padding: 10px;
+        border: none !important;
+        text-transform: uppercase;
+        color: $white;
       }
     }
 
     tr {
+      border: none !important;
+      &:nth-child(even) {
+        td {
+          background: #f7f7f7;
+          vertical-align: middle;
+        }
+      }
       td {
-        padding: 20px;
+        border: 1px solid $border !important;
+        font: $normal 1.4rem/2.4rem $regular;
+        padding: 10px;
         border-left: 1px solid $border;
         vertical-align: middle;
         &:first-child {
           border-left: none;
         }
-      }
-      &:last-child {
-        td {
-          background: $white-bg;
-          vertical-align: middle;
+        
+
+        &.poor {
+          
+          color: #FF3333;
+          border-bottom: 1px solid #FF3333 !important;
+          background: #FFEAEA;
+        }
+        &.average {
+          color: #FFAA33;
+          border-bottom: 1px solid #FFAA33 !important;
+          background: #FFF6EA;
+        }
+        &.good {
+          color: #00CC66;
+          border-bottom: 1px solid #00CC66 !important;
+          background: #E5FAEF;
         }
       }
-      &:first-child {
-        td {
-          background: $white;
-        }
-      }
+      
     }
   }
   blockquote {
@@ -250,22 +262,27 @@ section {
       .nf-field-container {
         margin-bottom: 15px;
       }
-      .nf-form-fields-required {
+      .nf-form#00aa33-required {
         display: none;
       }
-      label {
-        font: $normal 1.8rem/2.6rem $regular;
-        color: #2A3341;
+      .nf-field-label {
+        margin-bottom: 5px;
+        label {
+          font: $normal 1.6rem/2.6rem $regular;
+          color: #2A3341;
+        }
       }
+      
       
       select, input, textarea {
         font: $normal 1.8rem/2.6rem $regular;
         @include border-radius(10px);
-        background: transparent;
-        border: 1px solid #bac1ce;
+        background: $white;
+        border: 1px solid #EAECF0;
         padding: 10px 15px;
         &:focus {
-          border: 1px solid $orange;
+          outline: none;
+          border: 1px solid #0F97AE;
         }
       }
       input.search-submit, input[type="submit"] {

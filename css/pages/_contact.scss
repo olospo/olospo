@@ -2,7 +2,7 @@
 
 // Page
 .page.contact {
-  background: $white;
+  background: $white-bg;
   padding: $padding-half 0 $padding-half 0;
   
   .heading {
@@ -22,7 +22,8 @@
   aside {
     .content {
       height: 100%;
-      background: $white-bg;
+      border: 1px solid #EAECF0;
+      background: #fff;
       padding: 30px;
       box-sizing: border-box;
       @include border-radius(20px);
