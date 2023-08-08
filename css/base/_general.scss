@@ -212,7 +212,7 @@ section {
         }
       }
       td {
-        border: 1px solid $border !important;
+        border: 1px solid $border;
         font: $normal 1.4rem/2.4rem $regular;
         padding: 10px;
         border-left: 1px solid $border;
@@ -254,6 +254,10 @@ section {
       display: inline;
     }
   }
+  .nf-form-fields-required {
+    display: none;
+  }
+  
   .nf-form-layout, .search_page_form {
     form {
       .nf-cell:first-child {
@@ -262,8 +266,8 @@ section {
       .nf-field-container {
         margin-bottom: 15px;
       }
-      .nf-form#00aa33-required, .nf-form-fields-required {
-        display: none;
+      .nf-form#00aa33-required {
+        
       }
       .nf-field-label {
         margin-bottom: 5px;

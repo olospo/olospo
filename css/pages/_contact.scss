@@ -35,6 +35,40 @@
       &:last-child {
         margin-bottom: 0;
       }
+      table.availability {
+        border: none;
+        text-align: left;
+        tr {
+          
+          th {
+            padding: 10px 0px;
+            font: $light 1.4rem/2.4rem $regular;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+          }
+          td {
+            background: white;
+            border: 0px solid transparent;
+            padding: 10px;
+            font: $normal 1.4rem/2.4rem $regular;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            &.booked {
+              border-left: 10px solid #d76e6e;
+              background: color(srgb 0.843 0.431 0.431 / 0.3);
+            }
+            &.limited {
+              border-left: 10px solid #e5a464;
+              background: color(srgb 0.898 0.643 0.392 / 0.3);
+            }
+            &.available {
+              border-left: 10px solid #9ec779;
+              background: color(srgb 0.62 0.78 0.475 / 0.3);
+            }
+          }
+        }
+      }
+        
       ul.availability {
         color: #2A3341;
         margin: 20px 0;

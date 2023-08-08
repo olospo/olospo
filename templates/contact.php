@@ -25,14 +25,34 @@ while ( have_posts() ) : the_post(); ?>
     <aside class="one-third column">
       <div class="content">
         <h2>Availability</h2>
-        <ul class="availability">
-          <li class="booked">August - Fully Booked</li>
-          <li class="available">September - Available</li>
-          <li class="available">October - Available</li>
-          <li class="available">November - Available</li>
-          <li class="limited">December - Limited</li>
-          <li class="available">January - Available</li>
-        </ul>
+        <table class="availability">
+          <tbody>
+            <tr>
+              <th>August</th>
+              <td class="booked">Fully Booked</td>
+            </tr>
+            <tr>
+              <th>September</th>
+              <td class="available">Available</td>
+            </tr>
+            <tr>
+              <th>October</th>
+              <td class="available">Available</td>
+            </tr>
+            <tr>
+              <th>November</th>
+              <td class="available">Available</td>
+            </tr>
+            <tr>
+              <th>December</th>
+              <td class="limited">Limited</td>
+            </tr>
+            <tr>
+              <th>January</th>
+              <td class="available">Available</td>
+            </tr>
+          </tbody>
+        </table>
         <p class="note">Note: My working week is Monday - Thursday.</p>
       </div>
     </aside>
