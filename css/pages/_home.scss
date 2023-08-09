@@ -128,38 +128,41 @@
       padding: 30px 20px;
       box-sizing: border-box;
       @include border-radius(0px);
-
         border: 1px solid #EAECF0;
         background: #fefeff;
         @include border-radius(10px);
-      
+      h3 {
+        font: $semi-bold 2.0rem/2.8rem $regular;
+        @media (min-width: $breakpoint-tablet) {
+          font: $semi-bold 2.4rem/3.2rem $regular;
+        }
+        color: #2A3341;
+        margin-left: 70px;
+        margin-bottom: 10px;
+      }
+      p {
+        color: #697991;
+        font: $light 1.4rem/2.4rem $regular;
+        @media (min-width: $breakpoint-tablet) {
+          font: $light 1.6rem/2.8rem $regular;
+        }
+        
+        margin-left: 70px;
+        margin-bottom: 0;
+      }
+      svg {
+        float: left;
+        height: 24px;
+        top: 35px;
+        left: 30px;
+        position: absolute;
+        path#Shape {
+          fill: #2A3341;
+        }
+      }
     }
   }
-  h3 {
-    font: $semi-bold 2.0rem/2.8rem $regular;
-    @media (min-width: $breakpoint-tablet) {
-      font: $semi-bold 2.4rem/3.2rem $regular;
-    }
-    color: #2A3341;
-    margin-left: 70px;
-    margin-bottom: 10px;
-  }
-  p {
-    color: #697991;
-    font: $light 1.6rem/2.8rem $regular;
-    margin-left: 70px;
-    margin-bottom: 0;
-  }
-  svg {
-    float: left;
-    height: 24px;
-    top: 35px;
-    left: 30px;
-    position: absolute;
-    path#Shape {
-      fill: #2A3341;
-    }
-  }
+  
 }
 
 .clients {
