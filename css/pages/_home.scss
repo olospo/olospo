@@ -134,13 +134,14 @@
     }
     .content {
       height: 100%;
-      border: 1px solid #EAECF0;
-      background: #fefeff;
+      background: #F6F8FC;
       padding: 30px 20px;
       box-sizing: border-box;
       @include border-radius(20px);
       text-align: center;
-      @media (max-width: $breakpoint-tablet) {
+      @media (min-width: $breakpoint-tablet) {
+        border: 1px solid #EAECF0;
+        background: #fefeff;
         background: $white;
         @include border-radius(0px);
       }
@@ -148,10 +149,6 @@
     
     &:hover {
       .content {
-        background: $white;
-        h3, p {
-          // color: $white;
-        }
         svg {
           path, path#Shape, polygon {
             fill: #04879D;
