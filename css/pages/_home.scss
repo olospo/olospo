@@ -35,7 +35,7 @@
   p {
     // text-align: center;
     color: $white;
-    font: $light 1.8rem/2.6rem $regular;
+    font: $light 1.6rem/2.6rem $regular;
     @media (min-width: $breakpoint-tablet) {
       font: $normal 2.6rem/4.0rem $regular;
     }
@@ -48,7 +48,7 @@
     color: $white;
   }
   &.single {
-    padding: $padding-half 0;
+    padding: 20px 0 40px 0;
     @media (min-width: $breakpoint-tablet) {
       padding: $padding-half 0 $padding 0;
     }
@@ -71,7 +71,7 @@
     border-top: 20px solid #0F97AE;
   }
   &.white {
-    border-top: 20px solid $white;
+    border-top: 20px solid $white-bg;
   }
 }
 
@@ -79,7 +79,7 @@
   background: $white-bg;
   padding: $padding-half 0;
   @media (min-width: $breakpoint-tablet) {
-    padding: $padding-half 0 $padding 0;
+    padding: $padding-half 0 $padding-half 0;
   }
   .heading {
     margin-bottom: 40px;
@@ -101,7 +101,7 @@
     }
   }
   
-  .container {
+  .row {
     @media (min-width: $breakpoint-tablet) {
       display: flex;
       flex-wrap: wrap;
@@ -109,68 +109,53 @@
   }
   .service {
     width: 100%;
+    margin-bottom: 20px;
+    
     @media (min-width: $breakpoint-tablet) {
-      width: 48% !important;
-      flex-basis: 48%;
-      margin-bottom: 40px;
-      &:nth-child(3) {
-        margin-left: 0;
-        margin-bottom: 0;
-      }
-      &:nth-child(4) {
-        margin-bottom: 0;
-      }
-    }
-    @media (min-width: $breakpoint-desktop) {
-      width: 22%;
-      flex-basis: 22%;
-      margin-bottom: 0;
-      &:nth-child(3) {
-        margin-left: auto;
+      width: 49% !important;
+      flex-basis: 49%;
+      &:nth-child(2) {
+        margin-left: 2%;
       }
     }
     a {
       text-decoration: none;
     }
     .content {
+      box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.017);
       height: 100%;
       background: #F6F8FC;
       padding: 30px 20px;
       box-sizing: border-box;
       @include border-radius(0px);
-      text-align: center;
-      @media (min-width: $breakpoint-tablet) {
+
         border: 1px solid #EAECF0;
         background: #fefeff;
         @include border-radius(10px);
-      }
-    }
-    
-    &:hover {
-      .content {
-        svg {
-          path, path#Shape, polygon {
-            fill: #04879D;
-          }
-        }
-      }
       
     }
   }
   h3 {
-    font: $bold 2.0rem/3.2rem $regular;
+    font: $semi-bold 2.0rem/2.8rem $regular;
+    @media (min-width: $breakpoint-tablet) {
+      font: $semi-bold 2.4rem/3.2rem $regular;
+    }
     color: #2A3341;
-    margin-bottom: 5px;
+    margin-left: 70px;
+    margin-bottom: 10px;
   }
   p {
     color: #697991;
     font: $light 1.6rem/2.8rem $regular;
-    &:last-child {
-      margin: 0;
-    }
+    margin-left: 70px;
+    margin-bottom: 0;
   }
   svg {
-    margin: 0px auto 10px auto;
+    float: left;
+    height: 24px;
+    top: 35px;
+    left: 30px;
+    position: absolute;
     path#Shape {
       fill: #2A3341;
     }
@@ -228,44 +213,6 @@
       -webkit-column-gap: 20px;
       column-count: 4;
       column-gap: 20px;
-    }
-  }
-}
-
-.testimonials {
-  background: $white-bg;
-  padding: $padding-half 0;
-  .heading {
-    margin-bottom: 40px;
-    h2 {
-      font: $bold 2.8rem/3.2rem $regular;
-      @media (min-width: $breakpoint-tablet) {
-        font: $bold 3.8rem/4.2rem $regular;
-      }
-      color: #2A3341;
-      margin-bottom: 10px;
-      text-align: center;
-    }
-    p {
-      font: $light 1.8rem/2.8rem $regular;
-      @media (min-width: $breakpoint-tablet) {
-        font: $light 2.4rem/3.2rem $regular;
-      }
-      text-align: center;
-    }
-  }
-  article {
-    border: 1px solid #EAECF0;
-    background: #fefeff;
-    padding: 30px;
-    box-sizing: border-box;
-    @include border-radius(20px);
-    margin-bottom: 40px;
-    p {
-      color: #2A3341;
-    }
-    strong {
-      color: #2A3341;
     }
   }
 }

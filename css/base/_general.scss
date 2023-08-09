@@ -1,13 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
 
 // Poppins
 $regular: 'Poppins', Helvetica, Arial, serif;
+$playfair: 'Playfair Display', serif;
 
 // Weights
 $thin: 100;
 $light: 300;
 $normal: 400;
 $medium: 500;
+$semi-bold: 600;
 $bold: 700;
 $xbold: 800;
 $xxbold: 900;
@@ -242,18 +244,7 @@ section {
       
     }
   }
-  blockquote {
-    border-left: 10px solid $black;
-    color: $black;
-    padding: $padding-half;
-    @media (min-width: $breakpoint-tablet) {
-      padding: $padding-half 0 $padding-half $padding;
-    }
-    font: $normal 2.8rem/4.6rem $regular;
-    p {
-      display: inline;
-    }
-  }
+  
   .nf-form-fields-required {
     display: none;
   }

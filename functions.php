@@ -32,6 +32,7 @@ function theme_enqueue_scripts() {
   
   wp_enqueue_script( 'applications', get_stylesheet_directory_uri().'/js/application.min.js', 'jquery', NULL, true, filemtime( get_stylesheet_directory() . '/style.css' ) );
   wp_enqueue_script( 'theme-functions', get_stylesheet_directory_uri().'/js/functions.js', 'jquery', NULL , true, filemtime( get_stylesheet_directory() . '/style.css' ) ); 
+	wp_enqueue_script( 'font-awesome', 'https://kit.fontawesome.com/0ab207164e.js', 'jquery', NULL , true ); 
 
 }
 
