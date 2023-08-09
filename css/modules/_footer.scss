@@ -55,10 +55,7 @@ footer.main {
     letter-spacing: 2px;
   }
   p {
-    font: $normal 1.4rem/2.4rem $regular;
-    @media (min-width: $breakpoint-tablet) {
-      font: $normal 1.6rem/2.6rem $regular;
-    }
+    font: $normal 1.6rem/2.4rem $regular;
     margin-bottom: 0;
   }
   ul {

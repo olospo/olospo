@@ -6,7 +6,7 @@
 .intro {
   background: rgb(0,96,126);
   background: linear-gradient(90deg, rgba(0,96,126,1) 0%, rgba(16,156,179,1) 44%, rgba(10,108,137,1) 100%);
-  padding: $padding-half 0 $padding 0;
+  padding: 20px 0 40px 0;
   @media (min-width: $breakpoint-tablet) {
     padding: 120px 0 180px 0;
   }
@@ -14,7 +14,7 @@
     letter-spacing: 1px;
     color: $white;
     font: $medium 2.4rem/3.6rem $regular;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     // text-align: center;
     @media (min-width: $breakpoint-tablet) {
       font: $bold 4.8rem/7.0rem $regular;
@@ -82,7 +82,10 @@
     padding: $padding-half 0 $padding-half 0;
   }
   .heading {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    @media (min-width: $breakpoint-tablet) {
+      margin-bottom: 40px;
+    }
     h2 {
       font: $bold 2.8rem/3.2rem $regular;
       @media (min-width: $breakpoint-tablet) {
@@ -133,21 +136,25 @@
         @include border-radius(10px);
       h3 {
         font: $semi-bold 2.0rem/2.8rem $regular;
+        margin-left: 60px;
         @media (min-width: $breakpoint-tablet) {
           font: $semi-bold 2.4rem/3.2rem $regular;
+          margin-left: 70px;
         }
         color: #2A3341;
-        margin-left: 70px;
+        
         margin-bottom: 10px;
       }
       p {
         color: #697991;
         font: $light 1.4rem/2.4rem $regular;
+        margin-left: 60px;
         @media (min-width: $breakpoint-tablet) {
           font: $light 1.6rem/2.8rem $regular;
+          margin-left: 70px;
         }
         
-        margin-left: 70px;
+        
         margin-bottom: 0;
       }
       svg {
