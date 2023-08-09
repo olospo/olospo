@@ -137,13 +137,12 @@
       background: #F6F8FC;
       padding: 30px 20px;
       box-sizing: border-box;
-      @include border-radius(20px);
+      @include border-radius(0px);
       text-align: center;
       @media (min-width: $breakpoint-tablet) {
         border: 1px solid #EAECF0;
         background: #fefeff;
-        background: $white;
-        @include border-radius(0px);
+        @include border-radius(10px);
       }
     }
     
