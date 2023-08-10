@@ -24,15 +24,15 @@ while ( have_posts() ) : the_post(); ?>
   </div>
   <div class="container">
     <div class="twelve columns">
-      <div class="row">
-        <article class="quote six columns">
+      <div class="six columns">
+        <article class="quote">
           <blockquote>
           <p>We worked with Tom to improve our existing WordPress website. After being told by other companies that the website needed replacing, Tom took on the challenge to help us update it, improving the performance and fixing elements that had broken or never worked well. Tom was pro-active, professional and kept us informed at all times. Tom was transparent about what was and wasn’t possible due to the age of the site and we have seen an immediate improvement in our website speed and performance. Working with Tom was very easy, and we will continue working with him on future projects.</p>
           <strong>Extreme Design</strong>
           </blockquote>
         </article>
       
-        <article class="quote six columns">
+        <article class="quote">
           <blockquote>
           <p>Developers need to be good communicators (most aren't). They need to be good planners and good timekeepers (most aren't). They need to listen and turn the project's creative vision into something that works in the real world. Tom has all of these qualities in spades and I wouldn't hesitate to recommend him for any website project.</p>
           <strong>Andre Tomlin - Minervation</strong>
@@ -40,20 +40,20 @@ while ( have_posts() ) : the_post(); ?>
         </article>
       </div>
       
-      <div class="row">
-        <article class="quote six columns">
+      <div class="six columns">
+        <article class="quote">
           <blockquote>
           <p>Creating websites can be stressful, working with Tom is enjoyable throughout. The sites he builds are super fast, professional and pixel-perfect. Already, after two significant and successfully client-pleasing sites, Tom is my go-to Developer. I look forward to our next project.</p>
           <strong>Chris Marsh - Think Marsh</strong>
           </blockquote>
         </article>
         
-        <!-- <article class="six columns">
+        <article class="quote">
           <blockquote>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>I have worked with Tom over the past couple of years and from the moment we started collaborating, it was clear that I was in capable hands. Tom displays an impressive ability to understand my vision and translate it into a fully functional website. He has great attention to detail and dedication to creating a seamless user experience. Tom is always responsive and professional and offers valuable insight where he can. What really sets Tom apart from other developers I have worked with is his commitment to delivering results beyond expectations - he always meets deadlines, despite the chaos of working along side an agency and any challenges that arise are handled swiftly and effectively. If you are in search of a developer that who is reliable and will go the extra mile with your website then I would highly recommend using Tom. I look forward to continuing our collaboration in the future!</p>
           <strong>Meg Baldwin - The Group of Seven</strong>
           </blockquote>
-        </article> -->
+        </article>
       </div>
     </div>
   </div>
