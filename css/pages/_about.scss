@@ -64,15 +64,18 @@
           font: $light 1.6rem/2.8rem $regular;
         }
         
-        margin-bottom: 10px;
+        margin-bottom: 20px;
       }
       strong {
+        display: block;
         color: #2A3341;
-        font: $bold 1.4rem/2.4rem $regular;
+        font: $semi-bold 1.4rem/2.4rem $regular;
         text-transform: uppercase;
         letter-spacing: 1px;
-        border-left: 3px solid #2A3341;
-        padding-left: 15px;
+        span.company {
+          color: #697991;
+          font: $normal 1.4rem/2.4rem $regular;
+        }
       }
     }
   }
