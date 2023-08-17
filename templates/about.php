@@ -42,10 +42,19 @@ while ( have_posts() ) : the_post(); ?>
         
         <article class="quote">
           <blockquote>
+          <p>Tom always provides an excellent, professional and diligent service. His design and WordPress development skills are fantastic and he's always delivered great work, on point, on time and on budget. I wouldn't hesitate to recommend Tom</p>
+          <strong>James Guest, Digital & Web3 Consultant<br /><span class="company">JG Digital</span></strong>
+          </blockquote>
+        </article>
+        
+        <article class="quote">
+          <blockquote>
           <p>Creating websites can be stressful, working with Tom is enjoyable throughout. The sites he builds are super fast, professional and pixel-perfect. Already, after two significant and successfully client-pleasing sites, Tom is my go-to Developer. I look forward to our next project.</p>
           <strong>Chris Marsh, Designer<br /><span class="company">Think Marsh</span></strong>
           </blockquote>
         </article>
+        
+        
       </div>
       
       <div class="six columns">
@@ -64,7 +73,7 @@ while ( have_posts() ) : the_post(); ?>
         <article class="quote">
           <blockquote>
           <p>I have worked with Tom over the past couple of years and from the moment we started collaborating, it was clear that I was in capable hands. Tom displays an impressive ability to understand my vision and translate it into a fully functional website. He has great attention to detail and dedication to creating a seamless user experience.</p><p> Tom is always responsive and professional and offers valuable insight where he can. What really sets Tom apart from other developers I have worked with is his commitment to delivering results beyond expectations - he always meets deadlines, despite the chaos of working along side an agency and any challenges that arise are handled swiftly and effectively. If you are in search of a developer that who is reliable and will go the extra mile with your website then I would highly recommend using Tom. I look forward to continuing our collaboration in the future!</p>
-          <strong>Meg Baldwin, Designer / Project Manager<br /><span class="company">The Group of Seven</span></strong>
+          <strong>Meg Baldwin, Designer & Project Manager<br /><span class="company">The Group of Seven</span></strong>
           </blockquote>
         </article>
         
