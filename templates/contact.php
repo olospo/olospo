@@ -33,7 +33,7 @@ while ( have_posts() ) : the_post(); ?>
             </tr>
             <tr>
               <th>September</th>
-              <td class="available">Available</td>
+              <td class="limited">Limited</td>
             </tr>
             <tr>
               <th>October</th>
