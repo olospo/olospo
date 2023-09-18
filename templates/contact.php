@@ -28,12 +28,8 @@ while ( have_posts() ) : the_post(); ?>
         <table class="availability">
           <tbody>
             <tr>
-              <th>August</th>
-              <td class="booked">Fully Booked</td>
-            </tr>
-            <tr>
               <th>September</th>
-              <td class="limited">Limited</td>
+              <td class="booked">Booked</td>
             </tr>
             <tr>
               <th>October</th>
