@@ -47,6 +47,10 @@ while ( have_posts() ) : the_post(); ?>
               <th>February</th>
               <td class="available">Available</td>
             </tr>
+            <tr>
+              <th>March</th>
+              <td class="available">Available</td>
+            </tr>
           </tbody>
         </table>
         <p class="note">Note: My working week is Monday - Thursday.</p>
