@@ -54,6 +54,11 @@ while ( have_posts() ) : the_post(); ?>
           </tbody>
         </table>
         <p class="note">Note: My working week is Monday - Thursday.</p>
+        <p class="note">Email: <script type="text/javascript">
+            var user = 'tom';
+            var domain = 'olospo.co.uk';
+            document.write('<a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>');
+        </script></p>
       </div>
     </aside>
   </div>
