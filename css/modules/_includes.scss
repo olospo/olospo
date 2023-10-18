@@ -22,8 +22,19 @@
       }
     }
     a {
-      color: $white;
-      text-decoration-color: $white;
+      -webkit-transition: all ease .2s;
+      -moz-transition: all ease .2s;
+      -o-transition: all ease .2s;
+      transition: all ease .2s;
+      padding: 0 10px;
+      text-decoration: none;
+      background: $white;
+      color: $blue;
+      &:hover {
+        text-decoration: none;
+        background: $orange;
+        color: $white;
+      }
     }
   }
 }

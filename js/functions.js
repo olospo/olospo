@@ -4,7 +4,7 @@
   // Cache the selectors
   var $menuToggle = $(".menu-toggle"),
       $backToTop = $('a.back_to_top'),
-      $components = $('header#main, nav, section, .home_journal, .home_recipes, .journals, .view_more, .journal'),
+      $components = $('header#main, nav, section'),
       $menuItemHasChildren = $("li.menu-item-has-children > a"),
       $window = $(window),
       amountScrolled = 100;
@@ -92,7 +92,5 @@
     $(this).siblings('ul').toggle();
     $(this).toggleClass("open");
   });
-  
-
 
 })(jQuery);
