@@ -10,7 +10,7 @@ footer.main {
   color: $white;
   background: #2D2D2D;
   .logo {
-    margin-bottom: 0px;
+    margin-bottom: 10px;
   }
   .logo_links {
     margin-top: 20px;
@@ -25,13 +25,15 @@ footer.main {
       }
     }
   }
-  @media (min-width: $breakpoint-tablet) {
     .logo {
       float: left;
       margin: 0;
     }
     .logo_wrap {
-      margin-left: 30px;
+      margin-left: 20px;
+      @media (min-width: $breakpoint-tablet) {
+        margin-left: 30px;
+      }
       float: left;
     }
     .logo_links {
@@ -39,7 +41,6 @@ footer.main {
       margin-left: 140px;
       float: left;
     }
-  }
   @media (min-width: $breakpoint-desktop) {
     .logo_links {
       margin-top: 52px;
@@ -50,12 +51,15 @@ footer.main {
   h5 {
     font: $bold 2.4rem/3.2rem $regular;
     color: $white;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     text-transform: uppercase;
     letter-spacing: 2px;
   }
   p {
-    font: $normal 1.6rem/2.4rem $regular;
+    font: $normal 1.2rem/2.4rem $regular;
+    @media (min-width: $breakpoint-tablet) {
+      font: $normal 1.6rem/2.4rem $regular;
+    }
     margin-bottom: 0;
   }
   ul {
@@ -90,6 +94,8 @@ footer.main {
     }
   }
   .copyright {
+    float: none;
+    display: block;
     font: $normal 1.2rem/2.8rem $regular;
     text-align: left;
     margin: 0px 0;
