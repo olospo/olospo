@@ -67,35 +67,6 @@ while ( have_posts() ) : the_post(); ?>
   </div>
 </section>
 
-
-<section class="clients">
-  <div class="arrow-down white"></div>
-  <div class="container">
-    <div class="heading twelve columns">
-      <h2>Clients</h2>
-      <p>Some of the clients I've had the privilege to work with over the past 10 years.</p>
-    </div>
-  </div>
-  <div class="container">
-    <div class="twelve columns">
-      <ul>
-        <li>Vodafone</li>
-        <li>Aardman Animations</li>
-        <li>Simpleweb</li>
-        <li>Konica Minolta</li>
-        <li>Diageo</li>
-        <li>Adaptive Lab</li>
-        <li>Oxford University</li>
-        <li>A Productions</li>
-        <li>The Group of Seven</li>
-        <li>NHS</li>
-        <li>SUEZ</li>
-        <li>Minervation</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
 <?php get_template_part( 'inc/cta_contact' ); ?>
 
 <?php endwhile; // end of the loop. ?>

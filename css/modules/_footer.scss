@@ -10,7 +10,7 @@ footer.main {
   color: $white;
   background: #2D2D2D;
   .logo {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   .logo_links {
     margin-top: 20px;
@@ -69,18 +69,32 @@ footer.main {
       }
     }
   }
-  
-  
-  .copyright {
-    font: $normal 1.4rem/2.8rem $regular;
-    text-align: left;
-    margin: 20px 0;
+  .ecologi {
+    margin: 20px 0 0 0;
     @media (min-width: $breakpoint-tablet) {
-      text-align: right;
-      margin: 10px 0 0 0;
+      margin: 0;
     }
+    img, svg{
+      height: 40px;
+      width: auto;
+      float: left;
+      margin-right: 20px;
+    }
+    p {
+      float: left;
+      font: $normal 1.2rem/2.8rem $regular;
+      margin: 0px 0;
+      a {
+        color: $white;
+      }
+    }
+  }
+  .copyright {
+    font: $normal 1.2rem/2.8rem $regular;
+    text-align: left;
+    margin: 0px 0;
     a {
-      color: $blue;
+      color: $white;
     }
   }
 }
