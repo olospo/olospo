@@ -28,10 +28,6 @@ while ( have_posts() ) : the_post(); ?>
         <table class="availability">
           <tbody>
             <tr>
-              <th>December</th>
-              <td class="booked">Booked</td>
-            </tr>
-            <tr>
               <th>January</th>
               <td class="booked">Booked</td>
             </tr>
@@ -49,6 +45,10 @@ while ( have_posts() ) : the_post(); ?>
             </tr>
             <tr>
               <th>May</th>
+              <td class="available">Available</td>
+            </tr>
+            <tr>
+              <th>June</th>
               <td class="available">Available</td>
             </tr>
           </tbody>

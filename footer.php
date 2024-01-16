@@ -17,7 +17,7 @@
 
     <aside class="ecologi four columns">
       <a href="https://ecologi.com/olospo" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/ecologi.svg" alt="Ecologi" loading="lazy"/></a>
-      <p class="ecologi"><a href="https://ecologi.com/olospo" target="_blank">580 trees and 45 projects funded</a></p>
+      <p class="ecologi"><a href="https://ecologi.com/olospo" target="_blank">584 trees and 47 projects funded</a></p>
     </aside>
   </div>
 </footer>
