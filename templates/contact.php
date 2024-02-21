@@ -28,27 +28,27 @@ while ( have_posts() ) : the_post(); ?>
         <table class="availability">
           <tbody>
             <tr>
-              <th>January</th>
+              <th>February</th>
               <td class="booked">Booked</td>
             </tr>
             <tr>
-              <th>February</th>
+              <th>March</th>
               <td class="limited">Limited</td>
             </tr>
             <tr>
-              <th>March</th>
-              <td class="available">Available</td>
-            </tr>
-            <tr>
               <th>April</th>
-              <td class="available">Available</td>
+              <td class="limited">Limited</td>
             </tr>
             <tr>
               <th>May</th>
-              <td class="available">Available</td>
+              <td class="limited">Limited</td>
             </tr>
             <tr>
               <th>June</th>
+              <td class="available">Available</td>
+            </tr>
+            <tr>
+              <th>July</th>
               <td class="available">Available</td>
             </tr>
           </tbody>
