@@ -8,7 +8,7 @@ while ( have_posts() ) : the_post(); ?>
     <div class="twelve columns">
       <h1><?php the_title(); ?></h1>
       <?php if( get_field('sub-title') ): ?>
-      <p><?php the_field('sub-title'); ?></p>
+      <p><?php echo get_field('sub-title'); ?></p>
       <?php endif; ?>
     </div>
   </div>
