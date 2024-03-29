@@ -5,10 +5,10 @@ footer.main {
   overflow-wrap: break-word;
   padding: $padding-half 0px;
   @media (min-width: $breakpoint-tablet) {
-    padding: 60px 0px;
+    padding: 40px 0px;
   }
   color: $white;
-  background: #2D2D2D;
+  background: #233140;
   .logo {
     margin-bottom: 10px;
   }
@@ -96,7 +96,7 @@ footer.main {
   .copyright {
     float: none;
     display: block;
-    font: $normal 1.2rem/2.8rem $regular;
+    font: $normal 1.3rem/2.8rem $regular;
     text-align: left;
     margin: 0px 0;
     a {

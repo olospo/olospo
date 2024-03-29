@@ -3,8 +3,6 @@ get_header();
 
 while ( have_posts() ) : the_post(); ?>
 
-<?php get_template_part( 'inc/hero' ); ?>
-
 <section class="intro single">
   <div class="container">
     <div class="twelve columns">
@@ -17,14 +15,14 @@ while ( have_posts() ) : the_post(); ?>
 </section>
 
 <section class="page contact">
-  <div class="arrow-down blue"></div>
+
   <div class="container">
     <div class="two-thirds column">
       <?php the_content(); ?>
     </div>
     <aside class="one-third column">
       <div class="content">
-        <h2>Availability</h2>
+        <h3>Availability</h3>
         <table class="availability">
           <tbody>
             <tr>
@@ -37,7 +35,7 @@ while ( have_posts() ) : the_post(); ?>
             </tr>
             <tr>
               <th>May</th>
-              <td class="booked">Booked</td>
+              <td class="limited">Limited</td>
             </tr>
             <tr>
               <th>June</th>

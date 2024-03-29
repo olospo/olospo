@@ -3,28 +3,41 @@
 // Page
 .page.contact {
   background: $white-bg;
-  padding: $padding-half 0 $padding-half 0;
-  
+  padding: $padding-half 0;
+  @media (min-width: $breakpoint-tablet) {
+    padding: 60px 0;
+  }
   .heading {
-    margin-bottom: 40px;
+    margin-bottom: $padding-half;
+    @media (min-width: $breakpoint-tablet) {
+      margin-bottom: 60px;
+    }
     h2 {
-      font: $bold 3.8rem/3.2rem $regular;
-      color: #2A3341;
+      font: $bold 2.6rem/3.2rem $regular;
+      @media (min-width: $breakpoint-tablet) {
+        font: $bold 3.8rem/4.2rem $regular;
+      }
+      color: #002D4F;
       margin-bottom: 10px;
-      text-align: center;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #FF936D;
+      display: inline-block;
     }
     p {
-      font: $light 2.4rem/3.2rem $regular;
-      text-align: center;
+      font: $light 1.8rem/2.8rem $regular;
+      @media (min-width: $breakpoint-tablet) {
+        font: $light 2.4rem/3.2rem $regular;
+      }
+      // text-align: center;
     }
   }
 
   aside {
     .content {
       height: 100%;
-      border: 1px solid #EAECF0;
-      background: #fff;
-      padding: 30px;
+      // border: 1px solid #EAECF0;
+      // background: #fff;
+      // padding: 30px;
       box-sizing: border-box;
       @include border-radius(20px);
       margin-bottom: 40px;
@@ -41,53 +54,34 @@
         tr {
           
           th {
-            padding: 10px 0px;
-            font: $light 1.4rem/2.4rem $regular;
+            padding: 10px 0 10px 0;
+            font: $normal 1.4rem/2.4rem $regular;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 2px;
           }
           td {
             background: white;
             border: 0px solid transparent;
-            padding: 10px;
+            padding: 10px 15px;
             font: $normal 1.4rem/2.4rem $regular;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 2px;
             &.booked {
-              border-left: 10px solid #d76e6e;
+              // border-left: 10px solid #d76e6e;
               background: color(srgb 0.843 0.431 0.431 / 0.3);
             }
             &.limited {
-              border-left: 10px solid #e5a464;
+              // border-left: 10px solid #e5a464;
               background: color(srgb 0.898 0.643 0.392 / 0.3);
             }
             &.available {
-              border-left: 10px solid #9ec779;
+              // border-left: 10px solid #9ec779;
               background: color(srgb 0.62 0.78 0.475 / 0.3);
             }
           }
         }
       }
-        
-      ul.availability {
-        color: #2A3341;
-        margin: 20px 0;
-        li {
-          font: $light 1.6rem/2.4rem $regular;
-          margin: 10px 0;
-          list-style: none;
-          padding: 2px 0px 2px 10px;
-          &.booked {
-            border-left: 30px solid #d76e6e;
-          }
-          &.limited {
-            border-left: 30px solid #e5a464;
-          }
-          &.available {
-            border-left: 30px solid #9ec779;
-          }
-        }
-      }
+
       p.note {
         font: $light 1.4rem/2.4rem $regular;
       }
@@ -102,13 +96,13 @@
       }
     }
   }
-  h2 {
-    font: $bold 2.0rem/3.2rem $regular;
-    color: #2A3341;
-    margin-bottom: 5px;
+  h3 {
+    font: $semi-bold 2.6rem/3.2rem $regular;
+    color: #233140;
+    display: inline-block;
   }
   p {
-    color: #697991;
+    color: #4a596f;
     font: $light 1.6rem/2.8rem $regular;
     &:last-child {
       margin: 0;

@@ -1,4 +1,3 @@
-
 (function ($) {
 
   // Cache the selectors
@@ -65,25 +64,24 @@
     handler: function() {
       $(this.element).addClass("visible");
     },
-    offset: '70%'
+    offset: '90%'
   });
   
   $(document).ready(function() {
      
-     // Initialize waypoints
-     var waypointInit = function() {
-         $('header, nav, section').waypoint({
-             handler: function() {
-                 $(this.element).addClass("visible");
-             },
-             offset: '70%'
-         });
-     }
+    // Initialize waypoints
+    var waypointInit = function() {
+      $('header, nav, section').waypoint({
+        handler: function() {
+          $(this.element).addClass("visible");
+        },
+        offset: '90%'
+      });
+    }
      
-     // Call the function to initialize the waypoints
-     waypointInit();
- 
- });
+    // Call the function to initialize the waypoints
+    waypointInit();
+  });
 
   // Mobile Menu 
   $menuItemHasChildren.after("<div class='sub-toggle'></div>");

@@ -4,16 +4,16 @@
 
 // Intro
 .intro {
-  background: rgb(0,96,126);
-  background: linear-gradient(90deg, rgba(0,96,126,1) 0%, rgba(16,156,179,1) 44%, rgba(10,108,137,1) 100%);
+  background: rgb(0, 45, 79);
+  background: linear-gradient(90deg, rgba(0, 45, 79,1) 0%, rgba(7, 67, 111, 1) 50%, rgba(0, 45, 79,1) 100%);
   padding: 20px 0 40px 0;
   @media (min-width: $breakpoint-tablet) {
-    padding: 120px 0 180px 0;
+    padding: 80px 0 120px 0;
   }
   h1, h2 {
     letter-spacing: 1px;
     color: $white;
-    font: $semi-bold 2.3rem/3.6rem $regular;
+    font: $bold 3.4rem/5.0rem $regular;
     margin-bottom: 5px;
     // text-align: center;
     @media (min-width: $breakpoint-tablet) {
@@ -21,7 +21,7 @@
       margin-bottom: 10px;
     }
     @media (min-width: $breakpoint-desktop) {
-      font: $bold 6.8rem/10rem $regular;
+      font: $bold 6.4rem/10rem $regular;
       margin-bottom: 20px;
     }
     span.stand_out {
@@ -37,73 +37,48 @@
     color: $white;
     font: $light 1.6rem/2.6rem $regular;
     @media (min-width: $breakpoint-tablet) {
-      font: $normal 2.6rem/4.0rem $regular;
-    }
-    @media (min-width: $breakpoint-desktop) {
-      font: $normal 3.2rem/4.4rem $regular;
+      font: $light 2.4rem/3.2rem $regular;
     }
   }
-  em {
-    text-decoration: underline;
+  a {
+    text-decoration: none;
     color: $white;
-  }
-  &.single {
-    padding: 20px 0 40px 0;
-    @media (min-width: $breakpoint-tablet) {
-      padding: $padding-half 0 $padding 0;
+    border-bottom: 3px solid $white;
+    &:hover {
+      border-bottom: 3px solid $orange;
     }
-  }
-}
-
-.arrow-down {
-  margin-top: -40px;
-  margin-bottom: 20px;
-  @media (min-width: $breakpoint-tablet) {
-    margin-bottom: 40px;
-  }
-  width: 0;
-  height: 0;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 20px solid $white;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  
-  &.blue {
-    border-top: 20px solid #0F97AE;
-  }
-  &.white {
-    border-top: 20px solid $white-bg;
   }
 }
 
 .services {
   background: $white-bg;
-  padding: $padding-half 0;
+  padding: $padding-half 0 20px 0;
   @media (min-width: $breakpoint-tablet) {
-    padding: $padding-half 0 $padding-half 0;
+    padding: 60px 0;
   }
   .heading {
-    margin-bottom: 20px;
+    margin-bottom: $padding-half;
     @media (min-width: $breakpoint-tablet) {
-      margin-bottom: 40px;
+      margin-bottom: 60px;
     }
     h2 {
       font: $bold 2.6rem/3.2rem $regular;
       @media (min-width: $breakpoint-tablet) {
         font: $bold 3.8rem/4.2rem $regular;
       }
-      color: #2A3341;
+      color: #2C3E50;
       margin-bottom: 10px;
-      text-align: center;
+      padding-bottom: 10px;
+      // text-align: center;
+      border-bottom: 3px solid #FF936D;
+      display: inline-block;
     }
     p {
       font: $light 1.8rem/2.8rem $regular;
       @media (min-width: $breakpoint-tablet) {
         font: $light 2.4rem/3.2rem $regular;
       }
-      text-align: center;
+      // text-align: center;
     }
   }
   
@@ -116,7 +91,6 @@
   .service {
     width: 100%;
     margin-bottom: 20px;
-    
     @media (min-width: $breakpoint-tablet) {
       width: 49% !important;
       flex-basis: 49%;
@@ -128,104 +102,62 @@
       text-decoration: none;
     }
     .content {
-      box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.03);
       height: 100%;
-      background: #F6F8FC;
-      padding: 30px 20px;
       box-sizing: border-box;
-      @include border-radius(0px);
-        border: 1px solid #EAECF0;
-        background: #fefeff;
-        @include border-radius(10px);
+      padding: 20px 20px 20px 20px;
+      box-shadow: 0 3px 15px rgba(0,0,0,.03);
+      border: 1px solid #eaecf0;
+      background: #fefeff;
+      @include border-radius(10px);
+      @media (min-width: $breakpoint-tablet) {
+        padding: 30px 20px 30px 90px;
+      }
       h3 {
-        font: $semi-bold 2.0rem/2.8rem $regular;
-        margin-left: 60px;
+        font: $semi-bold 1.8rem/2.2rem $regular;
+        margin-left: 40px;
         @media (min-width: $breakpoint-tablet) {
-          font: $semi-bold 2.4rem/3.2rem $regular;
-          margin-left: 70px;
+          font: $semi-bold 2.2rem/2.8rem $regular;
+          margin-left: 0;
         }
-        color: #2A3341;
-        
+        color: #2C3E50;
         margin-bottom: 10px;
       }
       p {
-        color: #697991;
+        color: #56667e;
         font: $light 1.4rem/2.4rem $regular;
-        margin-left: 60px;
         @media (min-width: $breakpoint-tablet) {
-          font: $light 1.6rem/2.8rem $regular;
-          margin-left: 70px;
+          font: $light 1.6rem/2.6rem $regular;
         }
-        
-        
-        margin-bottom: 0;
+        margin-bottom: 20px;
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+        a {
+          padding: 7px 15px;
+          background: #002D4F;
+          color: $white;
+          @include border-radius(5px);
+          display: inline-block;
+          &:hover {
+            background: #094c7d;
+          }
+        }
       }
       svg {
         float: left;
-        height: 24px;
-        top: 35px;
-        left: 30px;
+        height: 24px; 
+        top: 20px;
+        left: 20px;
+        @media (min-width: $breakpoint-tablet) {
+          height: 28px; 
+          top: 33px;
+          left: 35px;
+        }
         position: absolute;
-        path#Shape {
-          fill: #2A3341;
+        path {
+          fill: #2C3E50;
         }
       }
     }
-  }
-  
-}
-
-.clients {
-  background: #040e1f;
-  padding: $padding-half 0;
-  .heading {
-    margin-bottom: 20px;
-    @media (min-width: $breakpoint-tablet) {
-      margin-bottom: 40px;
-    }
-    h2 {
-      font: $bold 2.8rem/3.2rem $regular;
-      @media (min-width: $breakpoint-tablet) {
-        font: $bold 3.8rem/4.2rem $regular;
-      }
-      color: $white;
-      margin-bottom: 10px;
-      text-align: center;
-    }
-    p {
-      font: $light 1.8rem/2.8rem $regular;
-      @media (min-width: $breakpoint-tablet) {
-        font: $light 2.4rem/3.2rem $regular;
-      }
-      text-align: center;
-      color: $white;
-    }
-  }
-  ul {
-    font: $light 1.4rem/2.4rem $regular;
-    color: $white;
-    -moz-column-count: 2;
-    -moz-column-gap: 10px;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 10px;
-    column-count: 2;
-    column-gap: 10px;
-    @media (min-width: $breakpoint-tablet) {
-      font: $light 1.8rem/2.8rem $regular;
-      -moz-column-count: 3;
-      -moz-column-gap: 20px;
-      -webkit-column-count: 3;
-      -webkit-column-gap: 20px;
-      column-count: 3;
-      column-gap: 20px;
-    }
-    @media (min-width: $breakpoint-laptop) {
-      -moz-column-count: 4;
-      -moz-column-gap: 20px;
-      -webkit-column-count: 4;
-      -webkit-column-gap: 20px;
-      column-count: 4;
-      column-gap: 20px;
-    }
-  }
+  } 
 }

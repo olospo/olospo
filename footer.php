@@ -15,10 +15,7 @@
       </div>
     </div>
 
-    <aside class="ecologi four columns">
-      <a href="https://ecologi.com/olospo" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/ecologi.svg" alt="Ecologi" loading="lazy"/></a>
-      <p class="ecologi"><a href="https://ecologi.com/olospo" target="_blank">590 trees funded and 30.36 tCO2e avoided</a></p>
-    </aside>
+   
   </div>
 </footer>
 

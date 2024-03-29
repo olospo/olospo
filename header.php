@@ -17,7 +17,7 @@
     <div class="logo four columns">  
       <p class="site-title">
       <a href="<?php echo get_site_url(); ?>" aria-label="logo">
-        <img src="<?php bloginfo('template_directory'); ?>/img/olospo.png" alt="Olospo" height="34px" width="190px">
+        <img src="<?php bloginfo('template_directory'); ?>/img/logo.svg" alt="Olospo" height="34px" width="190px">
       </a>
       </p>
     </div>

@@ -2,9 +2,21 @@
 // About
 //
 
-.testimonials {
-  background: $white-bg;
-  padding: $padding-half 0 20px 0;
+.about {
+  background: #ebedf2;
+  padding: $padding-half 0;
+  p {
+    color: #4a596f;
+    font: $light 1.8rem/2.8rem $regular;
+    @media (min-width: $breakpoint-tablet) {
+      font: $light 2.4rem/3.5rem $regular;
+    }
+  }
+}
+
+.clients {
+  background: #ebedf2;
+  padding: $padding-half 0;
   .heading {
     margin-bottom: 20px;
     @media (min-width: $breakpoint-tablet) {
@@ -15,50 +27,122 @@
       @media (min-width: $breakpoint-tablet) {
         font: $bold 3.8rem/4.2rem $regular;
       }
-      color: #2A3341;
+      color: #002D4F;
       margin-bottom: 10px;
-      text-align: center;
+      padding-bottom: 10px;
+      // text-align: center;
+      border-bottom: 3px solid #FF936D;
+      display: inline-block;
     }
     p {
+      color: #4a596f;
       font: $light 1.8rem/2.8rem $regular;
       @media (min-width: $breakpoint-tablet) {
         font: $light 2.4rem/3.2rem $regular;
       }
-      text-align: center;
+      // text-align: center;
+    }
+  }
+  ul {
+    font: $light 1.4rem/2.4rem $regular;
+    color: #4a596f;
+    -moz-column-count: 2;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 10px;
+    column-count: 2;
+    column-gap: 10px;
+    margin: 0;
+    @media (min-width: $breakpoint-tablet) {
+      font: $light 1.6rem/2.8rem $regular;
+      -moz-column-count: 3;
+      -moz-column-gap: 20px;
+      -webkit-column-count: 3;
+      -webkit-column-gap: 20px;
+      column-count: 3;
+      column-gap: 20px;
+    }
+    @media (min-width: $breakpoint-laptop) {
+      -moz-column-count: 4;
+      -moz-column-gap: 20px;
+      -webkit-column-count: 4;
+      -webkit-column-gap: 20px;
+      column-count: 4;
+      column-gap: 20px;
+    }
+    li {
+      margin: 0 0 0 20px;
+    }
+  }
+}
+
+.testimonials {
+  background: $white-bg;
+  padding: $padding-half 0;
+  @media (min-width: $breakpoint-tablet) {
+    padding: 60px 0;
+  }
+  .heading {
+    margin-bottom: $padding-half;
+    @media (min-width: $breakpoint-tablet) {
+      margin-bottom: 60px;
+    }
+    h2 {
+      font: $bold 2.6rem/3.2rem $regular;
+      @media (min-width: $breakpoint-tablet) {
+        font: $bold 3.8rem/4.2rem $regular;
+      }
+      color: #002D4F;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      // text-align: center;
+      border-bottom: 3px solid #FF936D;
+      display: inline-block;
+    }
+    p {
+      color: #4a596f;
+      font: $light 1.8rem/2.8rem $regular;
+      @media (min-width: $breakpoint-tablet) {
+        font: $light 2.4rem/3.2rem $regular;
+      }
+      // text-align: center;
     }
   }
   article {
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.03);
-    border: 1px solid #EAECF0;
-    background: #fefeff;
-    padding: 35px 20px 20px 35px;
-    margin-bottom: 20px;
+    padding: 10px 20px 10px 35px;
+    margin-bottom: 0px;
     @media (min-width: $breakpoint-tablet) {
-      padding: 50px 30px 30px 60px;
-      margin-bottom: 40px;
+      padding: 20px 30px 20px 60px;
+      margin-bottom: 0px;
     }
     box-sizing: border-box;
     @include border-radius(20px);
     
     
     blockquote {
+      background: #ebedf2;
       position: relative;
+      padding: 20px;
+      @media (min-width: $breakpoint-tablet) {
+        padding: 40px;
+      }
+      border-bottom: 2px solid #c1c4cc;
       &::before {
         content: "\201C";
         font: $normal 4rem/4rem $playfair;
-        top: -22px;
-        left: -22px;
+        top: 0px;
+        left: -32px;
         @media (min-width: $breakpoint-tablet) {
           font: $normal 8rem/8rem $playfair;
-          top: -42px;
-          left: -42px;
+          top: -5px;
+          left: -62px;
         }
         z-index: 0;
         position: absolute;
-        color: #2A3341;
+        color: #2C3E50;
       }
       p {
-        color: #697991;
+        color: #4a596f;
         font: $light 1.4rem/2.4rem $regular;
         @media (min-width: $breakpoint-tablet) {
           font: $light 1.6rem/2.8rem $regular;
@@ -66,72 +150,24 @@
         
         margin-bottom: 20px;
       }
+
       strong {
         display: block;
-        color: #2A3341;
-        font: $semi-bold 1.4rem/2.4rem $regular;
+        color: #2C3E50;
+        font: $semi-bold 1.2rem/2.2rem $regular;
+        @media (min-width: $breakpoint-tablet) {
+          font: $semi-bold 1.4rem/2.4rem $regular;
+        }
         text-transform: uppercase;
         letter-spacing: 1px;
         span.company {
-          color: #697991;
-          font: $normal 1.4rem/2.4rem $regular;
+          color: #4a596f;
+          font: $normal 1.2rem/2.2rem $regular;
+          @media (min-width: $breakpoint-tablet) {
+            font: $normal 1.4rem/2.4rem $regular;
+          }
         }
       }
     }
-  }
-}
-
-.different {
-  background: #040e1f;
-  padding: $padding-half 0;
-  .heading {
-    margin-bottom: 20px;
-    @media (min-width: $breakpoint-tablet) {
-      margin-bottom: 40px;
-    }
-    h2 {
-      font: $bold 2.8rem/3.2rem $regular;
-      @media (min-width: $breakpoint-tablet) {
-        font: $bold 3.8rem/4.2rem $regular;
-      }
-      color: $white;
-      margin-bottom: 10px;
-      text-align: center;
-    }
-    p {
-      font: $light 1.8rem/2.8rem $regular;
-      @media (min-width: $breakpoint-tablet) {
-        font: $light 2.4rem/3.2rem $regular;
-      }
-      text-align: center;
-      color: $white;
-    }
-  }
-  .what {
-    position: relative;
-    h3 {
-      font: $semi-bold 2.0rem/2.8rem $regular;
-      @media (min-width: $breakpoint-tablet) {
-        font: $semi-bold 2.4rem/3.2rem $regular;
-      }
-      color: $white;
-      margin-left: 70px;
-      margin-bottom: 10px;
-    }
-    p {
-      color: #b7c2d2;
-      font: $light 1.6rem/2.8rem $regular;
-      margin-left: 70px;
-      margin-bottom: 0;
-    }
-    svg {
-      float: left;
-      height: 24px;
-      top: 5px;
-      left: 30px;
-      position: absolute;
-      fill: #fff;
-    }
-    
   }
 }

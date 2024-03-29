@@ -5,16 +5,14 @@ while ( have_posts() ) : the_post(); ?>
 
 <section class="intro">
   <div class="container">
-    <div class="twelve columns">
+    <div class="ten columns">
       <h1>Designing and building websites that <span class="stand_out">stand out</span> from the crowd.</h1>
-      <p>WordPress design, development and optimisation.</p>
     </div>
   </div>
 </section>
 
 
 <section class="services">
-  <div class="arrow-down blue"></div>
   <div class="container">
     <div class="heading twelve columns">
       <h2>Services</h2>
@@ -39,6 +37,7 @@ while ( have_posts() ) : the_post(); ?>
             <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
             <h3>WordPress development</h3>
             <p>Custom built, robust and reliable WordPress sites tailored precisely to your business needs and vision.</p>
+
           </div>
         <!-- </a> -->
       </div>
@@ -48,9 +47,10 @@ while ( have_posts() ) : the_post(); ?>
       <div class="service six columns"> 
         <!-- <a href="<?php echo get_site_url(); ?>/wordpress-audit"> -->
           <div class="content">
-            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
-            <h3>WordPress audit</h3>
-            <p>Providing in-depth audits to uncover potential issues, and enhance your WordPress site's user experience, accessibility and performance.</p>
+           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>
+            <h3>WordPress support & maintenance</h3>
+            <p>Providing on-going support, site monitoring and updates to help keep your website running smoothly. </p>
+
           </div>
         <!-- </a> -->
       </div>
@@ -58,7 +58,7 @@ while ( have_posts() ) : the_post(); ?>
         <!-- <a href="<?php echo get_site_url(); ?>/wordpress-optimisation"> -->
           <div class="content">
             <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z"/></svg>
-            <h3>WordPress optimisation</h3>
+            <h3>WordPress audit & optimisation</h3>
             <p>Speeding up your WordPress site to boost user experience, improve load times, and boosting your SEO ranking for more visibility.</p>
           </div>
         <!-- </a> -->

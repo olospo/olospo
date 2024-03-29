@@ -154,9 +154,9 @@ section {
     color: $orange;
   }
   a {
-    color: $orange;
+    color: #002D4F;
     text-decoration: underline;
-    text-decoration-color: $orange;
+    text-decoration-color: #002D4F;
     &:hover {
       color: $orange;
     }
@@ -271,11 +271,11 @@ section {
         font: $normal 1.8rem/2.6rem $regular;
         @include border-radius(10px);
         background: $white;
-        border: 1px solid #EAECF0;
+        border: 1px solid #c8c8c8;
         padding: 10px 15px;
         &:focus {
           outline: none;
-          border: 1px solid #0F97AE;
+          border: 1px solid #002A4A;
         }
       }
       input.search-submit, input[type="submit"] {
@@ -292,14 +292,14 @@ section {
         transition: all ease .5s;
         @include border-radius(10px);
         color: $white;
-        background:#109AB1;
-        border: 2px solid #109AB1;
+        background:rgb(0, 45, 79);
+        border: 2px solid rgb(0, 45, 79);
         text-decoration: none;
         cursor: pointer;
         &:hover {
           color: $white;
-          border: 2px solid #2A3341;
-          background: #2A3341;
+          border: 2px solid #07426E;
+          background: #07426E;
         }
       }
       .submit-wrap {

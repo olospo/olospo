@@ -42,153 +42,145 @@
   &:nth-child(10) {transition-delay: 1.0s;}
 }
 
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1;}
+}
+
+#path1, #path2, #path3, #path4, #path5, #path6 { /* Use your actual path IDs or classes */
+  opacity: 0; /* Start fully transparent */
+  animation: fadeIn 0.5s linear forwards;
+  will-change: opacity;
+  transform: translateZ(0);
+}
+#path1 { animation-delay: 0.1s;}
+#path2 { animation-delay: 0.2s;}
+#path3 { animation-delay: 0.3s;}
+#path4 { animation-delay: 0.4s;}
+#path5 { animation-delay: 0.5s;}
+#path6 { animation-delay: 0.6s;}
+
 header {
-  .logo {
+  nav {
     @include fade();
   }
   &.visible {
-    .logo {
+    nav {
       @include reset-fade();
-    }
-  }
-}
-
-section.home.hero {
-  
-  .logo {
-    opacity: 0;
-    transition: opacity ease 2s;
-    transition-delay: 1s;
-  }
-  .next_section {
-    @include fade();
-  }
-  &.visible {
-    video {
-      // @include reset-fade();
-    }
-    .logo {
-      opacity: 0.8;
-    }
-    .next_section {
-      @include reset-fade();
-      transition-delay: 0.5s;
-      animation: next ease-in-out 1.5s;
-      animation-iteration-count: infinite;
-    }
-  }
-}
-
-section.hero {
-  h1, p, span {
-    @include fade();
-  }
-  .shapes {
-    @include fade();
-  }
-  
-  &.visible {
-    h1, p {
-      @include reset();
-    }
-    span {
-      @include reset();
-      transition-delay: 0.2s;
-    }
-    .shapes.one {
-      @include reset();
-      transition-delay: 0.4s;
-    }
-    .shapes.two {
-      @include reset(); 
       transition-delay: 0.8s;
     }
-    .shapes.three {
-      @include reset();
-      transition-delay: 1.2s;
-    }
-    .shapes.four {
-      @include reset(); 
-      transition-delay: 1.6s;
-    }
-    .shapes.five {
-      @include reset();
-      transition-delay: 2.0s;
-    }
   }
 }
 
-
+body.home {
+  section.intro {
+    h1, h2 {
+      @include fade();
+      span.stand_out {
+        background: none;
+      }
+    }
+    p {
+      @include fade();
+    }  
+    &.visible {
+      h1 {
+        @include reset();
+        transition-delay: 1s;
+        span.stand_out {
+          background: #FF936D;
+          transition: background linear 0.2s;
+          transition-delay: 1.2s;
+        }
+      }
+      p {
+        @include reset();
+        transition-delay: 1.5s;
+      }
+    }
+  }
+}
 section.intro {
-  h1, h2 {
+  h1 {
     @include fade();
     span.stand_out {
-      background: none;
+      background: #FF936D;
+      transition: background linear 0.2s;
+      transition-delay: 1.5s;
     }
   }
   p {
     @include fade();
   }  
   &.visible {
-    h1,h2 {
+    h1 {
       @include reset();
-      transition-delay: 0s;
-      span.stand_out {
-        background: #FF936D;
-        transition: background linear 0.2s;
-        transition-delay: 0.5s;
-      }
+      transition-delay: 1s;
     }
     p {
       @include reset();
-      transition-delay: 0s;
-    }
-  }
-}
-
-section {
-  .arrow-down {
-    @include drop();
-  }
-  &.visible {
-    .arrow-down {
-      @include reset();
+      transition-delay: 1s;
     }
   }
 }
 
 section.services {
-  .heading, .service {
+  .heading{
+    @include fade();
+  }
+  .service {
     @include fade();
   }
   &.visible {
     .heading {
       @include reset();
+      transition-delay: 1.5s;
     }
     .service {
       @include reset();
-      @include delay-children();
+      transition-delay: 2s;
     }
   }
 }
 
-section.page.contact {
-  .content {
+section.testimonials {
+  .heading{
     @include fade();
   }
-  aside {
-    @include fade();
+  .quotes {
+    &__one {
+      @include fade();
+    }
+    &__two {
+      @include fade();
+    }
   }
-  
   &.visible {
-    .content {
+    .heading {
+      @include reset();
+      transition-delay: 1.2s;
+    }
+    .quotes {
+      &__one {
+        @include reset();
+        transition-delay: 1.5s;
+      }
+      &__two {
+        @include reset();
+        transition-delay: 2s;
+      }
+    }
+  }
+}
+
+section.cta {
+  h4 {
+    @include fade();
+  }
+  &.visible {
+    h4 {
       @include reset-fade();
     }
-    aside {
-      @include reset-fade();
-      transition-delay: 0.2s;
-    }
-    
   }
 }
 
