@@ -17,7 +17,7 @@ while ( have_posts() ) : the_post(); ?>
 <section class="page contact">
 
   <div class="container">
-    <div class="two-thirds column">
+    <div class="form two-thirds column">
       <h3>Get in touch</h3>
       <?php the_content(); ?>
     </div>

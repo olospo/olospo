@@ -195,13 +195,32 @@ section.testimonials {
   }
 }
 
+section.page {
+  .form {
+    @include fade();
+  }
+  aside {
+    @include fade();
+  }
+  &.visible {
+    .form {
+     @include reset();
+     transition-delay: 0.2s;
+    }
+    aside {
+      @include reset();
+      transition-delay: 0.4s;
+    }
+  }
+}
+
 section.cta {
   h4 {
     @include fade();
   }
   &.visible {
     h4 {
-      @include reset-fade();
+      @include reset();
     }
   }
 }

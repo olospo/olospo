@@ -11,7 +11,6 @@ while ( have_posts() ) : the_post(); ?>
   </div>
 </section>
 
-
 <section class="services">
   <div class="container">
     <div class="heading twelve columns">
@@ -62,6 +61,33 @@ while ( have_posts() ) : the_post(); ?>
             <p>Speeding up your WordPress site to boost user experience, improve load times, and boosting your SEO ranking for more visibility.</p>
           </div>
         <!-- </a> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="work">
+  <div class="container">
+    <div class="heading twelve columns">
+      <h2>Featured work</h2>
+      <p>Who I've been working with.</p>
+    </div>
+    <div class="row">
+      <div class="client_image six columns">
+        <div class="content">
+          <img src="<?php bloginfo('template_directory'); ?>/img/aspire.jpg" />
+        </div>
+      </div>
+      <div class="client_content six columns">
+        <div class="content">
+          <h3>Aspire Intermediary Services</h3>
+          <p>Website: <a href="https://aspireintermediaryservices.co.uk">aspireintermediaryservices.co.uk</a></p>
+          <ul>
+            <li>WordPress development</li>
+            <li>WordPress support & maintenance</li>
+          </ul>
+          <p>Working closely with Aspire Intermediary Services, I developed a custom built WordPress site to meet their business needs. Continuing this partnership, I not only offer ongoing support and maintenance but also work closely with them to introduce new features, ensuring their website not only functions seamlessly but also continuously evolves to meet changing needs.</p>
+        </div>
       </div>
     </div>
   </div>

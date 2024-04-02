@@ -193,12 +193,32 @@
       // text-align: center;
     }
   }
+
   .client_image, .client_content {
     h3 {
       color: #2C3E50;
     }
     img {
       @include border-radius(10px);
+    }
+    ul {
+      margin: 0 0 10px 0;
+      li {
+        font: $light 1.4rem/2.4rem $regular;
+        margin: 0 10px 10px 0;
+        list-style: none;
+        display: inline-block;
+        background: #2C3E50;
+        padding: 5px 10px;
+        color: $white;
+        @include border-radius(5px);
+      }
+    }
+  }
+  .client_image {
+    margin-bottom: 20px;
+    @media (min-width: $breakpoint-tablet) {
+      margin-bottom: 0;
     }
   }
 }
