@@ -87,10 +87,19 @@
       }
       ul.contact {
         color: #2A3341;
+        margin: 0;
         li.email {
-          background: url('../img/email-icon.svg') left center no-repeat;
-          padding-left: 45px;
-          margin: 5px 0;
+          background: url('../img/email.svg') left center no-repeat;
+          height: 32px;
+          padding-left: 42px;
+          margin: 15px 0;
+          list-style: none;
+        }
+        li.linkedin {
+          background: url('../img/linkedin.svg') left center no-repeat;
+          height: 32px;
+          padding-left: 42px;
+          margin: 15px 0;
           list-style: none;
         }
       }
@@ -100,10 +109,11 @@
     font: $semi-bold 2.6rem/3.2rem $regular;
     color: #233140;
     display: inline-block;
+    margin-bottom: 20px;
   }
   p {
     color: #4a596f;
-    font: $light 1.6rem/2.8rem $regular;
+    font: $light 1.4rem/2.8rem $regular;
     &:last-child {
       margin: 0;
     }

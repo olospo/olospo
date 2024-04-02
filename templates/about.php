@@ -11,16 +11,6 @@ while ( have_posts() ) : the_post(); ?>
   </div>
 </section>
 
-<!-- <section class="about">
-  <div class="container">
-    <div class="heading columns">
-      <p>I'm Tom and I work with small and medium-sized businesses helping enhance their online presence with the use of WordPress. <a href="#">Get in touch</a></p>
-    </div>
-  </div>
-</section> -->
-
-
-
 <section class="testimonials">
   <div class="container">
     <div class="heading twelve columns">

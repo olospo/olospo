@@ -18,45 +18,22 @@ while ( have_posts() ) : the_post(); ?>
 
   <div class="container">
     <div class="two-thirds column">
+      <h3>Get in touch</h3>
       <?php the_content(); ?>
     </div>
     <aside class="one-third column">
       <div class="content">
-        <h3>Availability</h3>
-        <table class="availability">
-          <tbody>
-            <tr>
-              <th>March</th>
-              <td class="booked">Booked</td>
-            </tr>
-            <tr>
-              <th>April</th>
-              <td class="booked">Booked</td>
-            </tr>
-            <tr>
-              <th>May</th>
-              <td class="limited">Limited</td>
-            </tr>
-            <tr>
-              <th>June</th>
-              <td class="limited">Limited</td>
-            </tr>
-            <tr>
-              <th>July</th>
-              <td class="limited">Limited</td>
-            </tr>
-            <tr>
-              <th>August</th>
-              <td class="available">Available</td>
-            </tr>
-          </tbody>
-        </table>
-        <p class="note">Note: My working week is Monday - Thursday.</p>
-        <p class="note">Email: <script type="text/javascript">
-            var user = 'tom';
-            var domain = 'olospo.co.uk';
-            document.write('<a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>');
-        </script></p>
+        <h3>Contact Details</h3>
+        <p>Note: My working week is Monday - Thursday.</p>
+        <ul class="contact">
+          <li class="email"><script type="text/javascript">
+                var user = 'tom';
+                var domain = 'olospo.co.uk';
+                document.write('<a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>');
+            </script></li>
+          <li class="linkedin"><a href="https://www.linkedin.com/in/tom-olospo/" target="_blank">LinkedIn</a></li>
+        </ul>
+        
       </div>
     </aside>
   </div>

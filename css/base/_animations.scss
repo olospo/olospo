@@ -143,6 +143,28 @@ section.services {
   }
 }
 
+section.work {
+  .heading{
+    @include fade();
+  }
+  .client_image, .client_content {
+    @include fade();
+  }
+  &.visible {
+    .heading {
+      @include reset();
+    }
+    .client_image {
+      @include reset();
+      transition-delay: 0.2s;
+    }
+    .client_content {
+      @include reset();
+      transition-delay: 0.4s;
+    }
+  }
+}
+
 section.testimonials {
   .heading{
     @include fade();
