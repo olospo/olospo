@@ -48,6 +48,14 @@ footer.main {
       float: left;
     }
   }
+  .carbonbadge {
+    text-align: left !important;
+    margin: 20px 0 0 0;
+    @media (min-width: $breakpoint-tablet) {
+      text-align: right !important;
+      margin: 0;
+    }
+  }
   h5 {
     font: $bold 2.4rem/3.2rem $regular;
     color: $white;

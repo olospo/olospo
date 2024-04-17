@@ -14,8 +14,10 @@
       <?php // wp_nav_menu( array( 'theme_location' => 'footer', 'container'=> false, 'menu_class'=> false ) ); ?>
       </div>
     </div>
-
-   
+    <div class="four columns">
+      <div id="wcb" class="carbonbadge wcb-d"></div>
+      <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+    </div>
   </div>
 </footer>
 
