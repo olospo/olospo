@@ -1,5 +1,4 @@
 <?php /* Footer */ ?>
-
 <footer class="main">
   <div class="container">
     <div class="eight columns">
@@ -20,7 +19,6 @@
     </div>
   </div>
 </footer>
-
 <?php wp_footer(); ?>
 </body>
 </html>

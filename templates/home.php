@@ -1,8 +1,6 @@
 <?php /* Template Name: Home */
 get_header();
-
 while ( have_posts() ) : the_post(); ?>
-
 <section class="intro">
   <div class="container">
     <div class="ten columns">
@@ -10,7 +8,6 @@ while ( have_posts() ) : the_post(); ?>
     </div>
   </div>
 </section>
-
 <section class="services">
   <div class="container">
     <div class="heading twelve columns">
