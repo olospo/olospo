@@ -35,7 +35,7 @@ while ( have_posts() ) : the_post(); ?>
           <li class="grey"><i class="fa-solid fa-check red"></i> Performance review</li>
           <li class="grey"><i class="fa-solid fa-check red"></i> Security review</li>
           <li class="heading"><strong>Website monitoring</strong></li>
-          <li><i class="fa-solid fa-check yellow"></i> Monthly security updates</li>
+          <li><i class="fa-solid fa-check yellow"></i> Weekly security updates</li>
           <li><i class="fa-solid fa-check yellow"></i> Uptime monitoring (30 min interval)</li>
           <li class="grey"><i class="fa-solid fa-xmark red"></i> SSL Monitoring</li>
           <li class="grey"><i class="fa-solid fa-xmark red"></i> Domain Monitoring</li>
@@ -43,7 +43,10 @@ while ( have_posts() ) : the_post(); ?>
           <li class="heading"><strong>WordPress email</strong></li>
           <li class="grey"><i class="fa-solid fa-xmark yellow"></i> Standard PHP mailer</li>
           <li class="grey"><i class="fa-solid fa-xmark red"></i> Email monitoring</li>
-          
+          <li class="heading"><strong>On-going development</strong></li>
+          <li><i class="fa-solid fa-check green"></i> Github repository maintained</li>
+          <li class="grey"><i class="fa-solid fa-check red"></i> Staging environment</li>
+          <li class="grey"><i class="fa-solid fa-check yellow"></i> Yearly consultancy meeting</li>
         </ul>
         </div>
       </div>
@@ -70,7 +73,10 @@ while ( have_posts() ) : the_post(); ?>
           <li class="heading"><strong>WordPress email</strong></li>
           <li><i class="fa-solid fa-check green"></i> SMTP for improved email deliverability</li>
           <li><i class="fa-solid fa-check yellow"></i> Weekly email monitoring</li>
-          
+          <li class="heading"><strong>On-going development</strong></li>
+          <li><i class="fa-solid fa-check green"></i> Github repository maintained</li>
+          <li><i class="fa-solid fa-check green"></i> Staging environment</li>
+          <li><i class="fa-solid fa-check yellow"></i> Yearly consultancy meeting</li>
         </ul>
         </div>
       </div>
@@ -97,6 +103,10 @@ while ( have_posts() ) : the_post(); ?>
           <li class="heading"><strong>WordPress email</strong></li>
           <li><i class="fa-solid fa-check green"></i> SMTP for improved email deliverability</li>
           <li><i class="fa-solid fa-check green"></i> Real-time email monitoring</li>
+          <li class="heading"><strong>On-going development</strong></li>
+          <li><i class="fa-solid fa-check green"></i> Github repository maintained</li>
+          <li><i class="fa-solid fa-check green"></i> Staging environment</li>
+          <li><i class="fa-solid fa-check green"></i> Quarterly consultancy meeting</li>
         </ul>
         </div>
       </div>
