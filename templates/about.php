@@ -89,18 +89,14 @@ while ( have_posts() ) : the_post(); ?>
   <div class="container">
     <div class="twelve columns">
       <ul>
-        <li>Vodafone</li>
-        <li>Aardman Animations</li>
-        <li>Simpleweb</li>
-        <li>Konica Minolta</li>
-        <li>Diageo</li>
-        <li>Adaptive Lab</li>
-        <li>Oxford University</li>
-        <li>Universal Music</li>
-        <li>A Productions</li>
-        <li>NHS</li>
-        <li>SUEZ</li>
-        <li>Minervation</li>
+        <li><img src="<?php bloginfo('template_directory'); ?>/img/clients/oxford-uni.jpg" alt="Oxford University" /></li>
+        <li><img src="<?php bloginfo('template_directory'); ?>/img/clients/nhs.jpg" alt="NHS" /></li>
+        <li><img src="<?php bloginfo('template_directory'); ?>/img/clients/bcg.jpg" alt="Boston Consulting Group" /></li>
+        <li><img src="<?php bloginfo('template_directory'); ?>/img/clients/diageo.jpg" alt="Diageo" /></li>
+        <li><img src="<?php bloginfo('template_directory'); ?>/img/clients/vodafone.jpg" alt="Vodafone" /></li>
+        <li><img src="<?php bloginfo('template_directory'); ?>/img/clients/suez.jpg" alt="SUEZ" /></li>
+        <li><img src="<?php bloginfo('template_directory'); ?>/img/clients/aardman.jpg" alt="Aardman Animations" /></li>
+        <li><img src="<?php bloginfo('template_directory'); ?>/img/clients/aproductions.jpg" alt="A Productions" /></li>
       </ul>
     </div>
   </div>
