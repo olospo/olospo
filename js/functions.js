@@ -69,6 +69,31 @@
     $(this).siblings('ul').toggle();
     $(this).toggleClass("open");
   });
+  
+  $(document).ready(function() {
+      // Select field and its container
+      var $selectField = $('#nf-field-23');
+      var $container = $('#nf-field-23-container');
+  
+      if ($selectField.length && $container.length) {
+          // Function to update the class of the container
+          function updateContainerClass() {
+              var selectedValue = $selectField.val();
+              // Remove all previously added classes
+              $container.removeClass('essentials-gbp100-month advanced-gbp200-month premium-gbp400-month guidance-needed');
+              // Add the new class based on the selected value
+              $container.addClass(selectedValue);
+          }
+  
+          // Add event listener for change event
+          $selectField.on('change', updateContainerClass);
+  
+          // Initialize the container class based on the default selected option
+          updateContainerClass();
+      } else {
+          console.error('Select field or container not found.');
+      }
+  });
 
 })(jQuery);
 
@@ -91,3 +116,47 @@ function accordion_ajax() {
   }
 }
 accordion_ajax();
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Attach event listeners to buttons
+    document.getElementById('select-essentials').addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent default anchor behavior
+        setSelectValue('essentials-gbp100-month');
+        scrollToForm();
+    });
+
+    document.getElementById('select-advanced').addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent default anchor behavior
+        setSelectValue('advanced-gbp200-month');
+        scrollToForm();
+    });
+
+    document.getElementById('select-premium').addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent default anchor behavior
+        setSelectValue('premium-gbp400-month');
+        scrollToForm();
+    });
+
+    // Function to set the select field value
+    function setSelectValue(value) {
+        var selectField = document.getElementById('nf-field-23'); // Select field ID
+        if (selectField) {
+            selectField.value = value;
+            // Trigger change event to notify Ninja Forms of the change
+            var event = new Event('change');
+            selectField.dispatchEvent(event);
+        } else {
+            console.error('Select field not found.');
+        }
+    }
+
+    // Function to scroll to the form section
+    function scrollToForm() {
+        var formSection = document.getElementById('form'); // Replace 'form' with your form section ID
+        if (formSection) {
+            formSection.scrollIntoView({ behavior: 'smooth' });
+        } else {
+            console.error('Form section not found.');
+        }
+    }
+});

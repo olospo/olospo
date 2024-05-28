@@ -225,6 +225,80 @@ section.cta {
   }
 }
 
+section.pricing {
+  .heading h2, .heading p, .plan{
+    @include fade();
+  }
+  &.visible {
+    .heading h2 {
+      @include reset();
+      transition-delay: 1.0s;
+    } 
+    .heading p {
+      @include reset();
+      transition-delay: 1.2s;
+    }
+    .plan {
+      @include reset();
+      transition-delay: 1.4s;
+    }
+  }
+}
+
+section.reviews {
+  .heading h3 {
+    @include fade();
+  }
+  .review {
+    @include fade();
+  }
+  &.visible {
+    .heading h3 {
+      @include reset();
+    } 
+    .review {
+      @include reset();
+      @include delay-children();
+    }
+  }
+}
+
+section.faq {
+  .heading h3 {
+    @include fade();
+  }
+  .accordion {
+    @include fade();
+  }
+  &.visible {
+    .heading h3 {
+      @include reset();
+    } 
+    .accordion {
+      @include reset();
+      transition-delay: 0.2s;
+    }
+  }
+}
+
+section.plan_form {
+  .heading h3 {
+    @include fade();
+  }
+  nf-field {
+    @include fade();
+  }
+  &.visible {
+    .heading h3 {
+      @include reset();
+    } 
+    nf-field {
+      @include reset();
+      @include delay-children();
+    }
+  }
+}
+
 @keyframes fadeInAndDrop {
   0% { opacity: 0; transform: translate3d(0,-60%,0); }
   50% { opacity: 0; transform: translate3d(0,-60%,0); }

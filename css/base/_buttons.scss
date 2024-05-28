@@ -9,24 +9,49 @@
   overflow: hidden;
   display: inline-block;
   vertical-align: middle;
-  padding: 10px 15px 10px 15px;
+  padding: 15px 20px;
   margin: 5px 10px 5px 0;
-  font: $normal 1.4rem/1.4rem $regular;
+  font: $normal 1.6rem/1.6rem $regular;
   text-decoration: none;
-  text-transform: uppercase;
   -webkit-transition: all ease .5s;
   -moz-transition: all ease .5s;
   -o-transition: all ease .5s;
   transition: all ease .5s;
   @include border-radius(10px);
-  color: #04879D;
+  color: #233140;
   background: transparent;
-  border: 2px solid #04879D;
+  border: 2px solid #233140;
   text-decoration: none;
   &:hover {
     color: $white;
-    border: 2px solid #04879D;
-    background: #04879D;
+    border: 2px solid #233140;
+    background: #233140;
   }
-
+  &.pink {
+    background: #FC5185;
+    border: 2px solid #FC5185;
+    color: $white;
+    &:hover {
+      background: transparent;
+      color: #FC5185;
+    }
+  }
+  &.orange {
+    background: #FF936D;
+    border: 2px solid #FF936D;
+    color: $white;
+    &:hover {
+      background: transparent;
+      color: #FF936D;
+    }
+  }
+  &.green {
+    background: #00B090;
+    border: 2px solid #00B090;
+    color: $white;
+    &:hover {
+      background: transparent;
+      color: #00B090;
+    }
+  }
 }
