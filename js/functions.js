@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', function() {
             var event = new Event('change');
             selectField.dispatchEvent(event);
         } else {
-            console.error('Select field not found.');
+            console.error('nf-field-6 not found.');
         }
     }
 
@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (formSection) {
             formSection.scrollIntoView({ behavior: 'smooth' });
         } else {
-            console.error('Form section not found.');
+            console.error('Form not found.');
         }
     }
 });
