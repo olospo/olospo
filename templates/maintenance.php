@@ -27,54 +27,21 @@ while ( have_posts() ) : the_post(); ?>
         </div>
         <div class="content">
         <ul>
-          <li class="heading"><strong>Support & updates</strong></li>
-          <li><i class="fa-solid fa-check green"></i> Professional and friendly support
+          <li class="heading"><strong>Support & updates</strong>
           <span class="tooltip">
             <i class="fa fa-question-circle"></i>
             <span class="tooltip-box">
-              <p>I do not outsource any of my work. When you choose to work with me, you can be assured that I will be your direct point of contact.</p>
+              <p>Enjoy direct support for your website, with up to one hour of assistance every month. This includes monthly backups for data security and peace of mind, along with regular security updates to safeguard your site. Additionally, benefit from monthly WordPress + plugin updates to maintain optimal performance and security.</p>
             </span>
           </span>
           </li>
-          <li><i class="fa-solid fa-check green"></i> Up to 1 hour support each month
-            <span class="tooltip">
-              <i class="fa fa-question-circle"></i>
-              <span class="tooltip-box">
-                <p>Up to one hour of dedicated support every month for resolving issues and making improvements to your website.</p>
-              </span>
-            </span>
-            </li>
-          <li><i class="fa-solid fa-check yellow"></i> Monthly backups
-            <span class="tooltip">
-              <i class="fa fa-question-circle"></i>
-              <span class="tooltip-box">
-                <p>Taking monthly backups of your site, providing peace of mind that your data is always secure and can be restored if needed.</p>
-              </span>
-            </span>
-          </li>
-          <li><i class="fa-solid fa-check yellow"></i> Weekly security updates
-            <span class="tooltip">
-              <i class="fa fa-question-circle"></i>
-              <span class="tooltip-box">
-                <p>Protect your website from threats with weekly security updates, keeping your site safe from vulnerabilities.</p>
-              </span>
-            </span>
-          </li>
-          <li><i class="fa-solid fa-check yellow"></i> Monthly WordPress + Plugin updates
-            <span class="tooltip">
-              <i class="fa fa-question-circle"></i>
-              <span class="tooltip-box">
-                <p>Keep your website running smoothly with monthly updates to WordPress core and plugins, ensuring optimal performance and security.</p>
-              </span>
-            </span>
-          </li>
+          <li><i class="fa-solid fa-check green"></i> Professional and friendly support</li>
+          <li><i class="fa-solid fa-check green"></i> Up to 1 hour support each month</li>
+          <li><i class="fa-solid fa-check yellow"></i> Monthly backups</li>
+          <li><i class="fa-solid fa-check yellow"></i> Weekly security updates</li>
+          <li><i class="fa-solid fa-check yellow"></i> Monthly WordPress + Plugin updates</li>
           
-          <li class="heading"><strong>Website reviews</strong></li>
-          <li class="grey"><i class="fa-solid fa-xmark red"></i> Performance review</li>
-          <li class="grey"><i class="fa-solid fa-xmark red"></i> Security review</li>
-          
-          <li class="heading"><strong>Website monitoring</strong></li>
-          <li><i class="fa-solid fa-check green"></i> Service status page
+          <li class="heading"><strong>Website reviews</strong>
             <span class="tooltip">
               <i class="fa fa-question-circle"></i>
               <span class="tooltip-box">
@@ -82,21 +49,24 @@ while ( have_posts() ) : the_post(); ?>
               </span>
             </span>
           </li>
+          <li class="grey"><i class="fa-solid fa-xmark red"></i> Performance review</li>
+          <li class="grey"><i class="fa-solid fa-xmark red"></i> Security review</li>
           
-          <li><i class="fa-solid fa-check yellow"></i> Uptime monitoring (30 min interval)
+          <li class="heading"><strong>Website monitoring</strong>
             <span class="tooltip">
               <i class="fa fa-question-circle"></i>
               <span class="tooltip-box">
-                <p>Benefit from uptime monitoring every 30 minutes, ensuring that your website is always accessible to users.</p>
+                <p>Gain peace of mind with access to your website's live status updates and historical uptime data through your own Status Page.</p>
               </span>
             </span>
           </li>
+          <li><i class="fa-solid fa-check green"></i> Service status page</li>
+          <li><i class="fa-solid fa-check yellow"></i> Uptime monitoring (every 30 mins)</li>
           <li class="grey"><i class="fa-solid fa-xmark red"></i> SSL Monitoring</li>
           <li class="grey"><i class="fa-solid fa-xmark red"></i> Domain Monitoring</li>
           <li class="grey"><i class="fa-solid fa-xmark red"></i> 404 Monitoring</li>
           
-          <li class="heading"><strong>WordPress email</strong></li>
-          <li><i class="fa-solid fa-check yellow"></i> Standard PHP mailer
+          <li class="heading"><strong>WordPress email</strong>
             <span class="tooltip">
               <i class="fa fa-question-circle"></i>
               <span class="tooltip-box">
@@ -104,26 +74,20 @@ while ( have_posts() ) : the_post(); ?>
               </span>
             </span>
           </li>
+          <li><i class="fa-solid fa-check yellow"></i> Standard PHP mailer</li>
           <li class="grey"><i class="fa-solid fa-xmark red"></i> Email monitoring</li>
           
-          <li class="heading"><strong>On-going development</strong></li>
-          <li><i class="fa-solid fa-check green"></i> Github repository maintained
+          <li class="heading"><strong>On-going development</strong>
             <span class="tooltip">
               <i class="fa fa-question-circle"></i>
               <span class="tooltip-box">
-                <p>Github repository for your website, facilitating version control and future updates.</p>
+                <p>Use of the default WordPress mailer.</p>
               </span>
             </span>
           </li>
+          <li><i class="fa-solid fa-check green"></i> Github repository maintained</li>
           <li class="grey"><i class="fa-solid fa-xmark red"></i> Staging environment</li>
-          <li><i class="fa-solid fa-check yellow"></i> Yearly consultancy meeting
-            <span class="tooltip">
-              <i class="fa fa-question-circle"></i>
-              <span class="tooltip-box">
-                <p>Meet with me to review your website's progress, strategy, and future improvements.</p>
-              </span>
-            </span>
-          </li>
+          <li><i class="fa-solid fa-check yellow"></i> Yearly consultancy meeting</li>
         </ul>
         <div class="cta">
           <p><a href="#form" class="button pink" id="select-essentials">Choose plan</a> <a href="#faq" class="button">More info</a></p>
@@ -138,125 +102,30 @@ while ( have_posts() ) : the_post(); ?>
         <div class="content">
         <ul>
           <li class="heading"><strong>Support & updates</strong></li>
-          <li><i class="fa-solid fa-check green"></i> Professional and friendly support
-            <span class="tooltip">
-              <i class="fa fa-question-circle"></i>
-              <span class="tooltip-box">
-                <p>I do not outsource any of my work. When you choose to work with me, you can be assured that I will be your direct point of contact.</p>
-              </span>
-            </span>
-          </li>
-          <li><i class="fa-solid fa-check green"></i> Up to 2 hours support each month
-            <span class="tooltip">
-              <i class="fa fa-question-circle"></i>
-              <span class="tooltip-box">
-                Up to two hours of dedicated support every month for resolving issues and making improvements to your website.
-              </span>
-            </span>
-          </li>
-          <li><i class="fa-solid fa-check green"></i> Daily backups
-            <span class="tooltip">
-              <i class="fa fa-question-circle"></i>
-              <span class="tooltip-box">
-                <p>Taking daily backups of your site, providing peace of mind that your data is always secure and can be restored if needed.</p>
-              </span>
-            </span>
-          </li>
-          <li><i class="fa-solid fa-check yellow"></i> Weekly security updates
-            <span class="tooltip">
-              <i class="fa fa-question-circle"></i>
-              <span class="tooltip-box">
-                <p>Protect your website from threats with daily security updates, keeping your site safe from vulnerabilities.</p>
-              </span>
-            </span>
-          </li>
-          <li><i class="fa-solid fa-check green"></i> Weekly WordPress + Plugin updates
-            <span class="tooltip">
-              <i class="fa fa-question-circle"></i>
-              <span class="tooltip-box">
-                <p>Keep your website running smoothly with weekly updates to WordPress core and plugins, ensuring optimal performance and security.</p>
-              </span>
-            </span>
-          </li>
+          <li><i class="fa-solid fa-check green"></i> Professional and friendly support</li>
+          <li><i class="fa-solid fa-check green"></i> Up to 2 hours support each month</li>
+          <li><i class="fa-solid fa-check green"></i> Daily backups</li>
+          <li><i class="fa-solid fa-check yellow"></i> Weekly security updates</li>
+          <li><i class="fa-solid fa-check green"></i> Weekly WordPress + Plugin updates</li>
+          
           <li class="heading"><strong>Website reviews</strong></li>
-          <li><i class="fa-solid fa-check yellow"></i> Monthly performance review
-            <span class="tooltip">
-              <i class="fa fa-question-circle"></i>
-              <span class="tooltip-box">
-                <p>Receive a monthly performance review to identify areas for improvement and optimise your website's speed and user experience.</p>
-              </span>
-            </span>
-          </li>
-          <li><i class="fa-solid fa-check yellow"></i> Monthly security review
-            <span class="tooltip">
-              <i class="fa fa-question-circle"></i>
-              <span class="tooltip-box">
-                <p>Stay ahead of potential threats with monthly security assessments, identifying and addressing potential threats.</p>
-              </span>
-            </span>
-          </li>
+          <li><i class="fa-solid fa-check yellow"></i> Monthly performance review</li>
+          <li><i class="fa-solid fa-check yellow"></i> Monthly security review</li>
+          
           <li class="heading"><strong>Website monitoring</strong></li>
-          <li><i class="fa-solid fa-check green"></i> Service status page
-            <span class="tooltip">
-              <i class="fa fa-question-circle"></i>
-              <span class="tooltip-box">
-                <p>Gain peace of mind with access to your website's live status updates and historical uptime data through your own Status Page.</p>
-              </span>
-            </span>
-          </li>
-          <li><i class="fa-solid fa-check yellow"></i> Uptime monitoring (5 min interval)
-            <span class="tooltip">
-              <i class="fa fa-question-circle"></i>
-              <span class="tooltip-box">
-                <p>Benefit from uptime monitoring every 5 minutes, ensuring that your website is always accessible to users.</p>
-              </span>
-            </span>
-          </li>
+          <li><i class="fa-solid fa-check green"></i> Service status page</li>
+          <li><i class="fa-solid fa-check yellow"></i> Uptime monitoring (every 5 mins)</li>
           <li class="grey"><i class="fa-solid fa-xmark red"></i> SSL Monitoring</li>
           <li class="grey"><i class="fa-solid fa-xmark red"></i> Domain Monitoring</li>
           <li class="grey"><i class="fa-solid fa-xmark red"></i> 404 Monitoring</li>
           <li class="heading"><strong>WordPress email</strong></li>
-          <li><i class="fa-solid fa-check green"></i> SMTP for improved email deliverability
-            <span class="tooltip">
-              <i class="fa fa-question-circle"></i>
-              <span class="tooltip-box">
-                <p>SMTP email setup to enhance the deliverability and reliability of your emails, ensuring they reach the intended recipients.</p>
-              </span>
-            </span>
-          </li>
-          <li><i class="fa-solid fa-check green"></i> Real-time email monitoring
-            <span class="tooltip">
-              <i class="fa fa-question-circle"></i>
-              <span class="tooltip-box">
-                <p>Monitoring email deliverability in real-time to ensure no emails are lost or undelivered.</p>
-              </span>
-            </span>
-          </li>
+          <li><i class="fa-solid fa-check green"></i> SMTP for improved email deliverability</li>
+          <li><i class="fa-solid fa-check green"></i> Real-time email monitoring</li>
+          
           <li class="heading"><strong>On-going development</strong></li>
-          <li><i class="fa-solid fa-check green"></i> Github repository maintained
-            <span class="tooltip">
-              <i class="fa fa-question-circle"></i>
-              <span class="tooltip-box">
-                <p>Github repository for your website, facilitating version control and future updates.</p>
-              </span>
-            </span>
-          </li>
-          <li><i class="fa-solid fa-check green"></i> Staging environment
-            <span class="tooltip">
-              <i class="fa fa-question-circle"></i>
-              <span class="tooltip-box">
-                <p>Test changes in a dedicated staging environment before deploying them live, minimising risks and errors.</p>
-              </span>
-            </span>
-          </li>
-          <li><i class="fa-solid fa-check yellow"></i> Yearly consultancy meeting
-            <span class="tooltip">
-              <i class="fa fa-question-circle"></i>
-              <span class="tooltip-box">
-                <p>Meet with me to review your website's progress, strategy, and future improvements.</p>
-              </span>
-            </span>
-          </li>
+          <li><i class="fa-solid fa-check green"></i> Github repository maintained</li>
+          <li><i class="fa-solid fa-check green"></i> Staging environment</li>
+          <li><i class="fa-solid fa-check yellow"></i> Yearly consultancy meeting</li>
         </ul>
         <div class="cta">
           <p><a href="#form" class="button orange" id="select-advanced">Choose plan</a> <a href="#faq" class="button">More info</a></p>
@@ -339,7 +208,7 @@ while ( have_posts() ) : the_post(); ?>
             </span>
           </li>
           
-          <li><i class="fa-solid fa-check green"></i> Uptime monitoring (60 second interval)
+          <li><i class="fa-solid fa-check green"></i> Uptime monitoring (every 60 seconds)
             <span class="tooltip">
               <i class="fa fa-question-circle"></i>
               <span class="tooltip-box">
