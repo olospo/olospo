@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Function to set the select field value
     function setSelectValue(value) {
-        var selectField = document.getElementById('nf-field-23'); // Select field ID
+        var selectField = document.getElementById('nf-field-6'); // Select field ID
         if (selectField) {
             selectField.value = value;
             // Trigger change event to notify Ninja Forms of the change
