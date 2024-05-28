@@ -72,8 +72,8 @@
   
   $(document).ready(function() {
       // Select field and its container
-      var $selectField = $('#nf-field-23');
-      var $container = $('#nf-field-23-container');
+      var $selectField = $('#nf-field-6');
+      var $container = $('#nf-field-6-container');
   
       if ($selectField.length && $container.length) {
           // Function to update the class of the container
