@@ -438,20 +438,21 @@
     }
     /* Selectors for individual fields */
     #nf-field-24-container,
-    #nf-field-22-container {
+    #nf-field-22-container, #nf-field-7-container,
+    #nf-field-9-container {
       width: 49%; /* Adjust width to account for margin */
       float: left;
       margin-right: 2%; /* Add margin between fields */
       box-sizing: border-box; /* Include padding and border in width calculation */
       padding-left: 25px;
     }
-    #nf-field-25-container, #nf-field-26-container {
+    #nf-field-25-container, #nf-field-26-container, #nf-field-8-container, #nf-field-10-container {
       width: 49%; /* Adjust width to account for margin */
       float: left;
       box-sizing: border-box; /* Include padding and border in width calculation */
       padding-right: 25px;
     }
-    #nf-field-23-container {
+    #nf-field-23-container, #nf-field-6-container {
       padding: 25px;
       background: #EFF2F7;
       @include border-radius(10px);
@@ -474,7 +475,7 @@
     .nf-field-container {
       clear: none;
     }
-    #nf-field-27-container, #nf-field-12-container {
+    #nf-field-27-container, #nf-field-11-container {
       clear: both;
       padding: 0 25px;
       @media screen and (max-width: 768px) {
