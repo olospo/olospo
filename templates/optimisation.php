@@ -20,30 +20,52 @@ while ( have_posts() ) : the_post(); ?>
   </div>
   <div class="container">
     <div class="price_plans">
-      <div class="plan essentials six columns offset-by-three">
+      <div class="plan optimisation twelve columns">
         <div class="title">
           <h3>WordPress <span class="highlight">Optimisation</span></h3>
           <strong>£800</strong>
         </div>
         <div class="content">
-        <ul>
-          <li class="heading"><strong>Support & updates</strong></li>
-          <li><i class="fa-solid fa-check green"></i> Professional and friendly support</li>
-          <li><i class="fa-solid fa-check green"></i> Up to 1 hour support each month</li>
-          <li><i class="fa-solid fa-check green"></i> Monthly backups</li>
-          <li><i class="fa-solid fa-check yellow"></i> Weekly security updates</li>
-          <li><i class="fa-solid fa-check yellow"></i> Monthly WordPress + Plugin updates</li>
-          
-          <li class="heading"><strong>Website reviews</strong></li>
-          <li class="grey"><i class="fa-solid fa-xmark red"></i> Performance review</li>
-          <li class="grey"><i class="fa-solid fa-xmark red"></i> Security review</li>
-          
-        </ul>
-        <div class="cta">
-          <p><a href="#form" class="button pink" id="select-essentials">Choose plan</a> <a href="#faq" class="button">More info</a></p>
+          <ul class="three columns">
+            <li class="heading"><strong>Database Optimisation</strong></li>
+            <li><i class="fa-solid fa-check green"></i> Optimise database tables</li>
+            <li><i class="fa-solid fa-check green"></i> Clean post revisions</li>
+            <li><i class="fa-solid fa-check green"></i> Remove spam and deleted comments</li>
+          </ul>
+          <ul class="three columns">
+            <li class="heading"><strong>Optimisation</strong></li>
+            <li><i class="fa-solid fa-check green"></i> Image Optimisation</li>
+          </ul>
+          <ul class="three columns">  
+            <li class="heading"><strong>Caching</strong>
+              <span class="tooltip">
+                <i class="fa fa-question-circle"></i>
+                <span class="tooltip-box">
+                  <p>Caching is the process of storing a temporary version of your site locally so it can be retrieved by the user in an instant. It’s a sure-fire way to ensure that web pages load at lightning-fast speed.</p>
+                </span>
+              </span>
+            </li>
+            
+            <li><i class="fa-solid fa-check green"></i> Preloading</li>
+            <li><i class="fa-solid fa-check green"></i> GZIP Compression</li>
+          </ul>
+          <ul class="three columns">
+            <li class="heading"><strong>Minify</strong></li>
+            <p>
+            <li><i class="fa-solid fa-check green"></i> HTML, CSS and JS Minify</li>
+            <li><i class="fa-solid fa-check green"></i> Asynchronous loading </li>
+            <li><i class="fa-solid fa-check green"></i> Optimise fonts</li>
+            
+          </ul>
+          <div class="row">
+            <div class="cta twelve columns">
+              <p><a href="#form" class="button green" id="select-essentials">Choose plan</a> <a href="#faq" class="button">More info</a></p>
+            </div>
+          </div>
         </div>
-        </div>
+        
       </div>
+      
     </div>
   </div>
 </section>

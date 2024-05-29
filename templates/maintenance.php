@@ -419,7 +419,7 @@ while ( have_posts() ) : the_post(); ?>
         <span></span>
       </div>
       <div class="accordionItemContent">
-        No, I do not provide web hosting services directly. However, I work closely with a <strong>trusted hosting provider</strong> whom I know well and can confidently recommend.
+        No, I do not provide web hosting services. However, I work closely with a <strong>reliable and trustworthy hosting provider</strong> whom I know well and can confidently recommend.
       </div>
     </article>
     <article class="accordionItem close">

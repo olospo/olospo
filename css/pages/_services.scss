@@ -100,6 +100,24 @@
           }
         }
       }
+      &.optimisation {
+        .title {
+          background: #00B090;
+          h3 {
+            span.highlight {
+              background: $white;
+              color: #00B090;
+              padding: 5px 10px;
+              margin-right: 5px;
+            }
+          }
+        }
+        .content {
+          ul {
+            margin: auto;
+          }
+        }
+      }
       .content {
         box-sizing: border-box;
         padding: 15px;
