@@ -340,10 +340,10 @@
       border-bottom: 1px solid #d4d6db;
       padding: 20px 0px;
       .title {
-        padding: 0 35px 0 0px;
+        padding: 0 60px 0 0px;
         overflow: hidden;
         color: #002D4F;
-        font: $semi-bold 1.8rem/3.4rem $regular;
+        font: $semi-bold 1.8rem/2.6rem $regular;
       }
       &:last-of-type {
         border-bottom: none;
@@ -352,7 +352,7 @@
     
     .accordionItemHeading {
       color: #002D4F;
-      font: $semi-bold 1.8rem/3.4rem $regular;
+      font: $semi-bold 1.8rem/2.6rem $regular;
       cursor:pointer;
       position: relative;
       .content {
@@ -371,7 +371,7 @@
         opacity: 1;
         right: 15px;
         transform: rotate(0deg);
-        transition: .5s ease-in-out;
+        transition: .2s ease-in-out;
         &:nth-child(1) {top: 15px;}
         &:nth-child(2) {top: 15px;transform: rotate(90deg);}
       }

@@ -9,7 +9,6 @@
 <link rel="apple-touch-icon" sizes="180x180" href="<?php bloginfo('template_directory'); ?>/img/apple-icon.png"/>
 <link rel="icon" type="image/png" sizes="32x32" href="<?php bloginfo('template_directory'); ?>/img/favicon-32x32.png"/>
 <link rel="icon" type="image/png" sizes="16x16" href="<?php bloginfo('template_directory'); ?>/img/favicon-16x16.png"/>
-<meta name="google-site-verification" content="add-content-here" />
 </head>
 <body <?php body_class(); ?>>
 <header>

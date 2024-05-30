@@ -45,7 +45,7 @@ while ( have_posts() ) : the_post(); ?>
                 </span>
               </span>
             </li>
-            
+            <li><i class="fa-solid fa-check green"></i> Effective caching policy</li>
             <li><i class="fa-solid fa-check green"></i> Preloading</li>
             <li><i class="fa-solid fa-check green"></i> GZIP Compression</li>
           </ul>
@@ -164,20 +164,6 @@ while ( have_posts() ) : the_post(); ?>
           <td class="green">92</td>
         </tr>
       </table>
-    </div>
-  </div>
-</section>
-
-<section class="plan_form" id="form">
-  <div class="container">
-    <div class="heading twelve columns">
-      <h3>Get started</h3>
-      <p>Fill out the form below to get your maintenance plan started.</p>
-    </div>
-  </div>
-  <div class="container">
-    <div class="eight columns offset-by-two">
-      <?php echo do_shortcode('[ninja_form id=2]'); ?>
     </div>
   </div>
 </section>

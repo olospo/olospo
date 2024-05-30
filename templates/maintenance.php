@@ -14,7 +14,7 @@ while ( have_posts() ) : the_post(); ?>
 <section class="pricing">
   <div class="container">
     <div class="heading twelve columns">
-      <h2>Plan Pricing</h2>
+      <h2>Plan pricing</h2>
       <p>Choose the support plan that suits your needs. All our plans are month-to-month, giving you the flexibility to adjust the level of support you need. <a href="#form">Get started</a>.</p>
     </div>
   </div>

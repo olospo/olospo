@@ -62,7 +62,6 @@ while ( have_posts() ) : the_post(); ?>
     </div>
   </div>
 </section>
-
 <section class="work">
   <div class="container">
     <div class="heading twelve columns">
@@ -81,7 +80,7 @@ while ( have_posts() ) : the_post(); ?>
           <p>Website: <a href="https://aspireintermediaryservices.co.uk">aspireintermediaryservices.co.uk</a></p>
           <ul>
             <li>WordPress development</li>
-            <li>WordPress support & maintenance</li>
+            <li><a href="<?php echo get_site_url(); ?>/wordpress-support-maintenance">WordPress support & maintenance</a></li>
           </ul>
           <p>Working closely with Aspire Intermediary Services, I developed a custom built WordPress site to meet their business needs. Continuing this partnership, I not only offer ongoing support and maintenance but also work closely with them to introduce new features, ensuring their website not only functions seamlessly but also continuously evolves to meet changing needs.</p>
         </div>
@@ -89,8 +88,6 @@ while ( have_posts() ) : the_post(); ?>
     </div>
   </div>
 </section>
-
 <?php get_template_part( 'inc/cta_contact' ); ?>
-
 <?php endwhile; // end of the loop. ?>
 <?php get_footer(); ?>
