@@ -60,7 +60,7 @@ while ( have_posts() ) : the_post(); ?>
               </span>
             </span>
           </li>
-          <li><i class="fa-solid fa-check green"></i> Service status page</li>
+          <li><i class="fa-solid fa-check green"></i> Service <a href="https://status.olospo.co.uk/796806460">status page</a></li>
           <li><i class="fa-solid fa-check yellow"></i> Uptime monitoring (every 30 mins)</li>
           <li class="grey"><i class="fa-solid fa-xmark red"></i> SSL Monitoring</li>
           <li class="grey"><i class="fa-solid fa-xmark red"></i> Domain Monitoring</li>
@@ -113,13 +113,13 @@ while ( have_posts() ) : the_post(); ?>
           <li><i class="fa-solid fa-check yellow"></i> Monthly security review</li>
           
           <li class="heading"><strong>Website monitoring</strong></li>
-          <li><i class="fa-solid fa-check green"></i> Service status page</li>
+          <li><i class="fa-solid fa-check green"></i> Service <a href="https://status.olospo.co.uk/796806460">status page</a></li>
           <li><i class="fa-solid fa-check yellow"></i> Uptime monitoring (every 5 mins)</li>
           <li class="grey"><i class="fa-solid fa-xmark red"></i> SSL Monitoring</li>
           <li class="grey"><i class="fa-solid fa-xmark red"></i> Domain Monitoring</li>
           <li class="grey"><i class="fa-solid fa-xmark red"></i> 404 Monitoring</li>
           <li class="heading"><strong>WordPress email</strong></li>
-          <li><i class="fa-solid fa-check green"></i> SMTP for improved email deliverability</li>
+          <li><i class="fa-solid fa-check green"></i> Improved email deliverability (via SMTP)</li>
           <li><i class="fa-solid fa-check green"></i> Real-time email monitoring</li>
           
           <li class="heading"><strong>On-going development</strong></li>
@@ -199,7 +199,7 @@ while ( have_posts() ) : the_post(); ?>
           </li>
           <li class="heading"><strong>Website monitoring</strong></li>
           
-          <li><i class="fa-solid fa-check green"></i> Service status page
+          <li><i class="fa-solid fa-check green"></i> Service <a href="https://status.olospo.co.uk/796806460">status page</a>
             <span class="tooltip">
               <i class="fa fa-question-circle"></i>
               <span class="tooltip-box">
@@ -241,7 +241,7 @@ while ( have_posts() ) : the_post(); ?>
             </span>
           </li>
           <li class="heading"><strong>WordPress email</strong></li>
-          <li><i class="fa-solid fa-check green"></i> SMTP for improved email deliverability
+          <li><i class="fa-solid fa-check green"></i> Improved email deliverability (via SMTP)
             <span class="tooltip">
               <i class="fa fa-question-circle"></i>
               <span class="tooltip-box">
