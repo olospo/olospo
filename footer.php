@@ -10,7 +10,7 @@
       <p>Freelance WordPress developer based in Bristol</p>
             
       <p class="copyright"><strong>Copyright &copy; Olospo 2011-<?php echo date("Y"); ?></strong></p>
-      <?php // wp_nav_menu( array( 'theme_location' => 'footer', 'container'=> false, 'menu_class'=> false ) ); ?>
+      <?php wp_nav_menu( array( 'theme_location' => 'footer', 'container'=> false, 'menu_class'=> false ) ); ?>
       </div>
     </div>
     <div class="four columns">
