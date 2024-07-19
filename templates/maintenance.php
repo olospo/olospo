@@ -14,8 +14,8 @@ while ( have_posts() ) : the_post(); ?>
 <section class="pricing">
   <div class="container">
     <div class="heading twelve columns">
-      <h2>Plan pricing</h2>
-      <p>Choose the support plan that suits your needs. All our plans are month-to-month, giving you the flexibility to adjust the level of support you need. <a href="#form">Get started</a>.</p>
+      <h2>Plans</h2>
+      <p>First things first, you’ll need to choose a plan. They all run on a month-to-month basis, giving you the flexibility to dial up or down the level of service you need. Already know what plan you need? <a href="#form">Let's get started</a>.</p>
     </div>
   </div>
   <div class="container">
@@ -39,7 +39,7 @@ while ( have_posts() ) : the_post(); ?>
           <li><i class="fa-solid fa-check green"></i> Up to 1 hour support each month</li>
           <li><i class="fa-solid fa-check yellow"></i> Monthly backups</li>
           <li><i class="fa-solid fa-check yellow"></i> Weekly security updates</li>
-          <li><i class="fa-solid fa-check yellow"></i> Monthly WordPress + Plugin updates</li>
+          <li><i class="fa-solid fa-check yellow"></i> Monthly WordPress & Plugin updates</li>
           
           <li class="heading"><strong>Website reviews</strong>
             <span class="tooltip">
@@ -62,9 +62,9 @@ while ( have_posts() ) : the_post(); ?>
           </li>
           <li><i class="fa-solid fa-check green"></i> Service <a href="https://status.olospo.co.uk/796806460">status page</a></li>
           <li><i class="fa-solid fa-check yellow"></i> Uptime monitoring (every 30 mins)</li>
-          <li class="grey"><i class="fa-solid fa-xmark red"></i> SSL Monitoring</li>
-          <li class="grey"><i class="fa-solid fa-xmark red"></i> Domain Monitoring</li>
-          <li class="grey"><i class="fa-solid fa-xmark red"></i> 404 Monitoring</li>
+          <li class="grey"><i class="fa-solid fa-xmark red"></i> SSL monitoring</li>
+          <li class="grey"><i class="fa-solid fa-xmark red"></i> Domain monitoring</li>
+          <li class="grey"><i class="fa-solid fa-xmark red"></i> 404 monitoring</li>
           
           <li class="heading"><strong>WordPress email</strong>
             <span class="tooltip">
@@ -85,7 +85,7 @@ while ( have_posts() ) : the_post(); ?>
               </span>
             </span>
           </li>
-          <li><i class="fa-solid fa-check green"></i> Github repository maintained</li>
+          <li><i class="fa-solid fa-check green"></i> GitHub repository maintenance</li>
           <li class="grey"><i class="fa-solid fa-xmark red"></i> Staging environment</li>
           <li><i class="fa-solid fa-check yellow"></i> Yearly consultancy meeting</li>
         </ul>
@@ -106,7 +106,7 @@ while ( have_posts() ) : the_post(); ?>
           <li><i class="fa-solid fa-check green"></i> Up to 2 hours support each month</li>
           <li><i class="fa-solid fa-check green"></i> Daily backups</li>
           <li><i class="fa-solid fa-check yellow"></i> Weekly security updates</li>
-          <li><i class="fa-solid fa-check green"></i> Weekly WordPress + Plugin updates</li>
+          <li><i class="fa-solid fa-check green"></i> Weekly WordPress & Plugin updates</li>
           
           <li class="heading"><strong>Website reviews</strong></li>
           <li><i class="fa-solid fa-check yellow"></i> Monthly performance review</li>
@@ -115,15 +115,15 @@ while ( have_posts() ) : the_post(); ?>
           <li class="heading"><strong>Website monitoring</strong></li>
           <li><i class="fa-solid fa-check green"></i> Service <a href="https://status.olospo.co.uk/796806460">status page</a></li>
           <li><i class="fa-solid fa-check yellow"></i> Uptime monitoring (every 5 mins)</li>
-          <li class="grey"><i class="fa-solid fa-xmark red"></i> SSL Monitoring</li>
-          <li class="grey"><i class="fa-solid fa-xmark red"></i> Domain Monitoring</li>
-          <li class="grey"><i class="fa-solid fa-xmark red"></i> 404 Monitoring</li>
+          <li class="grey"><i class="fa-solid fa-xmark red"></i> SSL monitoring</li>
+          <li class="grey"><i class="fa-solid fa-xmark red"></i> Domain monitoring</li>
+          <li class="grey"><i class="fa-solid fa-xmark red"></i> 404 monitoring</li>
           <li class="heading"><strong>WordPress email</strong></li>
           <li><i class="fa-solid fa-check green"></i> Improved email deliverability (via SMTP)</li>
           <li><i class="fa-solid fa-check green"></i> Real-time email monitoring</li>
           
-          <li class="heading"><strong>On-going development</strong></li>
-          <li><i class="fa-solid fa-check green"></i> Github repository maintained</li>
+          <li class="heading"><strong>Ongoing development</strong></li>
+          <li><i class="fa-solid fa-check green"></i> GitHub repository maintenance</li>
           <li><i class="fa-solid fa-check green"></i> Staging environment</li>
           <li><i class="fa-solid fa-check yellow"></i> Yearly consultancy meeting</li>
         </ul>
@@ -172,7 +172,7 @@ while ( have_posts() ) : the_post(); ?>
               </span>
             </span>
           </li>
-          <li><i class="fa-solid fa-check green"></i> Weekly WordPress + Plugin updates
+          <li><i class="fa-solid fa-check green"></i> Weekly WordPress & Plugin updates
             <span class="tooltip">
               <i class="fa fa-question-circle"></i>
               <span class="tooltip-box">
@@ -216,7 +216,7 @@ while ( have_posts() ) : the_post(); ?>
               </span>
             </span>
           </li>
-          <li><i class="fa-solid fa-check green"></i> SSL Monitoring
+          <li><i class="fa-solid fa-check green"></i> SSL monitoring
             <span class="tooltip">
               <i class="fa fa-question-circle"></i>
               <span class="tooltip-box">
@@ -224,7 +224,7 @@ while ( have_posts() ) : the_post(); ?>
               </span>
             </span>
           </li>
-          <li><i class="fa-solid fa-check green"></i> Domain Monitoring
+          <li><i class="fa-solid fa-check green"></i> Domain monitoring
             <span class="tooltip">
               <i class="fa fa-question-circle"></i>
               <span class="tooltip-box">
@@ -232,7 +232,7 @@ while ( have_posts() ) : the_post(); ?>
               </span>
             </span>
           </li>
-          <li><i class="fa-solid fa-xmark green"></i> 404 Monitoring
+          <li><i class="fa-solid fa-xmark green"></i> 404 monitoring
             <span class="tooltip">
               <i class="fa fa-question-circle"></i>
               <span class="tooltip-box">
@@ -257,8 +257,8 @@ while ( have_posts() ) : the_post(); ?>
               </span>
             </span>
           </li>
-          <li class="heading"><strong>On-going development</strong></li>
-          <li><i class="fa-solid fa-check green"></i> Github repository maintained
+          <li class="heading"><strong>Ongoing development</strong></li>
+          <li><i class="fa-solid fa-check green"></i> GitHub repository maintenance
             <span class="tooltip">
               <i class="fa fa-question-circle"></i>
               <span class="tooltip-box">
@@ -299,7 +299,16 @@ while ( have_posts() ) : the_post(); ?>
     </div>
   </div>
   <div class="container">
-    <div class="review four columns offset-by-two">
+    <div class="review four columns">
+      <blockquote>
+      <p>We have been delighted with the service. We're confident that our websites are being looked after. Tom acts quickly whenever we have a query or request, and can always be relied on for good advice.</p>
+      <div class="rating">
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+      </div>
+      <strong>Vivienne Kennedy, Director<br /><span class="company">Broadmead BID</span></strong>
+      </blockquote>
+    </div>
+    <div class="review four columns">
       <blockquote>
       <p>We have seen an immediate improvement in our website speed and performance. Working with Tom was very easy, and we will continue working with him on future projects.</p>
       <div class="rating">
@@ -317,15 +326,6 @@ while ( have_posts() ) : the_post(); ?>
       <strong>James Guest, Digital Consultant<br /><span class="company">JG Digital</span></strong>
       </blockquote>
     </div>
-    <!-- <div class="review one-third column">
-      <blockquote>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <div class="rating">
-        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-      </div>
-      <strong>Helen Smith, Office Manager<br /><span class="company">Minervation</span></strong>
-      </blockquote>
-    </div> -->
   </div>
 </section>
 
@@ -344,7 +344,7 @@ while ( have_posts() ) : the_post(); ?>
         <span></span>
       </div>
       <div class="accordionItemContent">
-        Getting started is easy. Simply <strong>contact me</strong> via the <a href="#form">contact form</a> and I’ll set up an initial consultation to discuss your needs and get your site on our maintenance schedule.
+        <p>Getting started is easy. Get in touch via the <a href="#form">contact form</a> and I’ll set up an initial conversation to discuss your needs. Then, if you’d like to go ahead, I’ll get your site on the maintenance schedule.</p>
       </div>
     </article>
     <article class="accordionItem close">
@@ -354,7 +354,7 @@ while ( have_posts() ) : the_post(); ?>
         <span></span>
       </div>
       <div class="accordionItemContent">
-        The <strong>Essentials</strong> or <strong>Advanced</strong> plans suit most people, offering reliable support and maintenance. However, if you require more comprehensive services, such as advanced security measures and website monitoring, the <strong>Premium</strong> plan might be a better fit. If you're unsure which plan to choose, I’m here to <a href="#form">help you pick</a> the one best suited to your needs.
+        <p>An Essentials or Advanced plan suits most people’s support and maintenance needs. But if you’d like a more comprehensive service, such as advanced security measures and website monitoring, a Premium plan could be a better fit. If you're not sure which to choose, I’ll <a href="#form">help you pick a plan</a> that suits your requirements.</p>
       </div>
     </article>
     <article class="accordionItem close">
@@ -364,7 +364,7 @@ while ( have_posts() ) : the_post(); ?>
         <span></span>
       </div>
       <div class="accordionItemContent">
-        <p>Yes, the plans are <strong>flexible</strong>, and you can upgrade, downgrade or cancel your plan at any time.</p>
+        <p>My plans are built to be flexible. You can upgrade, downgrade or even cancel yours whenever you want.</p>
       </div>
     </article>
     <article class="accordionItem close">
@@ -374,8 +374,7 @@ while ( have_posts() ) : the_post(); ?>
         <span></span>
       </div>
       <div class="accordionItemContent">
-        <p>Plans are <strong>billed on a monthly basis</strong>. Invoices are generated on the 1st of each month.</p>
-        <p>Invoice payment terms are 14 days.</p>
+        <p>You’ll be billed monthly. Invoices are generated on the 1st of each month, and the invoice payment term is 14 days.</p>
       </div>
     </article>
     <article class="accordionItem close">
@@ -385,9 +384,7 @@ while ( have_posts() ) : the_post(); ?>
         <span></span>
       </div>
       <div class="accordionItemContent">
-        <p>The hours included in each plan cover resolving issues and making improvements to your website. Any work requested outside of the agreed support hours is at additional cost.</p>
-        
-        <p>This covers maintenance and support specifically for your website. Please note, it does not extend to general IT support.</p>
+        <p>The hours in your maintenance plan cover the time I’ll spend fixing issues and improving your site. Any work you need outside of these hours will come at an extra cost. And just remember – this covers maintenance and support for your site, not general IT support.</p>
       </div>
     </article>
     <article class="accordionItem close">
@@ -408,8 +405,7 @@ while ( have_posts() ) : the_post(); ?>
         <span></span>
       </div>
       <div class="accordionItemContent">
-        <p>No, Support hours do not roll over to the next month; they reset at the start of each month. I follow a fair-use policy, allowing flexibility in usage without strict hour-to-hour consistency.</p>
-        <p>Any work requested outside of the support hours is at additional cost.</p>
+        <p>Support hours don’t roll into the next month. However, I follow a fair-use policy. You can expect flexibility without a strict hour-to-hour consistency, and any work you request outside this allocation costs more.</p>
       </div>
     </article>
     <article class="accordionItem close">
@@ -419,7 +415,7 @@ while ( have_posts() ) : the_post(); ?>
         <span></span>
       </div>
       <div class="accordionItemContent">
-        No, I do not provide web hosting services. However, I work closely with a <strong>reliable and trustworthy hosting provider</strong> whom I know well and can confidently recommend.
+        <p>Sadly, I don’t offer web hosting. However, I work with a reliable and trustworthy hosting provider I personally know – and, most importantly, can confidently recommend.</p>
       </div>
     </article>
     <article class="accordionItem close">
@@ -429,7 +425,7 @@ while ( have_posts() ) : the_post(); ?>
         <span></span>
       </div>
       <div class="accordionItemContent">
-        No, I do not outsource <strong>any</strong> of my work. When you choose to work with me, you can be assured that I will be your direct point of contact.
+        <p>I don’t outsource any of my work. If you choose to work with me, I’ll be your direct point of contact.</p>
       </div>
     </article>
     <article class="accordionItem close">
@@ -439,7 +435,7 @@ while ( have_posts() ) : the_post(); ?>
         <span></span>
       </div>
       <div class="accordionItemContent">
-        Yes, I work with several agencies in maintaining their client websites and offer <strong>custom pricing</strong> based on the specific needs and number of sites. <a href="mailto:tom@olospo.co.uk">Get in touch to discuss in more detail</a>
+        <p>I work with several agencies to maintain their client websites, and offer custom pricing based on their specific needs and number of sites. <a href="mailto:tom@olospo.co.uk">Get in touch</a> if you’d like to know more.</p>
       </div>
     </article>
     <article class="accordionItem close">
@@ -449,7 +445,7 @@ while ( have_posts() ) : the_post(); ?>
         <span></span>
       </div>
       <div class="accordionItemContent">
-        Yes, I understand that every business has unique needs. If our plans don’t fit your requirements, we can create a <strong>custom plan</strong> tailored specifically to your needs. <a href="#form">Contact me</a> to discuss your requirements for a personalised support and maintenance plan. 
+        <p>Absolutely. If none of the above fits your business requirements, I’ll create a custom plan that’s specific to your unique needs. <a href="#form">Contact me</a> to discuss your requirements for a personalised support and maintenance plan.</p>
       </div>
     </article>
     </div>
@@ -459,7 +455,7 @@ while ( have_posts() ) : the_post(); ?>
 <section class="plan_form" id="form">
   <div class="container">
     <div class="heading twelve columns">
-      <h3>Get started</h3>
+      <h3>Ready to get going?</h3>
       <p>Fill out the form below to get your maintenance plan started.</p>
     </div>
   </div>
