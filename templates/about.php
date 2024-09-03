@@ -2,8 +2,7 @@
 get_header();
 
 while ( have_posts() ) : the_post(); ?>
-<?php get_template_part( 'inc/breadcrumbs' ); ?>
-
+  
 <section class="testimonials">
   <div class="container">
     <div class="heading twelve columns">

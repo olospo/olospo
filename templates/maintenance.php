@@ -11,7 +11,6 @@ while ( have_posts() ) : the_post(); ?>
   </div>
 </section>
 
-<?php get_template_part( 'inc/breadcrumbs' ); ?>
 <section class="pricing">
   <div class="container">
     <div class="heading twelve columns">
