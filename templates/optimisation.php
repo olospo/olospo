@@ -2,7 +2,6 @@
 get_header();
 
 while ( have_posts() ) : the_post(); ?>
-
 <section class="intro single">
   <div class="container">
     <div class="ten columns">
@@ -11,6 +10,7 @@ while ( have_posts() ) : the_post(); ?>
   </div>
 </section>
 
+<?php get_template_part( 'inc/breadcrumbs' ); ?>
 <section class="pricing">
   <div class="container">
     <div class="heading twelve columns">
@@ -20,21 +20,23 @@ while ( have_posts() ) : the_post(); ?>
   </div>
   <div class="container">
     <div class="price_plans">
-      <div class="plan optimisation twelve columns">
+      <div class="plan optimisation ten columns offset-by-one">
         <div class="title">
           <h3>WordPress <span class="highlight">Optimisation</span></h3>
           <strong>£800</strong>
         </div>
         <div class="content">
           <ul class="three columns">
-            <li class="heading"><strong>Database Optimisation</strong></li>
+            <li class="heading"><strong>Database</strong></li>
             <li><i class="fa-solid fa-check green"></i> Optimise database tables</li>
             <li><i class="fa-solid fa-check green"></i> Clean post revisions</li>
             <li><i class="fa-solid fa-check green"></i> Remove spam and deleted comments</li>
           </ul>
           <ul class="three columns">
             <li class="heading"><strong>Optimisation</strong></li>
+            <li><i class="fa-solid fa-check green"></i> Server Optimisation</li>
             <li><i class="fa-solid fa-check green"></i> Image Optimisation</li>
+            <li><i class="fa-solid fa-check green"></i> Code Optimisation</li>
           </ul>
           <ul class="three columns">  
             <li class="heading"><strong>Caching</strong>

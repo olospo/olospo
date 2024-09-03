@@ -8,7 +8,7 @@
   background: linear-gradient(90deg, rgba(0, 45, 79,1) 0%, rgba(7, 67, 111, 1) 50%, rgba(0, 45, 79,1) 100%);
   padding: 20px 0 40px 0;
   @media (min-width: $breakpoint-tablet) {
-    padding: 80px 0 120px 0;
+    padding: 60px 0 80px 0;
   }
   h1, h2 {
     letter-spacing: 1px;
@@ -21,7 +21,7 @@
       margin-bottom: 10px;
     }
     @media (min-width: $breakpoint-desktop) {
-      font: $bold 6.4rem/10rem $regular;
+      font: $bold 6.4rem/9.2rem $regular;
       margin-bottom: 20px;
     }
     span.stand_out {
@@ -59,7 +59,7 @@
   .heading {
     margin-bottom: $padding-half;
     @media (min-width: $breakpoint-tablet) {
-      margin-bottom: 60px;
+      margin-bottom: 40px;
     }
     h2 {
       font: $bold 2.6rem/3.2rem $regular;
@@ -92,10 +92,11 @@
     width: 100%;
     margin-bottom: 20px;
     @media (min-width: $breakpoint-tablet) {
-      width: 49% !important;
-      flex-basis: 49%;
-      &:nth-child(2) {
-        margin-left: 2%;
+      width: 32% !important;
+      flex-basis: 32%;
+      margin-left: 2%;
+      &:nth-child(1) {
+        margin-left: 0%;
       }
     }
     a {
@@ -109,37 +110,34 @@
       border: 1px solid #eaecf0;
       background: #fefeff;
       @include border-radius(10px);
-      @media (min-width: $breakpoint-tablet) {
-        padding: 30px 20px 30px 90px;
+      @media (min-width: $breakpoint-laptop) {
+        padding: 30px;
       }
       h3 {
         font: $semi-bold 1.8rem/2.2rem $regular;
-        margin-left: 40px;
-        @media (min-width: $breakpoint-tablet) {
+        padding-left: 40px;
+        @media (min-width: $breakpoint-laptop) {
           font: $semi-bold 2.2rem/2.8rem $regular;
-          margin-left: 0;
         }
         color: #2C3E50;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
       }
       p {
         color: #56667e;
-        font: $light 1.4rem/2.4rem $regular;
-        @media (min-width: $breakpoint-tablet) {
-          font: $light 1.6rem/2.6rem $regular;
+        font: $normal 1.4rem/2.4rem $regular;
+        @media (min-width: $breakpoint-laptop) {
+          font: $light 1.8rem/3.0rem $regular;
         }
         margin-bottom: 20px;
         &:last-of-type {
           margin-bottom: 0;
         }
         a {
-          padding: 7px 15px;
-          background: #002D4F;
-          color: $white;
-          @include border-radius(5px);
-          display: inline-block;
-          &:hover {
-            background: #094c7d;
+          color: #07426E;
+          text-decoration: underline;
+          font: $normal 1.4rem/2.4rem $regular;
+          @media (min-width: $breakpoint-laptop) {
+            font: $normal 1.6rem/2.6rem $regular;
           }
         }
       }
@@ -148,10 +146,10 @@
         height: 24px; 
         top: 20px;
         left: 20px;
-        @media (min-width: $breakpoint-tablet) {
-          height: 28px; 
+        @media (min-width: $breakpoint-laptop) {
+          height: 24px; 
           top: 33px;
-          left: 35px;
+          left: 33px;
         }
         position: absolute;
         path {
@@ -194,34 +192,18 @@
     }
   }
 
-  .client_image, .client_content {
-    h3 {
-      color: #2C3E50;
-    }
+  .client_content {
     img {
-      @include border-radius(10px);
+      @include border-radius(10px 10px 0px 0px);
     }
-    ul {
-      margin: 0 0 10px 0;
-      li {
-        font: $light 1.4rem/2.4rem $regular;
-        margin: 0 10px 10px 0;
-        list-style: none;
-        display: inline-block;
-        background: #2C3E50;
-        padding: 5px 10px;
-        color: $white;
-        @include border-radius(5px);
-        a {
-          color: $white;
-        }
+    .content {
+      @include border-radius(0px 0px 10px 10px);
+      padding: 25px;
+      background: $white;
+      h3 {
+        color: #2C3E50;
       }
     }
-  }
-  .client_image {
-    margin-bottom: 20px;
-    @media (min-width: $breakpoint-tablet) {
-      margin-bottom: 0;
-    }
+    
   }
 }

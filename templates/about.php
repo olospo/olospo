@@ -2,11 +2,13 @@
 get_header();
 
 while ( have_posts() ) : the_post(); ?>
+<?php get_template_part( 'inc/breadcrumbs' ); ?>
 
-<section class="intro single">
+<section class="clients">
   <div class="container">
-    <div class="ten columns">
-      <h1>Bristol based Designer and <span class="stand_out">WordPress</span> Developer</h1>
+    <div class="heading twelve columns">
+      <h2>About me</h2>
+      <p>Hi, I'm Tom, a Bristol-based Designer and <span class="stand_out">WordPress</span> Developer</p>
     </div>
   </div>
 </section>
@@ -45,7 +47,7 @@ while ( have_posts() ) : the_post(); ?>
         
         <article class="quote">
           <blockquote>
-          <p>Creating websites can be stressful, working with Tom is enjoyable throughout. The sites he builds are super fast, professional and pixel-perfect. Already, after two significant and successfully client-pleasing sites, Tom is my go-to Developer. I look forward to our next project.</p>
+          <p>Creating websites can be stressful, but working with Tom is enjoyable throughout. The sites he builds are super fast, professional and pixel-perfect. Already, after two significant and successfully projects, Tom is my go-to Developer. I look forward to our next project.</p>
           <strong>Chris Marsh, Designer<br /><span class="company">Think Marsh</span></strong>
           </blockquote>
         </article>

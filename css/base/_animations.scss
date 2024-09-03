@@ -47,27 +47,21 @@
   to { opacity: 1;}
 }
 
-#path1, #path2, #path3, #path4, #path5, #path6 { /* Use your actual path IDs or classes */
-  opacity: 0; /* Start fully transparent */
-  animation: fadeIn 0.5s linear forwards;
-  will-change: opacity;
-  transform: translateZ(0);
+.site-title {
+  svg {
+    #path1, #path2, #path3, #path4, #path5, #path6 { /* Use your actual path IDs or classes */
+      opacity: 1;
+    }
+  }
 }
-#path1 { animation-delay: 0.1s;}
-#path2 { animation-delay: 0.2s;}
-#path3 { animation-delay: 0.3s;}
-#path4 { animation-delay: 0.4s;}
-#path5 { animation-delay: 0.5s;}
-#path6 { animation-delay: 0.6s;}
 
 header {
-  nav {
+  .site-title, nav {
     @include fade();
   }
   &.visible {
-    nav {
+    .site-title, nav {
       @include reset-fade();
-      transition-delay: 0.8s;
     }
   }
 }
@@ -86,16 +80,14 @@ body.home {
     &.visible {
       h1 {
         @include reset();
-        transition-delay: 1s;
         span.stand_out {
           background: #FF936D;
-          transition: background linear 0.2s;
-          transition-delay: 1.2s;
+          transition: background linear 0.5s;
+          transition-delay: 0.6s;
         }
       }
       p {
         @include reset();
-        transition-delay: 1.5s;
       }
     }
   }
@@ -104,9 +96,7 @@ section.intro {
   h1 {
     @include fade();
     span.stand_out {
-      background: #FF936D;
-      transition: background linear 0.2s;
-      transition-delay: 1.5s;
+      background: none;
     }
   }
   p {
@@ -115,11 +105,14 @@ section.intro {
   &.visible {
     h1 {
       @include reset();
-      transition-delay: 1s;
+      span.stand_out {
+        background: #FF936D;
+        transition: background linear 0.5s;
+        transition-delay: 0.6s;
+      }
     }
     p {
       @include reset();
-      transition-delay: 1s;
     }
   }
 }
@@ -134,11 +127,9 @@ section.services {
   &.visible {
     .heading {
       @include reset();
-      transition-delay: 1.5s;
     }
     .service {
       @include reset();
-      transition-delay: 2s;
     }
   }
 }
@@ -156,11 +147,9 @@ section.work {
     }
     .client_image {
       @include reset();
-      transition-delay: 0.2s;
     }
     .client_content {
       @include reset();
-      transition-delay: 0.4s;
     }
   }
 }
@@ -180,16 +169,13 @@ section.testimonials {
   &.visible {
     .heading {
       @include reset();
-      transition-delay: 1.2s;
     }
     .quotes {
       &__one {
         @include reset();
-        transition-delay: 1.5s;
       }
       &__two {
         @include reset();
-        transition-delay: 2s;
       }
     }
   }
@@ -205,11 +191,9 @@ section.page {
   &.visible {
     .form {
      @include reset();
-     transition-delay: 0.2s;
     }
     aside {
       @include reset();
-      transition-delay: 0.4s;
     }
   }
 }
@@ -232,15 +216,12 @@ section.pricing {
   &.visible {
     .heading h2 {
       @include reset();
-      transition-delay: 1.0s;
     } 
     .heading p {
       @include reset();
-      transition-delay: 1.2s;
     }
     .plan {
       @include reset();
-      transition-delay: 1.4s;
     }
   }
 }

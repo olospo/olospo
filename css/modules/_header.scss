@@ -27,9 +27,7 @@ header {
           width: 190px;
           height: auto;
         }
-        #path1, #path2, #path3, #path4, #path5, #path6 { /* Use your actual path IDs or classes */
-          opacity: 0;
-        }
+        
       }
       a {
         position: relative;
@@ -70,16 +68,6 @@ header {
           padding: 8px 0px;
           margin: 5px 15px;
           border-bottom: 2px solid $white;
-        }
-        &:after {
-          content: '';
-          height: 30%; //You can change this if you want smaller/bigger borders
-          width: 1px;
-          position: absolute;
-          right: 0;
-          top: 50%;
-          transform: translate(0,-50%);
-          background-color: $white;
         }
         &:last-child {
           &:after {

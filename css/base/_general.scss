@@ -378,6 +378,15 @@ section.hero{
   } 
 }
 
+.breadcrumbs {
+  padding: 15px 0;
+  font: $normal 1.6rem/2.2rem $regular;
+  background: #EBEDF2;
+  .delimiter {
+    margin: 0 20px;
+  }
+}
+
 @keyframes bgZoom {
   0% {
     transform: scale(1);
