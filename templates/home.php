@@ -79,7 +79,7 @@ while ( have_posts() ) : the_post(); ?>
           <a href="https://aproductions.co.uk" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/aprod-2.png" /></a>
           <div class="content">
             <h3>A Productions</h3>
-            <p>Designing and developing a modern, dynamic website that highlights their 35 years of TV and film work.</p>
+            <p>Designing and developing a modern website that highlights 35 years of TV and film work.</p>
             <a href="https://aproductions.co.uk" target="_blank">View the website</a>
           </div>
         </div>

@@ -2,7 +2,7 @@
 get_header();
 
 while ( have_posts() ) : the_post(); ?>
-  
+
 <section class="testimonials">
   <div class="container">
     <div class="heading twelve columns">

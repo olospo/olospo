@@ -109,7 +109,7 @@ section {
   }
   h1, h2, h3 {
     font-family: $regular;
-    color: $orange;
+    color: #002D4F;
   }
   h1 {
     font: $bold 3.2rem/5rem $regular;
@@ -255,9 +255,6 @@ section {
       .nf-field-container {
         margin-bottom: 15px;
       }
-      .nf-form#00aa33-required {
-        
-      }
       .nf-field-label {
         margin-bottom: 5px;
         label {
@@ -265,7 +262,6 @@ section {
           color: #2A3341;
         }
       }
-      
       
       select, input, textarea {
         font: $normal 1.8rem/2.6rem $regular;

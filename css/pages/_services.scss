@@ -15,16 +15,15 @@
       margin-bottom: 60px;
     }
     h2 {
+      color: #002D4F;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #FF936D;
+      display: inline-block;
       font: $bold 2.6rem/3.2rem $regular;
       @media (min-width: $breakpoint-tablet) {
         font: $bold 3.8rem/4.2rem $regular;
       }
-      color: #002D4F;
-      margin-bottom: 10px;
-      padding-bottom: 10px;
-      // text-align: center;
-      border-bottom: 3px solid #FF936D;
-      display: inline-block;
     }
     p {
       color: #4a596f;
@@ -32,7 +31,6 @@
       @media (min-width: $breakpoint-tablet) {
         font: $light 2.4rem/3.8rem $regular;
       }
-      // text-align: center;
     }
   }
   .price_plans {
@@ -151,10 +149,10 @@
             }
             .tooltip {
               position: relative;
+              display: none;
               &:hover .tooltip-box {
                 display: block;
               }
-              display: none;
             }
             .tooltip-box {
               display: none;
@@ -227,19 +225,19 @@
     padding: 60px 0;
   }
   .heading {
+    text-align: center;
     margin-bottom: 40px;
     @media (min-width: $breakpoint-tablet) {
       margin-bottom: 40px;
     }
-    text-align: center;
     h3 {
       margin-bottom: 0;
+      color: $white;
+      display: inline-block;
       font: $bold 2.6rem/3.2rem $regular;
       @media (min-width: $breakpoint-tablet) {
         font: $bold 3.2rem/4.2rem $regular;
       }
-      color: $white;
-      display: inline-block;
     }
   }
   .container {
@@ -260,13 +258,13 @@
       margin-bottom: 0;
     }
     blockquote {
+      position: relative;
       @media (min-width: $breakpoint-tablet) {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         height: 100%; 
       }
-      position: relative;
       &::before {
         content: "\201C";
         font: $normal 6rem/6rem $playfair;
@@ -285,12 +283,12 @@
       strong {
         display: block;
         color: $white;
+        text-transform: uppercase;
+        letter-spacing: 1px;
         font: $semi-bold 1.2rem/2.2rem $regular;
         @media (min-width: $breakpoint-tablet) {
           font: $semi-bold 1.4rem/2.4rem $regular;
         }
-        text-transform: uppercase;
-        letter-spacing: 1px;
       }
       span.company {
         color: #5b7691;
@@ -311,19 +309,19 @@
     padding: 60px 0;
   }
   .heading {
+    text-align: center;
     margin-bottom: 40px;
     @media (min-width: $breakpoint-tablet) {
       margin-bottom: 40px;
     }
-    text-align: center;
     h3 {
       margin-bottom: 0;
+      color: #002D4F;
+      display: inline-block;
       font: $bold 2.6rem/3.2rem $regular;
       @media (min-width: $breakpoint-tablet) {
         font: $bold 3.2rem/4.2rem $regular;
       }
-      color: #002D4F;
-      display: inline-block;
     }
   }
   .accordion {
@@ -434,19 +432,19 @@
     padding: 60px 0;
   }
   .heading {
+    text-align: center;
     margin-bottom: 40px;
     @media (min-width: $breakpoint-tablet) {
       margin-bottom: 40px;
     }
-    text-align: center;
     h3 {
+      color: #002D4F;
+      display: inline-block;
       margin-bottom: 10px;
       font: $bold 2.6rem/3.2rem $regular;
       @media (min-width: $breakpoint-tablet) {
         font: $bold 3.2rem/4.2rem $regular;
       }
-      color: #002D4F;
-      display: inline-block;
     }
     p {
       color: #4a596f;
@@ -541,19 +539,19 @@
     padding: 60px 0;
   }
   .heading {
+    text-align: center;
     margin-bottom: 40px;
     @media (min-width: $breakpoint-tablet) {
       margin-bottom: 40px;
     }
-    text-align: center;
     h3 {
       margin-bottom: 10px;
+      color: $white;
+      display: inline-block;
       font: $bold 2.6rem/3.2rem $regular;
       @media (min-width: $breakpoint-tablet) {
         font: $bold 3.2rem/4.2rem $regular;
       }
-      color: $white;
-      display: inline-block;
     }
     p {
       color: $white;

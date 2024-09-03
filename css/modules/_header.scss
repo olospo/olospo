@@ -2,23 +2,23 @@
 // Header
 
 header {
+  background: rgb(0, 45, 79);
+  background: linear-gradient(90deg, rgba(0, 45, 79,1) 0%, rgba(7, 67, 111, 1) 50%, rgba(0, 45, 79,1) 100%);
   height: 52px;
   @media (min-width: $breakpoint-laptop) {
     height: 80px; 
   }
-  background: rgb(0, 45, 79);
-  // background: rgb(0,96,126);
-  background: linear-gradient(90deg, rgba(0, 45, 79,1) 0%, rgba(7, 67, 111, 1) 50%, rgba(0, 45, 79,1) 100%);
   &.open {
     background: #1D2327;
   }
   .logo {
     .site-title {
+      line-height: 0 !important;
       margin: 15px 0px;
       @media (min-width: $breakpoint-laptop) {
         margin: 23px 0px;
       }
-      line-height: 0 !important;
+      
       svg, img {
         display: inline-block;
         width: 120px;
@@ -36,7 +36,6 @@ header {
         span {
           font: $normal 2.0rem/2.2rem $regular;
           position: absolute;
-          // top: 15px;
           left: 40px;
           width: auto;
         }
@@ -45,13 +44,13 @@ header {
     }
   }
   nav.primary {
+    font: $normal 1.6rem/3rem $regular;
+    letter-spacing: 0.1rem;
+    padding-right: 35px;
     display: none;
     @media (min-width: $breakpoint-laptop) {
       display: block;
     }
-    font: $normal 1.6rem/3rem $regular;
-    letter-spacing: 0.1rem;
-    padding-right: 35px;
     ul {
       font-size: 0;
       margin: 15px 0;
@@ -125,9 +124,6 @@ header {
     display: block;
     height: 30px;
     width: 30px;
-    @media (min-width: $breakpoint-laptop) {
-      display: none;
-    }
     transform: rotate(0deg);
     transition: .5s ease-in-out;
     position: absolute;
@@ -135,6 +131,9 @@ header {
     right: 20px;
     cursor: pointer;
     z-index: 30;
+    @media (min-width: $breakpoint-laptop) {
+      display: none;
+    }
     span{
       display: block;
       position: absolute;

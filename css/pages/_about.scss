@@ -2,18 +2,6 @@
 // About
 //
 
-.about {
-  background: #ebedf2;
-  padding: $padding-half 0;
-  p {
-    color: #4a596f;
-    font: $light 1.8rem/2.8rem $regular;
-    @media (min-width: $breakpoint-tablet) {
-      font: $light 2.4rem/3.5rem $regular;
-    }
-  }
-}
-
 .clients {
   background: #ebedf2;
   padding: $padding-half 0;
@@ -23,16 +11,15 @@
       margin-bottom: 40px;
     }
     h2 {
+      color: #002D4F;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #FF936D;
+      display: inline-block;
       font: $bold 2.6rem/3.2rem $regular;
       @media (min-width: $breakpoint-tablet) {
         font: $bold 3.8rem/4.2rem $regular;
       }
-      color: #002D4F;
-      margin-bottom: 10px;
-      padding-bottom: 10px;
-      // text-align: center;
-      border-bottom: 3px solid #FF936D;
-      display: inline-block;
     }
     p {
       color: #4a596f;
@@ -40,7 +27,6 @@
       @media (min-width: $breakpoint-tablet) {
         font: $light 2.4rem/3.2rem $regular;
       }
-      // text-align: center;
     }
   }
   ul {
@@ -97,16 +83,15 @@
       margin-bottom: 60px;
     }
     h2 {
+      color: #002D4F;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #FF936D;
+      display: inline-block;
       font: $bold 2.6rem/3.2rem $regular;
       @media (min-width: $breakpoint-tablet) {
         font: $bold 3.8rem/4.2rem $regular;
       }
-      color: #002D4F;
-      margin-bottom: 10px;
-      padding-bottom: 10px;
-      // text-align: center;
-      border-bottom: 3px solid #FF936D;
-      display: inline-block;
     }
     p {
       color: #4a596f;
@@ -118,26 +103,26 @@
     }
   }
   article {
+    box-sizing: border-box;
+    @include border-radius(20px);
     padding: 10px 20px 10px 35px;
     margin-bottom: 0px;
     @media (min-width: $breakpoint-tablet) {
       padding: 20px 30px 20px 60px;
-      margin-bottom: 0px;
     }
-    box-sizing: border-box;
-    @include border-radius(20px);
-    
-    
     blockquote {
       background: #ebedf2;
       position: relative;
+      border-bottom: 2px solid #c1c4cc;
       padding: 20px;
       @media (min-width: $breakpoint-tablet) {
         padding: 40px;
       }
-      border-bottom: 2px solid #c1c4cc;
       &::before {
         content: "\201C";
+        z-index: 0;
+        position: absolute;
+        color: #2C3E50;
         font: $normal 4rem/4rem $playfair;
         top: 0px;
         left: -32px;
@@ -146,29 +131,25 @@
           top: -5px;
           left: -62px;
         }
-        z-index: 0;
-        position: absolute;
-        color: #2C3E50;
       }
       p {
         color: #4a596f;
+        margin-bottom: 20px;
         font: $light 1.4rem/2.4rem $regular;
         @media (min-width: $breakpoint-tablet) {
           font: $light 1.6rem/2.8rem $regular;
         }
-        
-        margin-bottom: 20px;
       }
 
       strong {
         display: block;
         color: #2C3E50;
+        text-transform: uppercase;
+        letter-spacing: 1px;
         font: $semi-bold 1.2rem/2.2rem $regular;
         @media (min-width: $breakpoint-tablet) {
           font: $semi-bold 1.4rem/2.4rem $regular;
         }
-        text-transform: uppercase;
-        letter-spacing: 1px;
         span.company {
           color: #4a596f;
           font: $normal 1.2rem/2.2rem $regular;

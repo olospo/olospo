@@ -1,12 +1,6 @@
 <?php /* Archive */
 get_header(); ?>
-<section class="breadcrumbs">
-  <div class="container">
-    <div class="twelve columns">
-      <?php if (function_exists('breadcrumbs')) breadcrumbs(); ?>
-    </div>
-  </div>
-</section>
+
 <section class="work">
   <div class="container">
     <div class="heading twelve columns">
@@ -14,7 +8,7 @@ get_header(); ?>
     </div>
     <div class="row">
       <?php if ( have_posts() ) : while (have_posts()) : the_post();  ?>
-        <div class="four columns">
+        <div class="one-third column">
           <div class="client_content">
             <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
             <div class="content">

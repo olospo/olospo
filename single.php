@@ -2,13 +2,7 @@
 get_header();
 
 while ( have_posts() ) : the_post(); ?>
-<section class="breadcrumbs">
-  <div class="container">
-    <div class="twelve columns">
-      <?php if (function_exists('breadcrumbs')) breadcrumbs(); ?>
-    </div>
-  </div>
-</section>
+
 <section class="work">
   <div class="container">
     <div class="heading twelve columns">

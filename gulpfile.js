@@ -15,7 +15,7 @@ const jsOutput = './js/';
 function css() {
   return src(sassFiles)
     .pipe(sass().on('error', sass.logError))
-    .pipe(concat('style.min.css'))
+    .pipe(concat('main.css'))
     .pipe(cleanCSS())
     .pipe(dest(cssOutput))
     .pipe(notify({ message: 'CSS task complete', onLast: true }));

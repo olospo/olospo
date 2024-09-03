@@ -15,7 +15,6 @@
     color: $white;
     font: $bold 3.4rem/5.0rem $regular;
     margin-bottom: 5px;
-    // text-align: center;
     @media (min-width: $breakpoint-tablet) {
       font: $bold 4.8rem/7.0rem $regular;
       margin-bottom: 10px;
@@ -33,7 +32,6 @@
     }
   }
   p {
-    // text-align: center;
     color: $white;
     font: $light 1.6rem/2.6rem $regular;
     @media (min-width: $breakpoint-tablet) {
@@ -62,23 +60,21 @@
       margin-bottom: 40px;
     }
     h2 {
+      color: #2C3E50;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #FF936D;
+      display: inline-block;
       font: $bold 2.6rem/3.2rem $regular;
       @media (min-width: $breakpoint-tablet) {
         font: $bold 3.8rem/4.2rem $regular;
       }
-      color: #2C3E50;
-      margin-bottom: 10px;
-      padding-bottom: 10px;
-      // text-align: center;
-      border-bottom: 3px solid #FF936D;
-      display: inline-block;
     }
     p {
       font: $light 1.8rem/2.8rem $regular;
       @media (min-width: $breakpoint-tablet) {
         font: $light 2.4rem/3.2rem $regular;
       }
-      // text-align: center;
     }
   }
   
@@ -114,21 +110,21 @@
         padding: 30px;
       }
       h3 {
-        font: $semi-bold 1.8rem/2.2rem $regular;
+        color: #2C3E50;
+        margin-bottom: 20px;
         padding-left: 40px;
+        font: $semi-bold 1.8rem/2.2rem $regular;
         @media (min-width: $breakpoint-laptop) {
           font: $semi-bold 2.2rem/2.8rem $regular;
         }
-        color: #2C3E50;
-        margin-bottom: 20px;
       }
       p {
         color: #56667e;
+        margin-bottom: 20px;
         font: $normal 1.4rem/2.4rem $regular;
         @media (min-width: $breakpoint-laptop) {
           font: $light 1.8rem/3.0rem $regular;
         }
-        margin-bottom: 20px;
         &:last-of-type {
           margin-bottom: 0;
         }
@@ -142,6 +138,7 @@
         }
       }
       svg {
+        position: absolute;
         float: left;
         height: 24px; 
         top: 20px;
@@ -151,7 +148,6 @@
           top: 33px;
           left: 33px;
         }
-        position: absolute;
         path {
           fill: #2C3E50;
         }
@@ -172,23 +168,22 @@
       margin-bottom: 40px;
     }
     h2 {
+      
+      color: #2C3E50;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #FF936D;
+      display: inline-block;
       font: $bold 2.6rem/3.2rem $regular;
       @media (min-width: $breakpoint-tablet) {
         font: $bold 3.8rem/4.2rem $regular;
       }
-      color: #2C3E50;
-      margin-bottom: 10px;
-      padding-bottom: 10px;
-      // text-align: center;
-      border-bottom: 3px solid #FF936D;
-      display: inline-block;
     }
     p {
       font: $light 1.8rem/2.8rem $regular;
       @media (min-width: $breakpoint-tablet) {
         font: $light 2.4rem/3.2rem $regular;
       }
-      // text-align: center;
     }
   }
 
