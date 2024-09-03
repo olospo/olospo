@@ -14,7 +14,6 @@ while ( have_posts() ) : the_post(); ?>
   </div>
 </section> -->
 
-<?php get_template_part( 'inc/breadcrumbs' ); ?>
 <section class="page contact">
   <div class="container">
     <div class="form twelve columns">
@@ -24,7 +23,6 @@ while ( have_posts() ) : the_post(); ?>
       </div>
       <?php the_content(); ?>
     </div>
-    
   </div>
 </section>
 

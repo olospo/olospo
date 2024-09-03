@@ -4,15 +4,6 @@ get_header();
 while ( have_posts() ) : the_post(); ?>
 <?php get_template_part( 'inc/breadcrumbs' ); ?>
 
-<section class="clients">
-  <div class="container">
-    <div class="heading twelve columns">
-      <h2>About me</h2>
-      <p>Hi, I'm Tom, a Bristol-based Designer and <span class="stand_out">WordPress</span> Developer</p>
-    </div>
-  </div>
-</section>
-
 <section class="testimonials">
   <div class="container">
     <div class="heading twelve columns">
