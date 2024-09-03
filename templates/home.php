@@ -56,30 +56,31 @@ while ( have_posts() ) : the_post(); ?>
     <div class="row">
       <div class="four columns">
         <div class="client_content">
-          <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/suez-2.png" /></a>
+          <a href="https://suezcornwall.co.uk" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/suez-2.png" /></a>
           <div class="content">
             <h3>SUEZ UK</h3>
             <p>Designing and developing a scalable theme for use across the SUEZ UK websites.</p>
-            
+            <a href="https://suezcornwall.co.uk" target="_blank">View the website</a>
           </div>
         </div>
       </div>
       <div class="four columns">
         <div class="client_content">
-          <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/aspire-2.png" /></a>
+          <a href="https://aspireintermediaryservices.co.uk" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/aspire-2.png" /></a>
           <div class="content">
             <h3>Aspire Intermediary Services</h3>
             <p>Developed a custom built WordPress site to showcase the skills and expertise of Aspire. </p>
-           
+            <a href="https://aspireintermediaryservices.co.uk" target="_blank">View the website</a>
           </div>
         </div>
       </div>
       <div class="four columns">
         <div class="client_content">
-          <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/aprod-2.png" /></a>
+          <a href="https://aproductions.co.uk" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/aprod-2.png" /></a>
           <div class="content">
             <h3>A Productions</h3>
             <p>Designing and developing a modern, dynamic website that highlights their 35 years of TV and film work.</p>
+            <a href="https://aproductions.co.uk" target="_blank">View the website</a>
           </div>
         </div>
       </div>
