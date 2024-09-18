@@ -76,6 +76,7 @@ while ( have_posts() ) : the_post(); ?>
           </li>
           <li><i class="fa-solid fa-check yellow"></i> Standard PHP mailer</li>
           <li class="grey"><i class="fa-solid fa-xmark red"></i> Email monitoring</li>
+          <li class="grey"><i class="fa-solid fa-xmark red"></i> WP Mail SMTP License (worth $149/year)</li>
           
           <li class="heading"><strong>On-going development</strong>
             <span class="tooltip">
@@ -85,6 +86,7 @@ while ( have_posts() ) : the_post(); ?>
               </span>
             </span>
           </li>
+          <li><i class="fa-solid fa-check green"></i> <a href="https://www.advancedcustomfields.com/" target="_blank">ACF License</a> (worth $49/year)</li>
           <li><i class="fa-solid fa-check green"></i> GitHub repository maintenance</li>
           <li class="grey"><i class="fa-solid fa-xmark red"></i> Staging environment</li>
           <li><i class="fa-solid fa-check yellow"></i> Yearly consultancy meeting</li>
@@ -121,8 +123,10 @@ while ( have_posts() ) : the_post(); ?>
           <li class="heading"><strong>WordPress email</strong></li>
           <li><i class="fa-solid fa-check green"></i> Improved email deliverability (via SMTP)</li>
           <li><i class="fa-solid fa-check green"></i> Real-time email monitoring</li>
+          <li><i class="fa-solid fa-check green"></i> <a href="https://wpmailsmtp.com/" target="_blank">WP Mail SMTP License</a> (worth $149/year)</li>
           
           <li class="heading"><strong>Ongoing development</strong></li>
+          <li><i class="fa-solid fa-check green"></i> <a href="https://www.advancedcustomfields.com/" target="_blank">ACF License</a> (worth $49/year)</li>
           <li><i class="fa-solid fa-check green"></i> GitHub repository maintenance</li>
           <li><i class="fa-solid fa-check green"></i> Staging environment</li>
           <li><i class="fa-solid fa-check yellow"></i> Yearly consultancy meeting</li>
@@ -257,7 +261,9 @@ while ( have_posts() ) : the_post(); ?>
               </span>
             </span>
           </li>
+          <li><i class="fa-solid fa-check green"></i> <a href="https://wpmailsmtp.com/" target="_blank">WP Mail SMTP License</a> (worth $149/year)</li>
           <li class="heading"><strong>Ongoing development</strong></li>
+          <li><i class="fa-solid fa-check green"></i> <a href="https://www.advancedcustomfields.com/" target="_blank">ACF License</a> (worth $49/year)</li>
           <li><i class="fa-solid fa-check green"></i> GitHub repository maintenance
             <span class="tooltip">
               <i class="fa fa-question-circle"></i>
