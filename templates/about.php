@@ -41,11 +41,17 @@ while ( have_posts() ) : the_post(); ?>
           <strong>Chris Marsh, Designer<br /><span class="company">Think Marsh</span></strong>
           </blockquote>
         </article>
-        
-        
       </div>
       
       <div class="quotes__two six columns">
+        <article class="quote">
+          <blockquote>
+          <p>Working with Tom was fantastic. He took our designs and created a beautifully structured WordPress site that's not only easy for us to manage but also gives us the flexibility we need to grow. He kept us informed at every step, offered valuable suggestions that improved the final product, and his attention to detail was impeccable.</p>
+          <p>I'd highly recommend Tom to anyone looking for a skilled developer who truly cares about delivering quality work.</p>
+          <strong>Allison Sall, Founder, UX & Digital Product Designer<br /><span class="company">Everyday Industries</span></strong>
+          </blockquote>
+        </article>
+        
         <article class="quote">
           <blockquote>
           <p>We needed a complete refresh of our website and having worked with Tom previously; were really happy he was able to help us again.</p>
