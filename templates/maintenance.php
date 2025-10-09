@@ -60,7 +60,6 @@ while ( have_posts() ) : the_post(); ?>
               </span>
             </span>
           </li>
-          <li><i class="fa-solid fa-check green"></i> Service <a href="https://status.olospo.co.uk/796806460">status page</a></li>
           <li><i class="fa-solid fa-check yellow"></i> Uptime monitoring (every 30 mins)</li>
           <li class="grey"><i class="fa-solid fa-xmark red"></i> SSL monitoring</li>
           <li class="grey"><i class="fa-solid fa-xmark red"></i> Domain monitoring</li>
@@ -115,7 +114,6 @@ while ( have_posts() ) : the_post(); ?>
           <li><i class="fa-solid fa-check yellow"></i> Monthly security review</li>
           
           <li class="heading"><strong>Website monitoring</strong></li>
-          <li><i class="fa-solid fa-check green"></i> Service <a href="https://status.olospo.co.uk/796806460">status page</a></li>
           <li><i class="fa-solid fa-check yellow"></i> Uptime monitoring (every 5 mins)</li>
           <li class="grey"><i class="fa-solid fa-xmark red"></i> SSL monitoring</li>
           <li class="grey"><i class="fa-solid fa-xmark red"></i> Domain monitoring</li>
@@ -202,15 +200,6 @@ while ( have_posts() ) : the_post(); ?>
             </span>
           </li>
           <li class="heading"><strong>Website monitoring</strong></li>
-          
-          <li><i class="fa-solid fa-check green"></i> Service <a href="https://status.olospo.co.uk/796806460">status page</a>
-            <span class="tooltip">
-              <i class="fa fa-question-circle"></i>
-              <span class="tooltip-box">
-                <p>Gain peace of mind with access to your website's live status updates and historical uptime data through your own Status Page.</p>
-              </span>
-            </span>
-          </li>
           
           <li><i class="fa-solid fa-check green"></i> Uptime monitoring (every 60 seconds)
             <span class="tooltip">
