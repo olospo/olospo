@@ -16,10 +16,7 @@
       }
     }
     a {
-      -webkit-transition: all ease .2s;
-      -moz-transition: all ease .2s;
-      -o-transition: all ease .2s;
-      transition: all ease .2s;
+      @include transition(all ease .2s);
       padding: 0 10px;
       text-decoration: none;
       background: #00b090;

@@ -123,19 +123,7 @@
                   margin: 8px 0 8px 28px;
                   text-indent: -28px;
                   color: #4a596f;
-                  svg {
-                    margin-right: 10px;
-                    &.green {
-                      background: #00B090;
-                      @include border-radius(50%);
-                      height: 10px;
-                      width: 10px;
-                      padding: 3px;
-                      path {
-                        fill: #FFFFFF;
-                      }
-                    }
-                  }
+                  @include service-icon-set;
                 }
               }
             }
@@ -244,42 +232,7 @@
                 font: $normal 1.5rem/2.4rem $regular;
               }
             }
-            svg {
-              margin-right: 5px;
-              &.red {
-                background: #de4d60;
-                @include border-radius(50%);
-                height: 10px;
-                width: 10px;
-                padding: 3px;
-                path {
-                  // fill: #FC5185;
-                  fill: #FFFFFF;
-                }
-              }
-              &.yellow {
-                background: #FFCD35;
-                @include border-radius(50%);
-                height: 10px;
-                width: 10px;
-                padding: 3px;
-                path {
-                  // fill: #FFCD35;
-                  fill: #FFFFFF;
-                }
-              }
-              &.green {
-                background: #00B090;
-                @include border-radius(50%);
-                height: 10px;
-                width: 10px;
-                padding: 3px;
-                path {
-                  // fill: #00B090;
-                  fill: #FFFFFF;
-                }
-              }
-            }
+            @include service-icon-set-legacy;
           }
         }
       }

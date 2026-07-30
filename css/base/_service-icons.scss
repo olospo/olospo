@@ -1,0 +1,49 @@
+// Service Icons - Reusable SVG icon styling for checkmarks and badges
+// Usage: @include service-icon-set; or @extend %icon-base;
+
+%icon-base {
+  @include border-radius(50%);
+  height: 10px;
+  width: 10px;
+  padding: 3px;
+  path {
+    fill: #FFFFFF;
+  }
+}
+
+@mixin service-icon-set {
+  svg {
+    margin-right: 10px;
+    &.red {
+      background: #de4d60;
+      @extend %icon-base;
+    }
+    &.yellow {
+      background: #FFCD35;
+      @extend %icon-base;
+    }
+    &.green {
+      background: #00B090;
+      @extend %icon-base;
+    }
+  }
+}
+
+// Legacy version for maintenance form icons (margin difference)
+@mixin service-icon-set-legacy {
+  svg {
+    margin-right: 5px;
+    &.red {
+      background: #de4d60;
+      @extend %icon-base;
+    }
+    &.yellow {
+      background: #FFCD35;
+      @extend %icon-base;
+    }
+    &.green {
+      background: #00B090;
+      @extend %icon-base;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+// Card and Box Styling - Reusable card patterns for service pages
+
+// Base card styling - used across service pages
+%card-base {
+  background: #fefeff;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, .03);
+  border: 1px solid #eaecf0;
+  @include border-radius(10px);
+}
+
+// Standard card with padding
+@mixin card-box($padding: 30px) {
+  @extend %card-base;
+  padding: $padding;
+}
+
+// Card with custom background
+@mixin card-box-bg($padding: 30px, $bg: #fefeff) {
+  @extend %card-base;
+  padding: $padding;
+  background: $bg;
+}
+
+// Subtle background card (light gray)
+@mixin card-box-subtle($padding: 30px) {
+  @extend %card-base;
+  padding: $padding;
+  background: #f5f6f8;
+}
+
+// Subtle green background card
+@mixin card-box-green-subtle($padding: 30px) {
+  @extend %card-base;
+  padding: $padding;
+  background: #f0f9f7;
+  border: 1px solid #d4ede8;
+}
+
+// Yellow background card (for notes/warnings)
+@mixin card-box-yellow-subtle($padding: 25px) {
+  @extend %card-base;
+  padding: $padding;
+  background: #FFF9E6;
+}
+
+// Card with top and bottom rounded corners (for plan cards)
+@mixin card-box-top-rounded {
+  @extend %card-base;
+  @include border-radius(10px 10px 0 0);
+  border-bottom: none;
+}
+
+@mixin card-box-bottom-rounded {
+  @extend %card-base;
+  @include border-radius(0 0 10px 10px);
+  border-top: none;
+}
+
+// Card with divider line
+@mixin card-box-divider($padding: 30px, $border-color: #eaecf0) {
+  @extend %card-base;
+  padding: $padding;
+  border-top: 2px solid $border-color;
+  margin-top: 30px;
+}

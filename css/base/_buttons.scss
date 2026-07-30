@@ -13,10 +13,7 @@
   margin: 5px 10px 5px 0;
   font: $normal 1.6rem/1.6rem $regular;
   text-decoration: none;
-  -webkit-transition: all ease .5s;
-  -moz-transition: all ease .5s;
-  -o-transition: all ease .5s;
-  transition: all ease .5s;
+  @include transition(all ease .5s);
   @include border-radius(10px);
   color: #233140;
   background: transparent;

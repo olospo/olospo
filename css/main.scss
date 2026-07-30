@@ -2,6 +2,9 @@
 @import 'base/skeleton'; // CSS Skeleton
 @import 'base/reset'; // CSS Resets
 @import 'base/mixins'; // Mixins
+@import 'base/cards'; // Card and box styling
+@import 'base/forms'; // Form input styling
+@import 'base/service-icons'; // Service icon styling
 @import 'base/general'; // General styles
 @import 'base/buttons'; // Buttons
 @import 'base/animations'; // Animations
@@ -14,7 +17,7 @@
 // Pages
 @import 'pages/home'; // Home
 @import 'pages/about'; // About
-@import 'pages/optimisation'; // Services
-@import 'pages/maintenance'; // Services
+@import 'pages/optimisation'; // Optimisation
+@import 'pages/maintenance'; // Maintenance
 @import 'pages/contact'; // Contact
 @import 'pages/404'; // 404
