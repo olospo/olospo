@@ -1,4 +1,3 @@
-
 // Header
 
 header {
@@ -51,9 +50,31 @@ header {
     @media (min-width: $breakpoint-laptop) {
       display: block;
     }
+    ul li.cta {
+      &:hover a, &.current_page_item a, &.current-menu-item a {
+        border-bottom: 2px solid transparent;
+      }
+      a {
+        background: #00B090 !important;
+        border: 2px solid #00B090 !important;
+        color: $white !important;
+        padding: 8px 14px !important;
+        margin: 10px 15px !important;
+        @include border-radius(10px);
+        display: inline-block !important;
+        white-space: nowrap;
+        &:hover {
+          background: transparent !important;
+          color: #00B090 !important;
+          text-decoration: none;
+          border-bottom: 2px solid transparent;
+        }
+      }
+    }
+  }
     ul {
       font-size: 0;
-      margin: 15px 0;
+      margin: 12px 0;
       text-align: right;
       line-height:1em;
       @media (min-width: $breakpoint-laptop) {
@@ -157,7 +178,7 @@ header {
       }
     }
   }
-}
+
 
 @mixin invisible() {
   visibility: hidden;

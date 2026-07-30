@@ -22,11 +22,11 @@
       transition: all ease .2s;
       padding: 0 10px;
       text-decoration: none;
-      background: $white;
-      color: #2C3E50;
+      background: #00b090;
+      color: $white;
       &:hover {
         text-decoration: none;
-        background: $orange;
+        background: #008070;
         color: $white;
       }
     }

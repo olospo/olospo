@@ -7,11 +7,13 @@ while ( have_posts() ) : the_post(); ?>
   <div class="container">
     <div class="ten columns">
       <h1>WordPress support & <span class="stand_out">maintenance</span></h1>
+      <p>Peace of mind for your WordPress site. Regular updates, security monitoring, daily backups, and expert support when you need it.</p>
+      <p><a href="#form" class="button green">Get started</a> <a href="#plans" class="button secondary">View plans</a></p>
     </div>
   </div>
 </section>
 
-<section class="pricing">
+<section class="pricing" id="plans">
   <div class="container">
     <div class="heading twelve columns">
       <h2>Plans</h2>
@@ -23,7 +25,7 @@ while ( have_posts() ) : the_post(); ?>
       <div class="plan essentials one-third column">
         <div class="title">
           <h3><span class="highlight">Essentials</span> Plan</h3>
-          <strong>£100/month</strong>
+          <p class="price">£100/month</p>
         </div>
         <div class="content">
         <ul>
@@ -98,7 +100,7 @@ while ( have_posts() ) : the_post(); ?>
       <div class="plan advanced one-third column">
         <div class="title">
           <h3><span class="highlight">Advanced</span> Plan</h3>
-          <strong>£200/month</strong>
+          <p class="price">£200/month</p>
         </div>
         <div class="content">
         <ul>
@@ -137,7 +139,7 @@ while ( have_posts() ) : the_post(); ?>
       <div class="plan premium one-third column">
         <div class="title">
           <h3><span class="highlight">Premium</span> Plan</h3>
-          <strong>£400/month</strong>
+          <p class="price">£400/month</p>
         </div>
         <div class="content">
         <ul>

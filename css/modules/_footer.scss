@@ -48,14 +48,7 @@ footer.main {
       float: left;
     }
   }
-  .carbonbadge {
-    text-align: left !important;
-    margin: 20px 0 0 0;
-    @media (min-width: $breakpoint-tablet) {
-      text-align: right !important;
-      margin: 0;
-    }
-  }
+  
   h5 {
     font: $bold 2.4rem/3.2rem $regular;
     color: $white;
@@ -81,23 +74,50 @@ footer.main {
       }
     }
   }
-  .ecologi {
-    margin: 20px 0 0 0;
-    @media (min-width: $breakpoint-tablet) {
+  .services-footer {
+    text-align: left;
+    h5 {
+      font: 700 2.0rem/2.6rem $heading;
+      color: $white;
+      margin-bottom: 15px;
+      text-transform: capitalize;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #00B090;
+    }
+    ul {
+      list-style: none;
       margin: 0;
-    }
-    img, svg{
-      height: 40px;
-      width: auto;
-      float: left;
-      margin-right: 20px;
-    }
-    p {
-      float: left;
-      font: $normal 1.2rem/2.8rem $regular;
-      margin: 0px 0;
-      a {
-        color: $white;
+      li {
+        display: block;
+        margin-bottom: 10px;
+        a {
+          position: relative;
+          padding-left: 20px;
+          margin-right: 0;
+          font: 400 1.5rem/2.4rem $regular;
+          color: $white;
+          text-decoration: underline;
+          text-decoration-color: $white;
+          @include transition(all 0.2s ease-out);
+          &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 12px;
+            height: 12px;
+            background: $white;
+            @include transition(all 0.2s ease-out);
+          }
+          &:hover {
+            color: #00B090;
+            text-decoration-color: #00B090;
+            &::before {
+              background: #00B090;
+            }
+          }
+        }
       }
     }
   }
@@ -110,5 +130,27 @@ footer.main {
     a {
       color: $white;
     }
+  }
+  .contact-info {
+    margin-bottom: 0;
+    a {
+      color: #00B090;
+      text-decoration: underline;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+footer.sub-footer {
+  background: #1a2530;
+  padding: 15px 0;
+  border-top: 1px solid color(srgb 1 1 1 / 0.1);
+  .copyright {
+    font: 500 1.4rem/2rem $regular;
+    color: #d0dfe8;
+    margin: 0;
+    text-align: left;
   }
 }

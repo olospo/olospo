@@ -81,7 +81,7 @@ body.home {
       h1 {
         @include reset();
         span.stand_out {
-          background: #FF936D;
+          background: #00B090;
           transition: background linear 0.5s;
           transition-delay: 0.6s;
         }
@@ -106,7 +106,7 @@ section.intro {
     h1 {
       @include reset();
       span.stand_out {
-        background: #FF936D;
+        background: #00B090;
         transition: background linear 0.5s;
         transition-delay: 0.6s;
       }

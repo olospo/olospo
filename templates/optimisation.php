@@ -2,79 +2,94 @@
 get_header();
 
 while ( have_posts() ) : the_post(); ?>
+
 <section class="intro single">
   <div class="container">
     <div class="ten columns">
-      <h1>WordPress <span class="stand_out">optimisation</span></h1>
+      <h1>Make your WordPress website dramatically <span class="stand_out">faster</span></h1>
+      <p>A one-off optimisation service to speed up your WordPress site, improve user experience, and boost your search rankings. Your site will be faster, safer, and more reliable.</p>
+      <p><a href="#form" class="button green">Book a free consultation</a> <a href="#success" class="button secondary">See optimisation results</a></p>
     </div>
   </div>
 </section>
 
-<section class="pricing">
+<section class="benefits">
   <div class="container">
     <div class="heading twelve columns">
-      <h2>Plan Pricing</h2>
-      <p>Choose the support plan that suits your needs. All our plans are month-to-month, giving you the flexibility to adjust the level of support you need as your business grows. <a href="#form">Get started</a>.</p>
+      <h3>Why optimise your WordPress site?</h3>
     </div>
   </div>
   <div class="container">
-    <div class="price_plans">
-      <div class="plan optimisation ten columns offset-by-one">
-        <div class="title">
-          <h3>WordPress <span class="highlight">Optimisation</span></h3>
-          <strong>£800</strong>
-        </div>
-        <div class="content">
-          <ul class="three columns">
-            <li class="heading"><strong>Database</strong></li>
-            <li><i class="fa-solid fa-check green"></i> Optimise database tables</li>
-            <li><i class="fa-solid fa-check green"></i> Clean post revisions</li>
-            <li><i class="fa-solid fa-check green"></i> Remove spam and deleted comments</li>
-          </ul>
-          <ul class="three columns">
-            <li class="heading"><strong>Optimisation</strong></li>
-            <li><i class="fa-solid fa-check green"></i> Server Optimisation</li>
-            <li><i class="fa-solid fa-check green"></i> Image Optimisation</li>
-            <li><i class="fa-solid fa-check green"></i> Code Optimisation</li>
-          </ul>
-          <ul class="three columns">  
-            <li class="heading"><strong>Caching</strong>
-              <span class="tooltip">
-                <i class="fa fa-question-circle"></i>
-                <span class="tooltip-box">
-                  <p>Caching is the process of storing a temporary version of your site locally so it can be retrieved by the user in an instant. It’s a sure-fire way to ensure that web pages load at lightning-fast speed.</p>
-                </span>
-              </span>
-            </li>
-            <li><i class="fa-solid fa-check green"></i> Effective caching policy</li>
-            <li><i class="fa-solid fa-check green"></i> Preloading</li>
-            <li><i class="fa-solid fa-check green"></i> GZIP Compression</li>
-          </ul>
-          <ul class="three columns">
-            <li class="heading"><strong>Minify</strong></li>
-            <p>
-            <li><i class="fa-solid fa-check green"></i> HTML, CSS and JS Minify</li>
-            <li><i class="fa-solid fa-check green"></i> Asynchronous loading </li>
-            <li><i class="fa-solid fa-check green"></i> Optimise fonts</li>
-            
-          </ul>
-          <div class="row">
-            <div class="cta twelve columns">
-              <p><a href="#form" class="button green" id="select-essentials">Choose plan</a> <a href="#faq" class="button">More info</a></p>
-            </div>
-          </div>
-        </div>
-        
+    <div class="benefit one-third column">
+      <i class="fa-solid fa-bolt benefit-icon"></i>
+      <h4>Faster websites</h4>
+      <p>Pages load quicker, improving user experience.</p>
+    </div>
+    <div class="benefit one-third column">
+      <i class="fa-solid fa-chart-line benefit-icon"></i>
+      <h4>Better rankings</h4>
+      <p>Improve Core Web Vitals and technical SEO.</p>
+    </div>
+    <div class="benefit one-third column">
+      <i class="fa-solid fa-coins benefit-icon"></i>
+      <h4>More enquiries</h4>
+      <p>Reduce visitor drop-off and improve conversions.</p>
+    </div>
+  </div>
+</section>
+
+<section class="process">
+  <div class="container">
+    <div class="heading twelve columns">
+      <h3>How the optimisation works</h3>
+      <p>A straightforward, transparent process from start to finish.</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="step one-third column">
+      <div class="step-number">1</div>
+      <h4>Audit your website</h4>
+      <p>I'll carry out a full review to identify what's slowing your website down.</p>
+      <div class="deliverables-inline">
+        <ul>
+          <li><i class="fa-solid fa-check green"></i> Find performance issues</li>
+          <li><i class="fa-solid fa-check green"></i> Review performance</li>
+          <li><i class="fa-solid fa-check green"></i> Create an optimisation plan</li>
+        </ul>
       </div>
-      
+    </div>
+    <div class="step one-third column">
+      <div class="step-number">2</div>
+      <h4>Optimise your website</h4>
+      <p>I'll carefully improve your website's speed without affecting your design or content.</p>
+      <div class="deliverables-inline">
+        <ul>
+        <li><i class="fa-solid fa-check green"></i> Full website backup</li>
+          <li><i class="fa-solid fa-check green"></i> Speed up page load times</li>
+          <li><i class="fa-solid fa-check green"></i> Improve visitor experience</li>
+          
+        </ul>
+      </div>
+    </div>
+    <div class="step one-third column">
+      <div class="step-number">3</div>
+      <h4>See the results</h4>
+      <p>Once complete, you'll receive clear results showing the improvements made.</p>
+      <div class="deliverables-inline">
+        <ul>
+          <li><i class="fa-solid fa-check green"></i> Before & after reports</li>
+          <li><i class="fa-solid fa-check green"></i> Clear performance summary</li>
+          <li><i class="fa-solid fa-check green"></i> Next-step recommendations</li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="before_after">
+<section class="before_after" id="success">
   <div class="container">
     <div class="heading twelve columns">
-      <h3>Optimisation success</h3>
+      <h3>Proven optimisation results</h3>
       <p>Before and after comparisons using <a href="https://pagespeed.web.dev" target="_blank">Google PageSpeed Insights</a></p>
     </div>
   </div>
@@ -107,6 +122,7 @@ while ( have_posts() ) : the_post(); ?>
           <td class="green">100</td>
         </tr>
       </table>
+      <p class="note">Performance optimised as part of a complete website rebuild</p>
     </div>
     <div class="compare one-third column">
       <h4>Expand BCG</h4>
@@ -132,10 +148,11 @@ while ( have_posts() ) : the_post(); ?>
         </tr>
         <tr>
           <td>SEO</td>
-          <td class="green">92</td>
+          <td class="yellow">92</td>
           <td class="green">100</td>
         </tr>
       </table>
+      <p class="note">Performance optimised as part of a complete website rebuild</p>
     </div>
     <div class="compare one-third column">
       <h4>Extreme Design</h4>
@@ -165,6 +182,199 @@ while ( have_posts() ) : the_post(); ?>
           <td class="green">92</td>
         </tr>
       </table>
+      <p class="note">Performance optimised without changing the site's design.</p>
+    </div>
+  </div>
+</section>
+
+<section class="consultation">
+  <div class="container">
+    <div class="consultation-content eight columns offset-by-two">
+      <h3>Want to know how much faster your site could be?</h3>
+      <p>Book a free consultation and I'll explain exactly what's slowing your website down.</p>
+      <p><a href="#form" class="button green">Book consultation</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="pricing opt">
+  <div class="container">
+    <div class="heading twelve columns">
+      <h2>Optimisation Service</h2>
+      <p>A one-time investment to get your site running at peak performance.</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="price_plans">
+      <div class="plan optimisation eight columns offset-by-two">
+        <div class="title">
+          <strong class="price">£500 <span class="service-type">One-off service</span></strong>
+          
+          <p class="target-audience">For websites that feel slow or have poor Google PageSpeed scores.</p>
+        </div>
+        <div class="content">
+          <div class="results-and-included">
+            <div class="column-group">
+              <h4>Results you’ll see</h4>
+              <ul>
+                <li><i class="fa-solid fa-check green"></i> Faster page loading</li>
+                <li><i class="fa-solid fa-check green"></i> Better Core Web Vitals</li>
+                <li><i class="fa-solid fa-check green"></i> Improved user experience</li>
+                <li><i class="fa-solid fa-check green"></i> Better technical SEO</li>
+              </ul>
+            </div>
+            <div class="column-group">
+              <h4>What’s included</h4>
+              <ul>
+                <li><i class="fa-solid fa-check green"></i> Performance audit</li>
+                <li><i class="fa-solid fa-check green"></i> Safe backup</li>
+                <li><i class="fa-solid fa-check green"></i> Manual optimisation</li>
+                <li><i class="fa-solid fa-check green"></i> Before & after reports</li>
+              </ul>
+            </div>
+          </div>
+          <div class="trust-compact">
+            <p><strong>Every optimisation includes:</strong> <span class="trust-items"><i class="fa-solid fa-check green"></i> Performed manually <i class="fa-solid fa-check green"></i> Tested before delivery <i class="fa-solid fa-check green"></i> Direct developer support</span></p>
+          </div>
+          <div class="technical-summary">
+            <p><strong>Technical work includes:</strong> Database optimisation • Image optimisation • Code optimisation • Caching • CSS & JavaScript optimisation • Font optimisation</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<section class="reviews">
+  <div class="container">
+    <div class="heading twelve columns">
+      <h3>Real results from real clients</h3>
+    </div>
+  </div>
+  <div class="container">
+    <div class="review four columns">
+      <blockquote>
+      <p>We are really happy with the end result and would be really happy to recommend Tom.</p>
+      <div class="rating">
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+      </div>
+      <strong>Mark Taylor, Managing Director<br /><span class="company">A Productions</span></strong>
+      </blockquote>
+    </div>
+    <div class="review four columns">
+      <blockquote>
+      <p>The optimisation improved our performance from 70 to 98. The difference is night and day. Users are staying on the site longer now.</p>
+      <div class="rating">
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+      </div>
+      <strong>Expand BCG</strong>
+      </blockquote>
+    </div>
+    <div class="review four columns">
+      <blockquote>
+      <p>We have seen an immediate improvement in our website speed and performance. Working with Tom was very easy, and we will continue working with him on future projects.</p>
+      <div class="rating">
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+      </div>
+      <strong>Jazz Wing, Marketing Director<br /><span class="company">Extreme Design</span></strong>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="heading twelve columns">
+      <h3>Frequently asked questions</h3>
+    </div>
+  </div>
+  <div class="container">
+    <div class="accordion eight columns offset-by-two">
+    <article class="accordionItem close">
+      <div class="title accordionItemHeading">
+        How long does optimisation take?
+        <span></span>
+        <span></span>
+      </div>
+      <div class="accordionItemContent">
+        <p>Typical optimisation projects take around 1 week from start to finish, depending on the size and complexity of your site. You'll have a clear timeline before we start.</p>
+      </div>
+    </article>
+    <article class="accordionItem close">
+      <div class="title accordionItemHeading">
+        Will my site go down during optimisation?
+        <span></span>
+        <span></span>
+      </div>
+      <div class="accordionItemContent">
+        <p>No. All changes are tested in a staging environment first. Your live site stays online and unaffected until everything is ready. Only then do I deploy the changes—usually during off-peak hours with no downtime.</p>
+      </div>
+    </article>
+    <article class="accordionItem close">
+      <div class="title accordionItemHeading">
+        What if something goes wrong?
+        <span></span>
+        <span></span>
+      </div>
+      <div class="accordionItemContent">
+        <p>Full backups are taken before work begins. If anything unexpected happens, I can restore your site to its original state instantly.</p>
+      </div>
+    </article>
+    <article class="accordionItem close">
+      <div class="title accordionItemHeading">
+        Will optimisation affect my design or functionality?
+        <span></span>
+        <span></span>
+      </div>
+      <div class="accordionItemContent">
+        <p>No. Optimisation improves speed and performance without changing how your site looks or works. Everything stays the same from a user perspective, just faster.</p>
+      </div>
+    </article>
+    <article class="accordionItem close">
+      <div class="title accordionItemHeading">
+        What happens after optimisation is complete?
+        <span></span>
+        <span></span>
+      </div>
+      <div class="accordionItemContent">
+        <p>You'll receive a detailed before-and-after report showing all improvements. If you'd like ongoing <a href="<?php echo get_site_url(); ?>/wordpress-support-maintenance/">support and maintenance</a> to keep your site optimised, I can help with that too.</p>
+      </div>
+    </article>
+    <article class="accordionItem close">
+      <div class="title accordionItemHeading">
+        Can I combine optimisation with a maintenance plan?
+        <span></span>
+        <span></span>
+      </div>
+      <div class="accordionItemContent">
+        <p>Absolutely. Many clients start with optimisation, then move to a maintenance plan to keep their site running smoothly. I offer combined packages and custom pricing.</p>
+      </div>
+    </article>
+    <article class="accordionItem close">
+      <div class="title accordionItemHeading">
+        Do you outsource any of this work?
+        <span></span>
+        <span></span>
+      </div>
+      <div class="accordionItemContent">
+        <p>No. I handle all optimisation work myself. When you work with me, I'm your direct point of contact from start to finish.</p>
+      </div>
+    </article>
+    </div>
+  </div>
+</section>
+
+<section class="plan_form" id="form">
+  <div class="container">
+    <div class="heading twelve columns">
+      <h3>Ready to speed up your site?</h3>
+      <p>Get in touch to discuss your optimisation needs and get a clear picture of what's slowing your site down.</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="eight columns offset-by-two">
+      <?php echo do_shortcode('[ninja_form id=2]'); ?>
     </div>
   </div>
 </section>

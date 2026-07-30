@@ -2,6 +2,14 @@
 get_header();
 
 while ( have_posts() ) : the_post(); ?>
+  
+<section class="intro">
+  <div class="container">
+    <div class="ten columns">
+      <h1>Designing and building websites that <span class="stand_out">stand out</span> from the crowd.</h1>
+    </div>
+  </div>
+</section>
 
 <section class="testimonials">
   <div class="container">
@@ -81,20 +89,23 @@ while ( have_posts() ) : the_post(); ?>
   <div class="container">
     <div class="heading twelve columns">
       <h2>Clients</h2>
-      <p>Some of the clients I've had the privilege to work with over the past 10 years.</p>
+      <p>I'm proud to have worked with these clients over the past 15 years, with many continuing to work with me today.</p>
     </div>
   </div>
   <div class="container">
     <div class="twelve columns">
       <ul>
         <li><img src="<?php bloginfo('template_directory'); ?>/img/clients/oxford-uni.jpg" alt="Oxford University" /></li>
+        <li><img src="<?php bloginfo('template_directory'); ?>/img/clients/cruk.jpg" alt="Cancer Research UK" /></li>
         <li><img src="<?php bloginfo('template_directory'); ?>/img/clients/nhs.jpg" alt="NHS" /></li>
         <li><img src="<?php bloginfo('template_directory'); ?>/img/clients/bcg.jpg" alt="Boston Consulting Group" /></li>
         <li><img src="<?php bloginfo('template_directory'); ?>/img/clients/diageo.jpg" alt="Diageo" /></li>
+        
         <li><img src="<?php bloginfo('template_directory'); ?>/img/clients/vodafone.jpg" alt="Vodafone" /></li>
+        
+        
         <li><img src="<?php bloginfo('template_directory'); ?>/img/clients/suez.jpg" alt="SUEZ" /></li>
         <li><img src="<?php bloginfo('template_directory'); ?>/img/clients/aardman.jpg" alt="Aardman Animations" /></li>
-        <li><img src="<?php bloginfo('template_directory'); ?>/img/clients/aproductions.jpg" alt="A Productions" /></li>
       </ul>
     </div>
   </div>

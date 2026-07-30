@@ -37,12 +37,13 @@
     }
   }
   &.orange {
-    background: #FF936D;
-    border: 2px solid #FF936D;
+    background: #00B090;
+    border: 2px solid #00B090;
     color: $white;
     &:hover {
-      background: transparent;
-      color: #FF936D;
+      background: #008070;
+      border: 2px solid #008070;
+      color: $white;
     }
   }
   &.green {
@@ -52,6 +53,24 @@
     &:hover {
       background: transparent;
       color: #00B090;
+    }
+  }
+  &.secondary {
+    background: transparent;
+    border: 2px solid $white;
+    color: $white;
+    &:hover {
+      background: $white;
+      color:#233140;
+    }
+    &.green {
+      background: transparent;
+      border: 2px solid #00B090;
+      color: #00B090;
+      &:hover {
+        background: #00B090;
+        color: $white;
+      }
     }
   }
 }
