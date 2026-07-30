@@ -54,7 +54,7 @@
         handler: function() {
           $(this.element).addClass("visible");
         },
-        offset: '90%'
+        offset: '70%'
       });
     }
      

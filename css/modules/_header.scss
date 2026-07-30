@@ -65,7 +65,7 @@ header {
         white-space: nowrap;
         &:hover {
           background: transparent !important;
-          color: #00B090 !important;
+          color: $white;
           text-decoration: none;
           border-bottom: 2px solid transparent;
         }

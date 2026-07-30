@@ -79,10 +79,8 @@ footer.main {
     h5 {
       font: 700 2.0rem/2.6rem $heading;
       color: $white;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
       text-transform: capitalize;
-      padding-bottom: 10px;
-      border-bottom: 3px solid #00B090;
     }
     ul {
       list-style: none;
@@ -92,7 +90,7 @@ footer.main {
         margin-bottom: 10px;
         a {
           position: relative;
-          padding-left: 20px;
+          padding-left: 15px;
           margin-right: 0;
           font: 400 1.5rem/2.4rem $regular;
           color: $white;
@@ -105,8 +103,8 @@ footer.main {
             left: 0;
             top: 50%;
             transform: translateY(-50%);
-            width: 12px;
-            height: 12px;
+            width: 4px;
+            height: 4px;
             background: $white;
             @include transition(all 0.2s ease-out);
           }

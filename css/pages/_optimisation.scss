@@ -19,9 +19,9 @@
       color: #002D4F;
       margin-bottom: 10px;
       display: inline-block;
-      font: $bold 2.2rem/2.8rem $regular;
+      font: $bold 2.6rem/3.2rem $regular;
       @media (min-width: $breakpoint-tablet) {
-        font: $bold 2.8rem/3.4rem $regular;
+        font: $bold 3.2rem/4.2rem $regular;
       }
     }
     p {
@@ -67,7 +67,7 @@
         .service-type {
           color: rgba($white, 0.7);
           font: $normal 1.4rem/2rem $regular;
-          margin: 0 0 12px 0;
+          margin: 0 0 6px 0;
         }
         .target-audience {
           color: rgba($white, 0.85);
@@ -95,7 +95,7 @@
           .target-audience {
             color: rgba($white, 0.9);
             font: $normal 1.5rem/2.2rem $regular;
-            margin: 15px 0 0 0;
+            margin: 0;
           }
         }
         .content {
@@ -171,6 +171,106 @@
           .cta {
             text-align: center;
             margin-top: 20px;
+          }
+        }
+      }
+
+      &.review {
+        border: 3px solid #00B090;
+        @include border-radius(10px);
+        box-shadow: 0 2px 8px rgba(0, 176, 144, 0.08);
+
+        .title.light {
+          background: $white;
+          border: none;
+          box-shadow: none;
+          padding: 25px 20px 0px 20px;
+
+          .title-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 0px;
+          }
+
+          .review-icon {
+            color: #00B090;
+            font-size: 2rem;
+            flex-shrink: 0;
+            margin-top: 2px;
+          }
+
+          h3 {
+            color: #002D4F;
+            margin: 0;
+            font: $semi-bold 1.8rem/2.2rem $regular;
+            font-size: 1.8rem;
+          }
+
+          .subtitle {
+            color: #4a596f;
+            font: $normal 1.4rem/2rem $regular;
+            margin: 0;
+          }
+        }
+
+        .content.light {
+          background: $white;
+          border: none;
+          padding: 20px;
+          @media (min-width: $breakpoint-tablet) {
+            padding: 20px;
+          }
+          box-shadow: none;
+
+          p {
+            font: $normal 1.5rem/2.4rem $regular;
+            color: #4a596f;
+            margin: 0 0 15px 0;
+
+            &.consultation-subheading {
+              font: $semi-bold 1.5rem/2.4rem $regular;
+              color: #002D4F;
+              margin: 15px 0 12px 0;
+            }
+          }
+
+          ul {
+            margin: 0 0 20px 0;
+            list-style: none;
+            padding: 0;
+
+            li {
+              font: $normal 1.5rem/2.4rem $regular;
+              color: #4a596f;
+              margin: 8px 0;
+              padding-left: 28px;
+              position: relative;
+
+              i {
+                position: absolute;
+                left: 0;
+                color: #00B090;
+              }
+            }
+          }
+
+          .cta {
+            text-align: center;
+            margin-top: 0;
+
+            a.button {
+              background: #00B090;
+              border: 2px solid #00B090;
+              color: $white;
+              font-size: 1.5rem;
+              padding: 10px 20px;
+
+              &:hover {
+                background: $white;
+                color: #00B090;
+              }
+            }
           }
         }
       }
@@ -257,9 +357,9 @@
       color: #002D4F;
       margin-bottom: 0px;
       display: inline-block;
-      font: $bold 2.2rem/2.8rem $regular;
+      font: $bold 2.6rem/3.2rem $regular;
       @media (min-width: $breakpoint-tablet) {
-        font: $bold 2.8rem/3.4rem $regular;
+        font: $bold 3.2rem/4.2rem $regular;
       }
     }
     p {
@@ -294,10 +394,12 @@
       }
     }
     .benefit-icon {
+      height: 36px;
       font-size: 3.6rem;
-      margin: 0 0 15px 0;
+      margin: 0 auto 15px auto;
       display: block;
       color: #002D4F;
+      text-align: center;
     }
     h4 {
       color: #002D4F;
@@ -331,9 +433,9 @@
       color: #002D4F;
       margin-bottom: 10px;
       display: inline-block;
-      font: $bold 2.2rem/2.8rem $regular;
+      font: $bold 2.6rem/3.2rem $regular;
       @media (min-width: $breakpoint-tablet) {
-        font: $bold 2.8rem/3.4rem $regular;
+        font: $bold 3.2rem/4.2rem $regular;
       }
     }
     p {
@@ -368,12 +470,12 @@
       }
     }
     .step-number {
-      color: #002D4F;
-      font: $bold 4.8rem/4.8rem $regular;
-      opacity: 0.1;
+      color: #00b090;
+      font: $bold 3.8rem/3.8rem $regular;
+      opacity: 0.5;
       position: absolute;
-      top: 20px;
-      right: 20px;
+      top: 25px;
+      left: 30px;
       line-height: 1;
     }
     h4 {
@@ -381,7 +483,7 @@
       font: $semi-bold 2rem/2.8rem $regular;
       margin-bottom: 15px;
       margin-top: 0;
-      padding-right: 40px;
+      padding-left: 35px;
     }
     p {
       color: #4a596f;
@@ -390,9 +492,6 @@
     }
   }
   .deliverables-inline {
-    margin-top: 30px;
-    padding-top: 25px;
-    border-top: 2px solid #eaecf0;
     p {
       color: #002D4F;
       font: $semi-bold 1.8rem/2.6rem $regular;
@@ -511,8 +610,12 @@
       font: $light 1.8rem/2.8rem $regular;
       text-align: center;
       a {
-        color: $orange;
-        text-decoration-color: $orange;
+        color: $white;
+        text-decoration-color: $white;
+        &:hover {
+          color: #00b090;
+          text-decoration-color: #00b090;
+        }
       }
     }
   }

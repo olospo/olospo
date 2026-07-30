@@ -5,7 +5,7 @@ while ( have_posts() ) : the_post(); ?>
 
 <section class="intro single">
   <div class="container">
-    <div class="ten columns">
+    <div class="twelve columns">
       <h1>WordPress support & <span class="stand_out">maintenance</span></h1>
       <p>Peace of mind for your WordPress site. Regular updates, security monitoring, daily backups, and expert support when you need it.</p>
       <p><a href="#form" class="button green">Get started</a> <a href="#plans" class="button secondary">View plans</a></p>

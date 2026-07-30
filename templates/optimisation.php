@@ -16,24 +16,24 @@ while ( have_posts() ) : the_post(); ?>
 <section class="benefits">
   <div class="container">
     <div class="heading twelve columns">
-      <h3>Why optimise your WordPress site?</h3>
+      <h3>Why optimise your website?</h3>
     </div>
   </div>
   <div class="container">
     <div class="benefit one-third column">
       <i class="fa-solid fa-bolt benefit-icon"></i>
-      <h4>Faster websites</h4>
-      <p>Pages load quicker, improving user experience.</p>
+      <h4>Faster loading</h4>
+      <p>Pages load quicker, improving user experience for your visitors.</p>
     </div>
     <div class="benefit one-third column">
       <i class="fa-solid fa-chart-line benefit-icon"></i>
       <h4>Better rankings</h4>
-      <p>Improve Core Web Vitals and technical SEO.</p>
+      <p>A faster website can help strengthen your SEO and visibility in Google.</p>
     </div>
     <div class="benefit one-third column">
-      <i class="fa-solid fa-coins benefit-icon"></i>
-      <h4>More enquiries</h4>
-      <p>Reduce visitor drop-off and improve conversions.</p>
+      <i class="fa-solid fa-user-group benefit-icon"></i>
+      <h4>Better user experience</h4>
+      <p>Keep visitors engaged with a faster, more responsive website.</p>
     </div>
   </div>
 </section>
@@ -49,11 +49,11 @@ while ( have_posts() ) : the_post(); ?>
     <div class="step one-third column">
       <div class="step-number">1</div>
       <h4>Audit your website</h4>
-      <p>I'll carry out a full review to identify what's slowing your website down.</p>
+      <p>I'll review your website to identify what's slowing it down.</p>
       <div class="deliverables-inline">
         <ul>
-          <li><i class="fa-solid fa-check green"></i> Find performance issues</li>
-          <li><i class="fa-solid fa-check green"></i> Review performance</li>
+          <li><i class="fa-solid fa-check green"></i> Identify performance issues</li>
+          <li><i class="fa-solid fa-check green"></i> Analyse key pages</li>
           <li><i class="fa-solid fa-check green"></i> Create an optimisation plan</li>
         </ul>
       </div>
@@ -65,8 +65,8 @@ while ( have_posts() ) : the_post(); ?>
       <div class="deliverables-inline">
         <ul>
         <li><i class="fa-solid fa-check green"></i> Full website backup</li>
-          <li><i class="fa-solid fa-check green"></i> Speed up page load times</li>
-          <li><i class="fa-solid fa-check green"></i> Improve visitor experience</li>
+          <li><i class="fa-solid fa-check green"></i> Apply performance improvements</li>
+          <li><i class="fa-solid fa-check green"></i> Test everything thoroughly</li>
           
         </ul>
       </div>
@@ -78,7 +78,7 @@ while ( have_posts() ) : the_post(); ?>
       <div class="deliverables-inline">
         <ul>
           <li><i class="fa-solid fa-check green"></i> Before & after reports</li>
-          <li><i class="fa-solid fa-check green"></i> Clear performance summary</li>
+          <li><i class="fa-solid fa-check green"></i> Performance summary</li>
           <li><i class="fa-solid fa-check green"></i> Next-step recommendations</li>
         </ul>
       </div>
@@ -192,7 +192,7 @@ while ( have_posts() ) : the_post(); ?>
     <div class="consultation-content eight columns offset-by-two">
       <h3>Want to know how much faster your site could be?</h3>
       <p>Book a free consultation and I'll explain exactly what's slowing your website down.</p>
-      <p><a href="#form" class="button green">Book consultation</a></p>
+      <p><a href="#form" class="button green">Book a free consultation</a></p>
     </div>
   </div>
 </section>
@@ -206,10 +206,10 @@ while ( have_posts() ) : the_post(); ?>
   </div>
   <div class="container">
     <div class="price_plans">
-      <div class="plan optimisation eight columns offset-by-two">
+      <div class="plan optimisation eight columns">
         <div class="title">
           <strong class="price">£500 <span class="service-type">One-off service</span></strong>
-          
+
           <p class="target-audience">For websites that feel slow or have poor Google PageSpeed scores.</p>
         </div>
         <div class="content">
@@ -241,7 +241,28 @@ while ( have_posts() ) : the_post(); ?>
           </div>
         </div>
       </div>
-      
+
+      <div class="plan review four columns">
+        <div class="title light">
+          <div class="title-header">
+            <i class="fa-solid fa-magnifying-glass review-icon"></i>
+            <h3>Free Website Performance Consultation</h3>
+          </div>
+        </div>
+        <div class="content light">
+          <p>Let’s have a quick, no-obligation chat. I’ll answer your questions, explain whether optimisation is likely to benefit your website, and help you decide on the best next step.</p>
+          <p class="consultation-subheading">During the consultation we’ll cover:</p>
+          <ul>
+            <li><i class="fa-solid fa-check green"></i> Your website’s current performance</li>
+            <li><i class="fa-solid fa-check green"></i> Whether optimisation is worthwhile</li>
+            <li><i class="fa-solid fa-check green"></i> Answers to any questions you have</li>
+            <li><i class="fa-solid fa-check green"></i> Honest advice with no sales pressure</li>
+          </ul>
+          <div class="cta">
+            <a href="#form" class="button secondary green">Book a free consultation</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -249,7 +270,7 @@ while ( have_posts() ) : the_post(); ?>
 <section class="reviews">
   <div class="container">
     <div class="heading twelve columns">
-      <h3>Real results from real clients</h3>
+      <h3>Recommended by clients</h3>
     </div>
   </div>
   <div class="container">
@@ -374,7 +395,7 @@ while ( have_posts() ) : the_post(); ?>
   </div>
   <div class="container">
     <div class="eight columns offset-by-two">
-      <?php echo do_shortcode('[ninja_form id=2]'); ?>
+      <?php echo do_shortcode('[ninja_form id=3]'); ?>
     </div>
   </div>
 </section>

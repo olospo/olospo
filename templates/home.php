@@ -3,7 +3,7 @@ get_header();
 while ( have_posts() ) : the_post(); ?>
 <section class="intro">
   <div class="container">
-    <div class="ten columns">
+    <div class="twelve columns">
       <h1>Designing and building websites that <span class="stand_out">stand out</span> from the crowd.</h1>
       <p>Freelance WordPress developer, designer, consultant and problem solver with over 15 years of experience.</p>
     </div>
@@ -55,38 +55,31 @@ while ( have_posts() ) : the_post(); ?>
   <div class="container">
     <div class="heading twelve columns">
       <h2>Featured work</h2>
-      <p>Agency quality work without the agency rates.</p>
     </div>
     <div class="row">
-      <div class="four columns">
-        <div class="client_content">
+      <div class="client_content four columns">
           <a href="https://suezcornwall.co.uk" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/suez-2.png" /></a>
           <div class="content">
             <h3>SUEZ UK</h3>
             <p>Designing and developing a scalable theme for use across the SUEZ UK websites.</p>
             <a href="https://suezcornwall.co.uk" target="_blank" class="button secondary green">View the website</a>
           </div>
-        </div>
       </div>
-      <div class="four columns">
-        <div class="client_content">
+      <div class="client_content four columns">
           <a href="https://aspireintermediaryservices.co.uk" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/aspire-2.png" /></a>
           <div class="content">
             <h3>Aspire Intermediary Services</h3>
             <p>Developed a custom built WordPress site to showcase the skills and expertise of Aspire. </p>
             <a href="https://aspireintermediaryservices.co.uk" target="_blank" class="button secondary green">View the website</a>
           </div>
-        </div>
       </div>
-      <div class="four columns">
-        <div class="client_content">
+      <div class="client_content four columns">
           <a href="https://aproductions.co.uk" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/aprod-2.png" /></a>
           <div class="content">
             <h3>A Productions</h3>
             <p>Designing and developing a modern website that highlights 35 years of TV and film work.</p>
             <a href="https://aproductions.co.uk" target="_blank" class="button secondary green">View the website</a>
           </div>
-        </div>
       </div>
     </div>
   </div>
