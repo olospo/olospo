@@ -41,7 +41,7 @@
 }
 
 .services {
-  background: #ebedf2;
+  background: #f6f8fc;
   padding: $padding-half 0 20px 0;
   @media (min-width: $breakpoint-tablet) {
     padding: 60px 0;
@@ -94,14 +94,13 @@
       height: 100%;
       box-sizing: border-box;
       padding: 20px 20px 20px 20px;
-      box-shadow: 0 3px 15px rgba(0,0,0,.03);
-      border: 1px solid #eaecf0;
       background: #fefeff;
       @include border-radius(10px);
-      border: 1px solid #c6c6c6;
+      border: 1px solid #e2e2e2;
       @media (min-width: $breakpoint-laptop) {
         padding: 30px;
       }
+      
       h3 {
         color: #2C3E50;
         margin-bottom: 20px;
@@ -143,7 +142,7 @@
 }
 
 .work {
-  background: #f6f8fc;
+  background: #ebedf2;
   padding: $padding-half 0 20px 0;
   @media (min-width: $breakpoint-tablet) {
     padding: 60px 0;

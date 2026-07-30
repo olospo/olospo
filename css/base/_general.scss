@@ -242,8 +242,83 @@ section {
     }
   }
   
-  // Form styling imported from _forms.scss
-  @include form-layout;
+  .nf-form-fields-required {
+    display: none;
+  }
+
+  .nf-form-layout, .search_page_form {
+    form {
+      .nf-cell:first-child {
+        padding-right: 20px;
+      }
+      .nf-field-container {
+        margin-bottom: 15px;
+      }
+      .nf-field-label {
+        margin-bottom: 5px;
+        label {
+          font: $normal 1.6rem/2.6rem $regular;
+          color: #2A3341;
+        }
+      }
+
+      select, input, textarea {
+        font: $normal 1.8rem/2.6rem $regular;
+        @include border-radius(10px);
+        background: $white;
+        border: 1px solid #c8c8c8;
+        padding: 10px 15px;
+        &:focus {
+          outline: none;
+          border: 1px solid #002A4A;
+        }
+      }
+      input.search-submit, input[type="submit"] {
+        overflow: hidden;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 10px 0;
+        padding: 10px 20px;
+        font: $normal 1.6rem/2.6rem $regular;
+        text-decoration: none;
+        @include transition(all ease .5s);
+        @include border-radius(10px);
+        color: $white;
+        background:rgb(0, 45, 79);
+        border: 2px solid rgb(0, 45, 79);
+        text-decoration: none;
+        cursor: pointer;
+        &:hover {
+          color: $white;
+          border: 2px solid #07426E;
+          background: #07426E;
+        }
+      }
+      .submit-wrap {
+        text-align: left;
+      }
+      .nf-after-field .nf-error-msg {
+        font: $normal 1.6rem/2.2rem $regular;
+      }
+      .nf-error .ninja-forms-field {
+        border: 2px solid #d76e6e;
+      }
+      .nf-error-msg, .ninja-forms-req-symbol {
+        color: #d76e6e;
+        font: $normal 1.8rem/2.6rem $regular;
+      }
+      .nf-response-msg {
+        background: $white-bg;
+        padding: 30px;
+        box-sizing: border-box;
+        @include border-radius(20px);
+        margin-bottom: 40px;
+        @media (max-width: $breakpoint-tablet) {
+          @include border-radius(0px);
+        }
+      }
+    }
+  }
 }
 
 section.hero{
